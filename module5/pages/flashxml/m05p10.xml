@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	
+	<LoaderMax name="pageLoader10" load="true">
+	
+		<SWFLoader name="image1" autoPlay="false" url="pages/assets/m05p10/image1.swf" />
+		<SWFLoader name="Trolley" autoPlay="false" url="pages/assets/m05p10/image2.swf" />
+		<SWFLoader name="Arrow1" autoPlay="false" url="pages/assets/m05p10/Arrow1.swf" />
+		<SWFLoader name="Arrow2" autoPlay="false" url="pages/assets/m05p10/Arrow2.swf" />
+		
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m05p10/m05p10a.mp3" />
+		<MP3Loader name="sound2" autoPlay="false" url="pages/assets/m05p10/m05p10b.mp3" />
+		<MP3Loader name="sound3" autoPlay="false" url="pages/assets/m05p10/m05p10c.mp3" />
+		<MP3Loader name="sound4" autoPlay="false" url="pages/assets/m05p10/m05p10d.mp3" />
+		
+		<SWFLoader name="Shelf" autoPlay="false" url="pages/assets/m05p10/Shelf.swf" />
+		<SWFLoader name="OrangeJuice1" autoPlay="false" url="pages/assets/m05p10/Orange.swf" />
+		<SWFLoader name="OrangeJuice2" autoPlay="false" url="pages/assets/m05p10/Orange.swf" />
+		<SWFLoader name="OrangeJuice3" autoPlay="false" url="pages/assets/m05p10/Orange.swf" />
+		<SWFLoader name="OrangeJuice4" autoPlay="false" url="pages/assets/m05p10/Orange.swf" />
+		<!---page2-->
+		<SWFLoader name="useBy" autoPlay="false" url="pages/assets/m05p10/useBy.swf" />
+		<!---page3-->
+		<SWFLoader name="BestBefore" autoPlay="false" url="pages/assets/m05p10/bestBefore.swf" />
+		<!---page4-->
+		<SWFLoader name="deliveryNote" autoPlay="false" url="pages/assets/m05p10/deliveryNote.swf" />
+		<SWFLoader name="lawicon" autoPlay="false" extras="selected, done" url="../common/commonassets/law.swf" />
+		
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m05p10/m05p10.mp3" />
+
+	</LoaderMax>
+	<transcript sound="sound1"><![CDATA[Satisfactory rotation of stock to ensure older food is used first, is essential to avoid spoilage, reduce the risk of pest infestation and ensure that food is of good quality and safe to eat.<br /><br />Remember the rule: first in, first out (FIFO).<br /><br />New stock should always be placed at the back of the shelf behind existing stock.<br /><br />High-risk and perishable foods have a short shelf life, are usually stored under refrigeration and have a use-by date.<br /><br />Use-by dates should be checked daily as it is unsafe to use food after its use by date.<br /><br />Low-risk food with a longer shelf life is given a best-before date.<br /><br />Weekly checks of the best-before dates may suffice for low-risk products.<br /><br />The shelf life of food always depends on having satisfactory storage conditions.<br /><br />Special storage requirements should be included on the label, for example, 'keep below 3°C'.<br /><br />Date expired contaminated and unfit food should be disposed of.<br /><br />Click the button to learn what the law says about use-by dates and best-before dates. When you have finished, click the Next button to continue.]]></transcript>
+			
+	<page clearTime="22.5" sound="sound1">
+	
+		<activities>
+			<activity>Image</activity>
+			<activity>Bullets</activity>
+			<activity>AddText</activity> 
+			<activity>Transcript</activity>
+		</activities> 		 
+	
+	
+		<placeImage x="320" y="100" stop="yes" name="image1" >
+			<moveImage delay="0" x="320" y="100" alpha="1" />
+			<moveImage delay="2" x="320" y="100" alpha="0.1" />
+		</placeImage>
+		
+		<placeImage x="0" y="0" stop="yes" name="Trolley">
+			<moveImage delay="0" x="100" y="170" alpha="0"/>
+			<moveImage delay="2" x="100" y="170" alpha="1"/>		
+		</placeImage>
+		
+		<placeImage x="250" y="350" stop="yes" name="Shelf">
+			<moveImage delay="0" x="340" y="300" alpha="0" />
+			<moveImage delay="4" x="340" y="300" alpha="1" />
+		</placeImage>
+		
+		<placeImage x="420" y="350" stop="yes" name="Arrow1">
+			<moveImage delay="0" x="420" y="360" alpha="0" />
+			<moveImage delay="4" x="420" y="360" alpha="1" />
+		</placeImage>
+		
+		<placeImage x="720" y="300" stop="yes" name="Arrow2">
+			<moveImage delay="0" x="720" y="300" alpha="0" />
+			<moveImage delay="4" x="720" y="300" alpha="1" />
+		</placeImage>
+		
+		
+		<placeImage x="0" y="0" stop="yes" name="OrangeJuice1" centre="true" >
+			<moveImage delay="0" x="250" y="250" alpha="0" scaleX="0" scaleY="0.5" />
+			<moveImage delay="0" x="250" y="250" alpha="0" scaleX="0.5" scaleY="0.5" />
+			<moveImage delay="8" x="420" y="250" alpha="1" scaleX="0.75" scaleY="0.75" />
+			<moveImage delay="2" x="520" y="250" alpha="1" scaleX="0.75" scaleY="0.75"/>
+			<moveImage delay="2" x="620" y="250" alpha="1" scaleX="0.75" scaleY="0.75"/>
+			<moveImage delay="2" x="770" y="250" alpha="0" scaleX="0.75" scaleY="0.75"/>
+		</placeImage> 
+		
+		<placeImage x="0" y="0" stop="yes" name="OrangeJuice2" centre="true" >
+			<moveImage delay="0" x="250" y="250" alpha="0" scaleX="0" scaleY="0.5" />
+			<moveImage delay="0" x="250" y="250" alpha="0" scaleX="0.5" scaleY="0.5" />
+			<moveImage delay="11" x="420" y="250" alpha="1" scaleX="0.75" scaleY="0.75" />
+			<moveImage delay="2" x="520" y="250" alpha="1" scaleX="0.75" scaleY="0.75"/>
+			<moveImage delay="2" x="620" y="250" alpha="1" scaleX="0.75" scaleY="0.75"/>
+		</placeImage> 
+		
+		<placeImage x="0" y="0" stop="yes" name="OrangeJuice3" centre="true" >
+			<moveImage delay="0" x="250" y="250" alpha="0" scaleX="0" scaleY="0.5" />
+			<moveImage delay="0" x="250" y="250" alpha="0" scaleX="0.5" scaleY="0.5" />
+			<moveImage delay="14" x="420" y="250" alpha="1" scaleX="0.75" scaleY="0.75" />
+			<moveImage delay="2" x="520" y="250" alpha="1" scaleX="0.75" scaleY="0.75"/>
+		</placeImage> 
+		
+		<placeImage x="0" y="0" stop="yes" name="OrangeJuice4" centre="true" >
+			<moveImage delay="0" x="250" y="250" alpha="0" scaleX="0" scaleY="0.5" />
+			<moveImage delay="0" x="250" y="250" alpha="0" scaleX="0.5" scaleY="0.5" />
+			<moveImage delay="17" x="420" y="250" alpha="1" scaleX="0.75" scaleY="0.75" />
+		</placeImage> 
+		
+		<statement delay="4" x="820" y="300" width="150" height="50" align="center"><![CDATA[<b><font color='#7446A2'>Shortest date code used first</font></b>]]></statement>
+		<statement delay="4" x="450" y="380" width="150" height="50"><![CDATA[<b><font color='#7446A2'>Sale Direction</font></b>]]></statement>
+		<statement delay="4" x="150" y="100" width="150" height="50"><![CDATA[<b><font color='#7446A2'>New stock</font></b>]]></statement>
+		
+	</page>
+	
+	<page clearTime="15" sound="sound2">
+	
+	<activities>
+			<activity>Image</activity>
+			<activity>Bullets</activity>
+			<activity>AddText</activity> 
+			<activity>Transcript</activity>
+		</activities> 
+	
+	<statement delay="0" x="50" y="100" width="500" height="50"><![CDATA[<b><font color='#7446A2'>Use-by dates:</font></b>]]></statement>
+	<bullet delay="1" x="80" y="145" width="500" height="50"><![CDATA[Are given to high-risk and perishable foods that have a short shelf life]]></bullet>
+	<bullet delay="8" x="80" y="190" width="500" height="50"><![CDATA[Should be checked daily]]></bullet>
+	<bullet delay="10" x="80" y="235" width="500" height="50"><![CDATA[It is unsafe to use food after their use-by date.]]></bullet>
+	
+	<placeImage x="150" y="300" stop="yes" name="useBy" >
+			<moveImage delay="0" x="150" y="305" alpha="1" scaleX="1" scaleY="1" />
+	</placeImage> 
+	</page>
+	
+	
+	<page clearTime="11" sound="sound3">
+	
+	<activities>
+			<activity>Image</activity>
+			<activity>Bullets</activity>
+			<activity>AddText</activity> 
+			<activity>Transcript</activity>
+		</activities> 
+	
+	<statement delay="0" x="50" y="100" width="500" height="50"><![CDATA[<b><font color='#7446A2'>Best-before dates:</font></b>]]></statement>
+	<bullet delay="1" x="80" y="145" width="500" height="50"><![CDATA[Are given to low-risk foods with a longer shelf life]]></bullet>
+	<bullet delay="3" x="80" y="190" width="500" height="50"><![CDATA[Food is at its best quality up to its best-before date if the food is fit to eat]]></bullet>
+	<bullet delay="5.5" x="80" y="235" width="500" height="50"><![CDATA[Weekly checks of the best-before dates may suffice for low-risk products.]]></bullet>
+	
+	
+	<placeImage x="150" y="300" stop="yes" name="BestBefore" >
+			<moveImage delay="0" x="150" y="305" alpha="1" scaleX="1" scaleY="1" />
+	</placeImage> 
+	</page>
+	
+	<page  sound="sound4">
+	
+	<activities>
+			<activity>Image</activity>
+			<activity>AddText</activity>
+			<activity>ActivityText</activity>
+			<activity>ClickRevealStandard</activity>			
+			<activity>Transcript</activity>
+		</activities> 
+		
+		
+	
+	
+	<statement delay="1" x="50" y="100" width="500" height="50"><![CDATA[The shelf life of food depends on the storage conditions.]]></statement>
+	<statement delay="6" x="50" y="145" width="500" height="50"><![CDATA[Special storage requirements should be included on the label.]]></statement>
+	<statement delay="13.5" x="50" y="190" width="500" height="50"><![CDATA[Date-expired, contaminated and unfit food should be disposed of.]]></statement>
+	
+	
+	<placeImage x="650" y="200" stop="yes" name="deliveryNote" >
+			<moveImage delay="0.5" x="650" y="205" alpha="1" scaleX="1" scaleY="1" />
+	</placeImage> 
+	
+	<instructionOptions x="145" y="520" width="600" delay="19" style="slide">
+		<instruction><![CDATA[<b>Click the button to learn what the law says about use-by dates and best-before dates.</b>]]></instruction>
+	</instructionOptions>
+	
+		
+		
+		<clickrevealOptions mouseaction="click" closebutton="yes" timedremoval="no" style="fadein" delayactivation="4">
+			<clickreveal x="50" y="280" width="500" height="150" bg="yes">
+				<clicker x="75" y="500" revealDelay="19">lawicon</clicker>
+
+		<page>
+			<activities>
+				<activity>AddText</activity>				
+			</activities> 
+	
+		<statement delay="0" x="20" y="20" width="430" height="50"><![CDATA[It is unsafe and illegal to sell or use after its use-by date.]]></statement>
+		<statement delay="0" x="20" y="65" width="430" height="50"><![CDATA[The food is at its best quality/condition up to the best-before date but it is legal for it to be sold after this date.]]></statement>
+	
+	
+		</page>
+	
+		</clickreveal>
+	</clickrevealOptions>
+	
+		
+	
+	</page>
+	
+</content>

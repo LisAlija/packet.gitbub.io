@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	
+	<LoaderMax name="pageLoader6" load="true">
+
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m06p06/m06p06a.mp3" />
+		<MP3Loader name="sound2" autoPlay="false" url="pages/assets/m06p06/m06p06b.mp3" />
+		
+		<SWFLoader name="bkg" autoPlay="false" url="pages/assets/m06p06/bkg.swf" />
+		<SWFLoader name="drag1" autoPlay="false" url="pages/assets/m06p06/drag1.swf" />
+		<SWFLoader name="drag2" autoPlay="false" url="pages/assets/m06p06/drag2.swf" />
+		<SWFLoader name="drag3" autoPlay="false" url="pages/assets/m06p06/drag3.swf" />
+		<SWFLoader name="drag4" autoPlay="false" url="pages/assets/m06p06/drag4.swf" />
+		
+		<SWFLoader name="image1" autoPlay="false" url="pages/assets/m06p06/image1.swf" />
+		<SWFLoader name="image2" autoPlay="false" url="pages/assets/m06p06/image2.swf" />
+		<SWFLoader name="image3" autoPlay="false" url="pages/assets/m06p06/image3.swf" />
+		<SWFLoader name="image4" autoPlay="false" url="pages/assets/m06p06/image4.swf" />
+		<SWFLoader name="image5" autoPlay="false" url="pages/assets/m06p06/image5.swf" />
+		<SWFLoader name="image6" autoPlay="false" url="pages/assets/m06p06/image6.swf" />
+		<SWFLoader name="image7" autoPlay="false" url="pages/assets/m06p06/image7.swf" />
+		<SWFLoader name="image8" autoPlay="false" url="pages/assets/m06p06/image8.swf" />
+		<SWFLoader name="image9" autoPlay="false" url="pages/assets/m06p06/image9.swf" />
+
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[As the hands are in direct contact with food they are the most common vehicle for transferring food poisoning bacteria.<br /><br />The correct hand washing procedure is essential to the prevention of contaminating food. Are you aware of the correct procedure for washing your hands?<br /><br />Drag and drop the images to arrange them in the appropriate sequence for washing hands.]]></transcript>
+	<transcript sound="sound2"><![CDATA[Well done. The following steps will show the process for routine handwashing throughout the day.<br /><br />The first step is to wet your hands under warm running water.<br /><br />Apply one shot, between 3 and 5 millilitres, of liquid or foam soap to your hands.<br /><br />Rub your hands vigorously together to produce a good lather. Interlock the fingers and thumbs and rub.<br /><br />The next step and the most important action is to rub the palm of the hands ensuring fingertips, fingernails and the back of the hands are cleaned.<br /><br />After 20 seconds, move on to rubbing your hands together with the fingers locked, maintaining a good lather. This ensures that the areas between fingers are cleaned. Make sure that wrists are cleaned.<br /><br />When you have completed each of these steps, rinse off all the lather and bacteria using running water.<br /><br />Thoroughly dry the hands, wrists and forearms using a paper towel or a hand dryer.<br /><br />Turn off the tap using the paper towel if the tap is not automated.<br /><br />Finally, dispose of the paper towel into a foot-operated container, without touching any part of the waste bin.]]></transcript>
+
+	<page sound="sound1" >
+	
+		<activities>
+			<activity>Image</activity>
+			<activity>AddText</activity>
+			<activity>DragDropToTargets</activity>
+			<activity>ActivityText</activity>
+			<activity>Transcript</activity>
+		</activities>
+
+		<instructionOptions x="50" y="120" width="880" delay="1">
+			<instruction><![CDATA[Drag and drop the images to arrange them in the appropriate sequence for washing hands.]]></instruction>
+		</instructionOptions>
+
+		<placeImage x="187" y="200" name="bkg">
+			<moveImage delay="1" x="187" y="200" alpha="1" speed="1"/>
+		</placeImage>	
+
+		<draganddrop delay="1" targetVisible="yes" oneAtTime="no" checkAnswers="no"> 
+			
+			<target name="1" targetx="219" targety="232" targetWidth="113" targetHeight="102">invisibl</target>
+			<target name="2" targetx="369" targety="232" targetWidth="113" targetHeight="102">invisibl</target>
+			<target name="3" targetx="521" targety="232" targetWidth="113" targetHeight="102">invisibl</target>
+			<target name="4" targetx="671" targety="232" targetWidth="113" targetHeight="102">invisibl</target>
+
+			<drag>
+				<dragger startingx="219" startingy="430" target="1" finishx="219" finishy="232">drag1</dragger>
+			</drag>
+			
+			<drag>
+				<dragger startingx="369" startingy="430" target="3" finishx="521" finishy="232">drag2</dragger>
+			</drag>	
+			
+			<drag>
+				<dragger startingx="521" startingy="430" target="2" finishx="369" finishy="232" >drag3</dragger>
+			</drag>
+				
+			<drag>
+				<dragger startingx="671" startingy="430" target="4" finishx="671" finishy="232">drag4</dragger>
+			</drag>
+	
+		</draganddrop>
+		
+	</page>
+	
+	
+	<page clearTime="65" sound="sound2">
+	
+	<activities>
+			<activity>Image</activity>
+			<activity>AddText</activity> 
+	</activities>	 
+		
+	<placeImage x="25" y="110" stop="yes" name="image1">
+			<moveImage delay="1" x="25" y="120" alpha="1"/>	 
+	</placeImage>
+		
+	<placeImage x="219" y="110" stop="yes" name="image2">
+			<moveImage delay="9.5" x="219" y="120" alpha="1"/>	 
+	</placeImage>
+		
+	<placeImage x="413.5" y="110" stop="yes" name="image3">
+			<moveImage delay="15.5" x="413.5" y="120" alpha="1"/>	 
+	</placeImage>
+		
+	<placeImage x="608" y="110" stop="yes" name="image4">
+			<moveImage delay="22" x="608" y="120" alpha="1"/>	 
+	</placeImage>
+		
+	<placeImage x="802" y="110" stop="yes" name="image5">
+			<moveImage delay="30" x="802" y="120" alpha="1"/>	 
+	</placeImage>
+
+	<placeImage x="122" y="356" stop="yes" name="image6">
+			<moveImage delay="41.5" x="122" y="366" alpha="1"/>	 
+	</placeImage>
+		
+	<placeImage x="316" y="356" stop="yes" name="image7">
+			<moveImage delay="47.5" x="316" y="366" alpha="1"/>	 
+	</placeImage>
+		
+	<placeImage x="511" y="356" stop="yes" name="image8">
+			<moveImage delay="53" x="511" y="366" alpha="1"/>	 
+	</placeImage>
+		
+	<placeImage x="705" y="356" stop="yes" name="image9">
+			<moveImage delay="58" x="705" y="366" alpha="1"/>	 
+	</placeImage>
+
+	</page>	
+
+</content>

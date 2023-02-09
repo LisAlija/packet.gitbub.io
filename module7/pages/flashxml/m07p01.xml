@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	
+	<LoaderMax name="pageLoader1" load="true">
+		<SWFLoader name="background" autoPlay="false" url="../common/commonassets/background.swf" />
+		
+		<SWFLoader name="restaurant" autoPlay="false" url="pages/assets/m07p01/image1.swf" />
+		
+		<SWFLoader name="chef1" autoPlay="false" url="pages/assets/m07p01/image2.swf" />
+		<SWFLoader name="chefs" autoPlay="false" url="pages/assets/m07p01/image3.swf" />
+		<SWFLoader name="chopping board" autoPlay="false" url="pages/assets/m07p01/image4.swf" />
+		<SWFLoader name="chef2" autoPlay="false" url="pages/assets/m07p01/image5.swf" />
+		
+		<SWFLoader name="lawicon" autoPlay="false" url="../common/commonassets/law.swf" />
+		
+
+		<SWFLoader name="moduleNumber" autoPlay="false" url="pages/assets/m07p01/welcome.swf" />
+		<SWFLoader name="moduleName" autoPlay="false" url="pages/assets/m07p01/title.swf" />
+		
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m07p01/m07p01.mp3" />
+
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[Welcome to module 7.<br /><br />In this module we'll learn about food premises and equipment.<br/><br/>You'll need approximately 15 minutes to complete this module. We will understand:<li>Why it is necessary to design, construct and maintain premises and equipment;</li><li>The role of the food handler in preventing hazards from food premises and equipment; and</li><li>What care should be taken when storing and disposing of waste.</li><br />Food premises and equipment should be designed and constructed to ensure that food is not exposed to risk of contamination.<br /><br />Food handlers must be aware of the hazards associated with food premises and equipment.<br/><br/>Click the icon to learn what the law says about food premises and equipment.<br/><br/> When you have finished, click the 'Next' button to continue.]]></transcript>
+
+	<page clearTime="45" sound="sound1">
+		
+		<activities>
+			<activity>Image</activity>
+			<activity>AddText</activity>
+			<activity>Bullets</activity>
+			<activity>ActivityText</activity>
+			<activity>ClickRevealStandard</activity>
+			<activity>Transcript</activity>
+		</activities>  
+	
+		<placeImage x="7" y="65" stop="yes" name="background" >
+			<moveImage delay="0" x="7" y="65" alpha="0.5" playit="0"/>
+			<moveImage delay="3" x="7" y="65" alpha="0" playit="0"/>
+		</placeImage>
+		
+		<placeImage x="0" y="0" stop="yes" name="moduleNumber" description="Module Number" centre="true">
+			<moveImage delay="0" x="504" y="280" alpha="0" playit="0" scaleX="1" scaleY="0.5" />
+			<moveImage delay="0" x="504" y="260" alpha="1" scaleX="0.75" scaleY="0.75" />
+			<moveImage delay="3" x="504" y="260" alpha="0" />
+		</placeImage>
+		
+		<placeImage x="0" y="0" stop="yes" name="moduleName" centre="true" >
+			<moveImage delay="0" x="504" y="320" alpha="0" playit="0" scaleX="0.5" scaleY="0.5" />
+			<moveImage delay="0" x="504" y="340" alpha="1"  scaleX="1" scaleY="1" />
+			<moveImage delay="3" x="504" y="340" alpha="0" />
+		</placeImage>
+		
+		<placeImage x="604" y="180" name="restaurant"  >
+			<moveImage delay="4" x="604" y="185" alpha="0.5"/>
+			<moveImage delay="0" x="604" y="185" alpha="1"/>
+		</placeImage>
+		
+		<placeImage x="0" y="0" name="chef1" centre="true">
+			<moveImage delay="23.6" x="654" y="300" alpha="0" scaleX="0.1" scaleY="0.1" />
+			<moveImage delay="0.5" x="654" y="180" alpha="1" scaleX="1" scaleY="1" />			
+		</placeImage>
+		
+		<placeImage x="0" y="0" name="chefs" centre="true">
+			<moveImage delay="23.8" x="654" y="300" alpha="0" scaleX="0.1" scaleY="0.1" />
+			<moveImage delay="0.5" x="654" y="420" alpha="1" scaleX="1" scaleY="1" />
+		</placeImage> 
+
+
+		<placeImage x="0" y="0" name="chopping board" centre="true">
+			<moveImage delay="24.1" x="854" y="300" alpha="0" scaleX="0.1" scaleY="0.1" />
+			<moveImage delay="0.5" x="854" y="180" alpha="1" scaleX="1" scaleY="1" />
+		</placeImage>
+		
+		<placeImage x="0" y="0" name="chef2" centre="true">
+			<moveImage delay="24.1" x="854" y="300" alpha="0" scaleX="0.1" scaleY="0.1" />
+			<moveImage delay="0.5" x="854" y="420" alpha="1" scaleX="1" scaleY="1" />
+		</placeImage>
+
+		
+		<statement delay="4" x="50" y="180" width="420" remove="20" ><![CDATA[<b>Food premises and equipment</b>]]></statement>
+		
+		<statement delay="8" x="50" y="225" width="420" remove="16"><![CDATA[We will learn:]]></statement>
+		
+		<bullet delay="9.6" x="80" y="270" width="390" remove="14.4"><![CDATA[Why food premises and equipment must be designed, constructed and maintained satisfactorily]]></bullet> 
+		<bullet delay="14.8" x="80" y="330" width="390" remove="9.2" ><![CDATA[The role of the food handler]]></bullet> 
+		<bullet delay="20" x="80" y="375" width="390" remove="4"><![CDATA[The care that should be taken while storing and disposing waste.]]></bullet>
+
+		<statement delay="25" x="50" y="180" width="420" ><![CDATA[<b>Food premises and equipment should be designed and constructed to ensure that food is not exposed to risk of contamination.<b>]]></statement>	
+		<statement delay="32" x="50" y="255" width="420" ><![CDATA[<b>Food handlers must be aware of the hazards associated with food premises and equipment.</b>]]></statement>
+				
+
+		<instructionOptions x="150" y="520" width="600" delay="37.1" style="slide">
+			<instruction><![CDATA[<b>Click on the icon to learn what the law says about food premises and equipment.</b>]]></instruction>
+		</instructionOptions>
+
+		
+		<clickrevealOptions mouseaction="click" closebutton="yes" timedremoval="no" style="fadein" delayactivation="37.5">
+			<clickreveal x="48" y="120" width="520" height="380" bg="yes">
+				<clicker x="75" y="500" revealDelay="37.5">lawicon</clicker>
+				<page>
+					<activities>
+						<activity>AddText</activity>
+						<activity>Image</activity>
+						<activity>Bullets</activity>
+					</activities>
+					
+					<statement delay="0" x="20" y="15" width="520"><![CDATA[<b>Food premises must:</b>]]></statement>
+					
+						<bullet delay="0" x="50" y="55" width="420" ><![CDATA[Be kept clean and in good repair or condition]]></bullet>
+						<bullet delay="0" x="50" y="85" width="420" ><![CDATA[Have a satisfactory design, layout and construction]]></bullet>
+						<bullet delay="0" x="50" y="115" width="420" ><![CDATA[Have adequate washing facilities and drinking]]></bullet>
+						<bullet delay="0" x="50" y="145" width="420" ><![CDATA[Have satisfactory lighing, ventilation and drainage]]></bullet>
+						<bullet delay="0" x="50" y="175" width="420" ><![CDATA[Be provided with suitable temperature controlled conditions.]]></bullet>
+						
+					<statement delay="0" x="20" y="205" width="520"><![CDATA[<b>Equipment must:</b>]]></statement>
+						<bullet delay="0" x="50" y="250" width="420" ><![CDATA[Be kept clean and in good repair or condition]]></bullet>
+						<bullet delay="0" x="50" y="280" width="420" ><![CDATA[Enable thorough cleaning and disinfection]]></bullet>
+						<bullet delay="0" x="50" y="310" width="420" ><![CDATA[Be installed to allow cleaning of the surrounding area]]></bullet>
+						<bullet delay="0" x="50" y="340" width="420" ><![CDATA[Minimise the risk of contamination.]]></bullet>
+										
+				</page>
+				
+			</clickreveal>
+			
+		</clickrevealOptions>
+
+	</page>
+	
+</content>

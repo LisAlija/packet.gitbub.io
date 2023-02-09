@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	
+	<LoaderMax name="pageLoader4" load="true">
+	
+		<SWFLoader name="sourceImage" autoPlay="false" url="pages/assets/m04p04/image1.swf" />
+		<SWFLoader name="sourceIcon" autoPlay="false" extras="selected, over, done" url="pages/assets/m04p04/icon1.swf" />
+		
+		<SWFLoader name="vehicleIcon" autoPlay="false" extras="selected, over, done" url="pages/assets/m04p04/icon2.swf" />
+		<SWFLoader name="vehicleImage" autoPlay="false" url="pages/assets/m04p04/image2.swf" />
+		
+		<SWFLoader name="readyToEatIcon" autoPlay="false" extras="selected, over, done" url="pages/assets/m04p04/icon3.swf" />
+		<SWFLoader name="readyToEatImage" autoPlay="false" url="pages/assets/m04p04/image3.swf" />
+		
+		<SWFLoader name="arrow1" autoPlay="false" url="pages/assets/m04p04/arrow.swf" />
+		<SWFLoader name="arrow2" autoPlay="false" url="pages/assets/m04p04/arrow.swf" />
+
+		
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m04p04/m04p04.mp3" />
+		<MP3Loader name="source" autoPlay="false" url="pages/assets/m04p04/m04p04source.mp3" />
+		<MP3Loader name="vehicle" autoPlay="false" url="pages/assets/m04p04/m04p04vehicle.mp3" />
+		<MP3Loader name="readyToEat" autoPlay="false" url="pages/assets/m04p04/m04p04readyToEat.mp3" />
+
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[If food handlers are to control microbiological hazards, they need to know what brings pathogens into food premises and how these may pass to food.<br /><br />Click on the graphics to learn more about sources and vehicles of microbiological contamination.]]></transcript>
+	
+	<transcript sound="source"><![CDATA[The source of food poisoning bacteria would be whatever brings the bacteria into the food premises.<br /><br />Common sources of food poisoning bacteria include: raw food, people, pests, untreated water, dirt and soil.]]></transcript>
+	
+	<transcript sound="vehicle"><![CDATA[Sometimes, harmful bacteria pass directly from the source to high-risk food, however, as bacteria usually cannot move and the sources may not be in direct contact with the food, the bacteria usually rely on other things to transfer them onto food.<br /><br />These things are known as vehicles.<br /><br />Common vehicles include hands, cloths, knives, chopping boards, food contact surfaces, hand contact surfaces such as door or drawer handles and pests.]]></transcript>
+	
+	<transcript sound="readyToEat"><![CDATA[These include cooked meat, fish, poultry, dairy products, eggs, cooked rice and dishes including these products.<br /><br />Ready to eat foods include all high-risk foods. They also include some low risk foods, such as biscuits, crisps and chocolate.<br /><br /> Additionally some raw foods such as fruit and salad would be classed as ready-to-eat food.]]></transcript>
+	
+	
+		
+	<page sound="sound1">
+	
+		<activities>
+			<activity>Image</activity>
+			<activity>Bullets</activity>
+			<activity>AddText</activity>			
+			<activity>ActivityText</activity>
+			<activity>ClickRevealStandard</activity>
+			<activity>Transcript</activity>
+		</activities>
+
+		
+
+		<instructionOptions x="135" y="440" width="600" delay="10.7" style="slide">
+			<instruction><![CDATA[<b>Click on the graphics to learn more about sources and vehicles of microbiological contamination.</b>]]></instruction>
+		</instructionOptions>
+		
+			<placeImage x="303" y="265" stop="yes" name="arrow1">
+				<moveImage delay="0.4" x="303" y="265" alpha="1"/>
+			</placeImage>
+					
+			<placeImage x="606" y="265" stop="yes" name="arrow2">
+				<moveImage delay="0.4" x="606" y="265" alpha="1"/>
+			</placeImage>
+
+
+			<clickrevealOptions mouseaction="click" closebutton="yes" timedremoval="no" style="fadein" delayactivation="14">
+		
+			<clickreveal x="55" y="170" width="895" height="350" bg="yes">
+				<clicker x="100" y="200" revealDelay="0.4">sourceIcon</clicker>
+				
+				
+				<page clearTime="1" sound="source">
+					<activities>
+						<activity>AddText</activity>
+						<activity>Bullets</activity>
+						<activity>Image</activity>
+						<activity>Transcript</activity>
+					</activities>
+	
+					<placeImage x="545" y="31" stop="yes" name="sourceImage">
+						<moveImage delay="0" x="545" y="32" alpha="1"/>
+					</placeImage>
+					
+					<statement delay="0" x="30" y="20" width="470"><![CDATA[<b>Sources</b>]]></statement>
+					
+					<statement delay="0" x="30" y="70" width="470"><![CDATA[The source of food poisioning bacteria would be whatever brings the bacteria into the food premises.]]></statement>
+
+					<statement delay="0" x="30" y="115" width="470"><![CDATA[Common sources of food poisoning bacteria include: raw food, people, pests, untreated water, dirt and soil.]]></statement>
+
+					
+				</page> 
+					
+			</clickreveal>
+			
+			
+			<clickreveal x="55" y="170" width="895" height="350" delayactivation="16" bg="yes">
+				<clicker x="404.5" y="200" revealDelay="0.4">vehicleIcon</clicker>
+				
+				<!--FEEDBACK-->
+				<page clearTime="1" sound="vehicle">
+					<activities>
+						<activity>AddText</activity>
+						<activity>Bullets</activity>
+						<activity>Image</activity>
+						<activity>Transcript</activity>
+					</activities>
+					
+					<placeImage x="520" y="40" stop="yes" name="vehicleImage">
+						<moveImage delay="0" x="520" y="40" alpha="1"/>
+					</placeImage>
+					
+					<statement delay="0" x="30" y="20" width="470"><![CDATA[<b>Vehicles</b>]]></statement>
+					
+					<statement delay="0" x="30" y="70" width="470"><![CDATA[Sometimes, harmful bacteria pass directly from the source to high-risk food, but, as bacteria usually cannot move and the sources may not be in direct contact with the food, the bacteria rely on other things to transfer them onto food. These things are known as vehicles.]]></statement>
+					<statement delay="0" x="30" y="145" width="470"><![CDATA[Common vehicles include hands, cloths, knives, chopping boards, food-contact surfaces, hand-contact surfaces such as door and drawer handles and pests.]]></statement>
+					
+				</page> 
+					
+			</clickreveal>
+			
+			<clickreveal x="55" y="170" width="895" height="350" bg="yes">
+				<clicker x="709" y="200" revealDelay="0.4">readyToEatIcon</clicker>
+				
+				<!--FEEDBACK-->
+				<page clearTime="1" sound="readyToEat">
+					<activities>
+						<activity>AddText</activity>
+						<activity>Bullets</activity>
+						<activity>Image</activity>
+						<activity>Transcript</activity>
+					</activities>
+					
+					<placeImage x="520" y="40" stop="yes" name="readyToEatImage">
+						<moveImage delay="0" x="520" y="40" alpha="1"/>
+					</placeImage>
+					
+					<statement delay="0" x="30" y="20" width="470"><![CDATA[<b>Ready-to-eat</b>]]></statement>
+					
+					<statement delay="0" x="30" y="70" width="470"><![CDATA[These include cooked meat, fish, poultry, dairy products, eggs, cooked rice and dishes including these products.]]></statement>
+					<statement delay="0" x="30" y="115" width="470"><![CDATA[Ready-to-eat foods include all high-risk foods. They also include some low-risk foods, such as biscuits, crisps and chocolate. Additionally some raw foods such as fruit and salad would be classed as ready-to-eat food.]]></statement>
+					
+							
+				</page> 
+					
+			</clickreveal>
+	
+		</clickrevealOptions>
+
+
+	</page>
+	
+	
+</content>

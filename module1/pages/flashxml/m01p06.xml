@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	<LoaderMax name="pageLoader6" load="true">
+
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m01p06/m01p06.mp3" />
+		<MP3Loader name="fb" autoPlay="false" url="pages/assets/m01p06/fb.mp3" />
+		
+		<!-- initial -->
+		<SWFLoader name="GoodRestaurant" autoPlay="false" url="pages/assets/m01p06/image1.swf" />
+		<SWFLoader name="BadRestaurant" autoPlay="false" url="pages/assets/m01p06/image2.swf" />
+
+		<!-- Icons - max width: 90, max height: 80 -->
+		<!-- Benefits -->
+		<SWFLoader name="complianceIcon" autoPlay="false" url="pages/assets/m01p06/compliance.swf" />
+		<SWFLoader name="wastageIcon" autoPlay="false" url="pages/assets/m01p06/less_wastage.swf" />
+		<SWFLoader name="moraleIcon" autoPlay="false" url="pages/assets/m01p06/morale.swf" />
+		<SWFLoader name="openIcon" autoPlay="false" url="pages/assets/m01p06/new.swf" />
+		<SWFLoader name="protectionIcon" autoPlay="false" url="pages/assets/m01p06/protection.swf" />
+		
+		<!-- Costs -->
+		<SWFLoader name="damageIcon" autoPlay="false" url="pages/assets/m01p06/brand_damage.swf" />
+		<SWFLoader name="closedIcon" autoPlay="false" url="pages/assets/m01p06/closed_window.swf" />
+		<SWFLoader name="complaintsIcon" autoPlay="false" url="pages/assets/m01p06/complaints.swf" />
+		<SWFLoader name="finesIcon" autoPlay="false" url="pages/assets/m01p06/fines.swf" />
+		<SWFLoader name="lowmoraleIcon" autoPlay="false" url="pages/assets/m01p06/low_morale.swf" />
+		<SWFLoader name="profitsIcon" autoPlay="false" url="pages/assets/m01p06/low_profits.swf" />
+		<SWFLoader name="pestIcon" autoPlay="false" url="pages/assets/m01p06/pest.swf" />
+		<SWFLoader name="poisonIcon" autoPlay="false" url="pages/assets/m01p06/poison.swf" />
+		<SWFLoader name="investigationIcon" autoPlay="false" url="pages/assets/m01p06/investigation.swf" />
+		
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[There are many benefits of good food safety, and many costs of poor food safety. You need to decide whether the following consequences are a benefit of good food safety or a cost of poor food safety.<br /><br />Scroll through the images at the bottom of the page. Drag and drop them into either of the two categories.]]></transcript>
+	
+	<transcript sound="fb"><![CDATA[Well done.<br /><br />You have correctly identified the costs of poor food safety and the benefits of good food safety.]]></transcript>
+	
+	 <page clearTime="13.5" sound="sound1">
+	
+	<activities>
+		<activity>AddText</activity>
+		<activity>Image</activity>
+		<activity>Transcript</activity>
+	</activities>
+	
+	<statement delay="0.4" x="50" y="100" width="900"><![CDATA[<b>There are many benefits of good food safety and many costs to poor food safety.]]></statement>
+
+	<statement delay="6.6" x="50" y="480" width="900"><![CDATA[<b>Are the following consequences a benefit of good food safety or a cost of poor food safety?]]></statement>
+	
+		<placeImage x="107.5" y="190" name="GoodRestaurant">
+			<moveImage delay="2.3" x="107.5" y="195" alpha="1" speed="1"/>
+		</placeImage>
+		
+		<placeImage x="521" y="190" name="BadRestaurant">
+			<moveImage delay="3.6" x="521" y="195" alpha="1" speed="1"/>
+		</placeImage>
+	
+	</page>
+
+<page noRemove="true">
+	
+	<activities>
+		<activity>AddText</activity>
+		<activity>Images</activity>
+		<activity>ActivityText</activity>
+		<activity>DragFromScrollerIntoList</activity>	
+		<activity>Transcript</activity>
+	</activities>
+	
+		
+		<instructionOptions x="50" y="100" width="900" delay="0">
+			<instruction><![CDATA[Scroll through the images at the bottom right of the screen. Decide whether each one is a cost or a benefit to a business and then drag and drop it into the appropriate box.]]></instruction>				
+		</instructionOptions>		
+		
+					
+		<selectOptions scrollerdelay="1" scrollerNumberVisible="2" scrollerx="700" scrollery="485" delayActivation="2">
+		
+			 <buttonheight>50</buttonheight>
+			 <buttonFsize>13</buttonFsize>
+			 <captionAlign>left</captionAlign>
+		
+			<target x="50" y="160" width="280" height="430" lfromtop="30" number="1" colour="0x7A719F" tColour="0xffffff" delay="1" fontSize="14"><![CDATA[<b>Cost</b>]]></target>
+			
+			<target x="345" y="160" width="280" height="430" lfromtop="30" number="2" colour="0x7A719F" tColour="0xffffff" delay="1" fontSize="14"><![CDATA[<b>Benefit</b>]]></target>
+
+	<!--////////////////////////////////////////////////////////////////////////////////	-->				
+		
+			<option>
+				<dragger width="113" height="102" bColour="0xA59FBD" delay="1">draggerMC</dragger>
+				<iconImage>complianceIcon</iconImage>
+				<title width="250" tColour="0x000000" fSize="14" popupx="700" popupy="455"><![CDATA[Legal compliance]]></title>
+				<correct>2</correct>
+			
+			</option>
+
+			<option>
+				<dragger width="113" height="102" bColour="0xA59FBD" delay="3">draggerMC</dragger>
+				<iconImage>wastageIcon</iconImage>
+				<title width="250" tColour="0x000000" fSize="14" popupx="700" popupy="455"><![CDATA[Less wastage and longer shelf life]]></title>
+				<correct>2</correct>
+
+			</option>
+
+			<option>
+				<dragger width="113" height="102" bColour="0xA59FBD" delay="2">draggerMC</dragger>
+				<iconImage>complaintsIcon</iconImage>
+				<title width="250" tColour="0x000000" fSize="14" popupx="700" popupy="455"><![CDATA[Food complaints]]></title>
+				<correct>1</correct>
+
+			</option>
+	
+			<option>
+				<dragger width="113" height="102" bColour="0xA59FBD" delay="3">draggerMC</dragger>
+				<iconImage>finesIcon</iconImage>
+				<title width="250" tColour="0x000000" fSize="14" popupx="700" popupy="455"><![CDATA[Fines and legal action]]></title>
+				<correct>1</correct>
+
+			</option>
+	
+			<option>
+				<dragger width="113" height="102" bColour="0xA59FBD" delay="2.5">draggerMC</dragger>
+				<iconImage>moraleIcon</iconImage>
+				<title width="250" tColour="0x000000" fSize="14" popupx="700" popupy="455"><![CDATA[High staff morale and productivity]]></title>
+				<correct>2</correct>
+
+			</option>
+
+			<option>
+				<dragger width="113" height="102" bColour="0xA59FBD" delay="3">draggerMC</dragger>
+				<iconImage>damageIcon</iconImage>
+				<title width="250" tColour="0x000000" fSize="14" popupx="700" popupy="455"><![CDATA[Brand damage]]></title>
+				<correct>1</correct>
+	
+			</option>			
+
+			<option>
+				<dragger width="113" height="102" bColour="0xA59FBD" delay="0.5">draggerMC</dragger>
+				<iconImage>openIcon</iconImage>
+				<title width="250" tColour="0x000000" fSize="14" popupx="700" popupy="455"><![CDATA[Increased business and profits]]></title>
+				<correct>2</correct>
+	
+			</option>
+
+			<option>
+				<dragger width="113" height="102" bColour="0xA59FBD" delay="3">draggerMC</dragger>
+				<iconImage>lowmoraleIcon</iconImage>
+				<title width="250" tColour="0x000000" fSize="14" popupx="700" popupy="455"><![CDATA[Low staff morale]]></title>
+				<correct>1</correct>
+		
+			</option>		
+			
+			<option>
+				<dragger width="113" height="102" bColour="0xA59FBD" delay="3">draggerMC</dragger>
+				<iconImage>investigationIcon</iconImage>
+				<title width="300" tColour="0x000000" fSize="14" popupx="700" popupy="455"><![CDATA[Internal investigations and decontamination]]></title>
+				<correct>1</correct>
+
+			</option>		
+			
+			<option>
+				<dragger width="113" height="102" bColour="0xA59FBD" delay="3">draggerMC</dragger>
+				<iconImage>pestIcon</iconImage>
+				<title width="250" tColour="0x000000" fSize="14" popupx="700" popupy="455"><![CDATA[Pest infestation]]></title>
+				<correct>1</correct>
+		</option>
+					
+			<option>
+				<dragger width="113" height="102" bColour="0xA59FBD" delay="3">draggerMC</dragger>
+				<iconImage>protectionIcon</iconImage>
+				<title width="250" tColour="0x000000" fSize="14" popupx="700" popupy="455"><![CDATA[Brand protection and reputation]]></title>
+				<correct>2</correct>
+				
+
+			</option>
+			
+			<option>
+				<dragger width="113" height="102" bColour="0xA59FBD" delay="3">draggerMC</dragger>
+				<iconImage>poisonIcon</iconImage>
+				<title width="250" tColour="0x000000" fSize="14" popupx="700" popupy="455"><![CDATA[Food poisoning]]></title>
+				<correct>1</correct>
+			
+			</option>
+
+				
+		
+		</selectOptions>
+	</page>
+	
+	<page clearTime="1" sound="fb">
+	
+	<activities>
+		<activity>AddText</activity>
+		<activity>Image</activity>
+		<activity>Transcript</activity>
+	</activities>
+	
+	<statement delay="0" x="700" y="520" width="236" align="center"><![CDATA[]]></statement>
+	
+	
+	</page>
+	
+</content>

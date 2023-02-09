@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	
+	<LoaderMax name="pageLoader13" load="true">
+		
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m02p13/m02p13.mp3" />
+		
+		<SWFLoader name="image1" autoPlay="false" url="pages/assets/m02p13/image1.swf" />
+				
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[It is essential to destroy food poisoning bacteria in food before it is eaten.<br /><br /><ui><li>Food should be cooked thoroughly to 75°C core temperature, or equivalent time and temperature combination, at the coolest point.</li><li>Chemicals and preservatives discourage the multiplication of bacteria.</li><li>Food irradiation destroys bacteria in food.</li><li>Heat processing, such as pasteurisation, sterilisation or canning will destroy bacteria.</li><li>Ultraviolet light is used to destroy bacteria in water.</ui></li>]]></transcript>
+	
+		
+	<page sound="sound1" clearTime="34.5">
+	
+		<activities>
+			<activity>Image</activity>
+			<activity>AddText</activity>
+			<activity>Bullets</activity>
+			<activity>Transcript</activity>
+		</activities>  
+
+
+		<placeImage x="40" y="230" name="image1">
+			<moveImage delay="0.5" x="40" y="240" alpha="1" speed="1"/>
+			<!--<moveImage delay="1" x="50" y="170" alpha="0"/>-->
+		</placeImage>
+		
+		
+		
+		
+		<statement delay="0.5" x="550" y="125" width="360" ><![CDATA[It is essential to destroy any food poisoning bacteria in food before it is eaten:]]></statement>
+		
+
+		<bullet delay="5.2" x="590" y="185" width="320" ><![CDATA[Food should be cooked thoroughly to 75°C core temperature or equivalent time and temperature combination, at the coolest point]]></bullet>
+
+		<bullet delay="14.2" x="590" y="260" width="320" ><![CDATA[Use chemicals and preservatives]]></bullet>
+		
+		<bullet delay="19.2" x="590" y="305" width="320" ><![CDATA[Food irradiation]]></bullet>
+		
+		<bullet delay="22.8" x="590" y="350" width="320" ><![CDATA[Heat processing such as pasteurisation, sterilisation or canning]]></bullet>
+		
+		<bullet delay="30" x="590" y="410" width="320" ><![CDATA[Ultraviolet (UV) light can be used to destroy bacteria in water.]]></bullet>
+		
+		
+		
+
+		
+
+	</page>
+
+	
+
+</content>

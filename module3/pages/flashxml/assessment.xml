@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	<LoaderMax name="pageLoaderAssessment" load="true">
+		<SWFLoader name="correctMC" autoPlay="false" url="../common/commonassets/assessment_right.swf" />
+		<SWFLoader name="preMC" autoPlay="false" url="../common/commonassets/assessment_pre.swf" />
+		<SWFLoader name="incorrectMC" autoPlay="false" url="../common/commonassets/assessment_wrong.swf" />
+		<MP3Loader name="before_assessment" autoPlay="false" url="../common/commonassets/before_assessment.mp3" />
+		<MP3Loader name="passed_module" autoPlay="false" url="../common/commonassets/passed_module.mp3" />
+		<MP3Loader name="review_short_course" autoPlay="false" url="../common/commonassets/review_short_course.mp3" />
+		<MP3Loader name="try_again" autoPlay="false" url="../common/commonassets/try_again.mp3" />
+		<MP3Loader name="failed" autoPlay="false" url="../common/commonassets/failed.mp3" />
+	</LoaderMax>
+	
+	<transcript sound="before_assessment"><![CDATA[See on-screen text.]]></transcript>
+	
+	<page clearTime="14" sound="before_assessment">
+		<activities>
+			<activity>Image</activity>
+			<activity>AddText</activity>
+			<activity>Transcript</activity>
+		</activities>
+		
+		<placeImage x="172" y="165" name="preMC">
+			<moveImage delay="0" x="172" y="165" alpha="1" speed="0"/>
+		</placeImage>
+		<statement delay="0" x="220" y="205" width="440" ><![CDATA[<b>To complete this module you need to pass the following assessment; the passmark is 100%.<br /><br />We recommend you read the questions carefully before answering. Once you have moved on you cannot return to previous questions.</b>]]></statement> 
+	</page>
+	
+	<page>
+	<activities>
+			<activity>Assessment</activity>
+	</activities>
+	
+	<assessmentOptions>
+		 <postorpre>post</postorpre>
+		 <noofqspermod>3</noofqspermod>
+		 <tolerance>2</tolerance>
+		
+		 <bgX>172</bgX>
+		 <bgY>130</bgY>
+		 <quFontColour>0xffffff</quFontColour>
+		 <quFontSize>16</quFontSize>
+		 <quX>305</quX>
+		 <quY>183</quY>
+		 
+		 <ansPanelX>235</ansPanelX>
+		 <ansPanelY>263</ansPanelY>
+		 <ansPanelWidth>540</ansPanelWidth>
+		 <ansFontSize>15</ansFontSize>
+		 <ansFontColour>0xffffff</ansFontColour>
+		 <ansBgColour>0xA17AC7</ansBgColour>
+		 <ansRoColour>0x63CCF2</ansRoColour>
+		 <ansSelColour>0x27bcf2</ansSelColour>
+		 <!-- <ansShade>false</ansShade> -->
+
+		<question refPageNo="4" modNo="3">
+    		<text width="540"><![CDATA[<b>Which of the following is the usual duration for food poisoning?</b>]]></text>
+			<ans correct="0"><![CDATA[<b>1 to 2 days</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>1 to 7 days</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>3 to 4 days</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>1 to 3 weeks</b>]]></ans>
+		</question>
+		
+		<question refPageNo="2" modNo="3">
+    		<text width="540"><![CDATA[<b>What is the "incubation period/onset time"?</b>]]></text>
+			<ans correct="1"><![CDATA[<b>The period between eating contaminated food and the first symptoms appearing</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>The time taken to destroy bacteria during cooking</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>The time taken by bacteria to multiply after removal from refrigeration</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>The period during which an ill person has symptoms</b>]]></ans>
+		</question>
+		
+		<question refPageNo="4" modNo="3">
+    		<text width="540"><![CDATA[<b>Which of the following is the usual incubation period for food poisoning?</b>]]></text>
+			<ans correct="0"><![CDATA[<b>1 to 36 months</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>1 to 36 hours</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>1 to 36 days</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>1 to 36 weeks</b>]]></ans>
+		</question>
+		
+		<question refPageNo="5" modNo="3">
+    		<text width="540"><![CDATA[<b>Which of the following are all normally symptoms of food poisoning?</b>]]></text>
+			<ans correct="0"><![CDATA[<b>Vomiting, bruising and diarrhoea</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>Vomiting, diarrhoea and stomach cramps</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Abdominal pain, vomiting and spots</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Diarrhoea, abdominal pain and swollen ankles</b>]]></ans>
+		</question>
+		
+		<question refPageNo="7" modNo="3">
+    		<text width="540"><![CDATA[<b>Which of the following statements is true?</b>]]></text>
+			<ans correct="0"><![CDATA[<b>Food poisoning bacteria multiply slowly in freezers</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Reheated food must achieve temperatures of at least 65°C</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>High standards of personal hygiene should help prevent contamination</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Food poisoning usually occurs because of a single isolated mistake</b>]]></ans>
+		</question>
+		
+		<question refPageNo="8" modNo="3">
+    		<text width="540"><![CDATA[<b>Food poisoning normally occurs because of:</b>]]></text>
+			<ans correct="0"><![CDATA[<b>a single isolated mistake</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>a series of mistakes</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>a deliberate act of sabotage</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>storing high-risk food below 5°C</b>]]></ans>
+		</question>
+		
+		<question refPageNo="3" modNo="3">
+    		<text width="540"><![CDATA[<b>Which of the following statements is correct?</b>]]></text>
+			<ans correct="0"><![CDATA[<b>Food poisoning bacteria rarely need to multiply in food to cause illness</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>Some bacteria produce toxins during multiplication</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Bacterial food poisoning never results in death</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>If toxins are produced in food the onset time will be long</b>]]></ans>
+		</question>
+		
+		<question refPageNo="8" modNo="3">
+    		<text width="540"><![CDATA[<b>Which part of the body is most likely involved in the transfer of food poisoning bacteria to food?</b>]]></text>
+			<ans correct="1"><![CDATA[<b>The hands</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>The feet</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>The nose</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>The head</b>]]></ans>
+		</question>
+
+		<passed image="correctMC" sound="passed_module"><![CDATA[Well done you have answered all of the questions correctly and have passed the module.<br /><br />Use the ‘Save and Exit’ button to leave this module and return to the Learning Management System.]]></passed>
+		<tolwrong image="incorrectMC" sound="try_again" buttontext="Try again" buttonx="230" buttony="400" btnColour="0x673E90" roColour="0xFF9933"><![CDATA[You have not answered all of the questions correctly.<br /><br />Use the ‘Try again’ button to have another go at the question/s that you did not answer correctly.]]></tolwrong>
+		<intolwrong image="incorrectMC" sound="failed"><![CDATA[You have not passed the assessment.<br /><br />Use the ‘NEXT’ button to review the module content and then try the assessment again.]]></intolwrong>
+		<intolfirstgowrong image="incorrectMC" sound="failed"><![CDATA[You have not passed the assessment.<br /><br />Use the ‘NEXT’ button to review the module content and then try the assessment again.]]></intolfirstgowrong>
+		<stillwrong image="incorrectMC" sound="review_short_course"><![CDATA[You have not answered all of the questions correctly.<br /><br />Please use the ‘NEXT’ button to review a short course tailored to cover the content that you need to revise.<br /><br />When you have finished this, you will be able to try the assessment again.]]></stillwrong>
+		
+	</assessmentOptions>	 
+		
+	
+	</page>
+</content>

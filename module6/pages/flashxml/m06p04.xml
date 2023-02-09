@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	<LoaderMax name="pageLoader4" load="true">
+	
+	
+		
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m06p04/m06p04.mp3" />
+				
+		<!-- Icons - max width: 90, max height: 80 -->
+		<!-- Groups of people most at risk -->
+		<SWFLoader name="icon1" autoPlay="false" url="pages/assets/m06p04/image1.swf" />
+		<SWFLoader name="icon5" autoPlay="false" url="pages/assets/m06p04/image5.swf" />
+		<SWFLoader name="icon7" autoPlay="false" url="pages/assets/m06p04/image7.swf" />
+		<SWFLoader name="icon9" autoPlay="false" url="pages/assets/m06p04/image9.swf" />
+		
+		<!-- Groups of people less at risk -->
+		<SWFLoader name="icon2" autoPlay="false" url="pages/assets/m06p04/image2.swf" />
+		<SWFLoader name="icon3" autoPlay="false" url="pages/assets/m06p04/image3.swf" />
+		<SWFLoader name="icon4" autoPlay="false" url="pages/assets/m06p04/image4.swf" />
+		<SWFLoader name="icon6" autoPlay="false" url="pages/assets/m06p04/image6.swf" />
+		<SWFLoader name="icon8" autoPlay="false" url="pages/assets/m06p04/image8.swf" />
+		<SWFLoader name="icon10" autoPlay="false" url="pages/assets/m06p04/image10.swf" />
+		<SWFLoader name="icon11" autoPlay="false" url="pages/assets/m06p04/image11.swf" />
+		<SWFLoader name="icon12" autoPlay="false" url="pages/assets/m06p04/image12.swf" />
+		<SWFLoader name="icon13" autoPlay="false" url="pages/assets/m06p04/image13.swf" />
+
+		
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[One crucial measure to protect food from contamination is to keep your hands clean.<br /><br />Adequate facilities need to be provided for washing hands. Can you identify what facilities are required to wash hands?<br /><br />Scroll through the images at the bottom right of the screen. Drag and drop them into either of the two categories.]]></transcript>
+
+<page sound="sound1"> 
+	
+	<activities>
+		<activity>AddText</activity>
+		<activity>Images</activity>
+		<activity>ActivityText</activity>
+		<activity>DragFromScrollerIntoList</activity>	
+		<activity>Transcript</activity>
+	</activities>
+	
+		
+		<instructionOptions x="50" y="110" width="900" delay="0">
+			<instruction><![CDATA[Scroll through the images at the bottom of the screen. Drag and drop them into either of the two categories.]]></instruction>				
+		</instructionOptions>		
+		
+					
+		<selectOptions scrollerdelay="1" scrollerNumberVisible="2" scrollerx="700" scrollery="485" delayActivation="14.5">
+		
+			 <buttonheight>50</buttonheight>
+			 <buttonFsize>13</buttonFsize>
+			 <captionAlign>left</captionAlign>
+		
+			<target x="50" y="160" width="280" height="430" lfromtop="30" number="1" colour="0x7A719F" tColour="0xffffff" delay="3" fontSize="14"><![CDATA[<b>Suitable</b>]]></target>
+			<target x="345" y="160" width="280" height="430" lfromtop="30" number="2" colour="0x7A719F" tColour="0xffffff" delay="1" fontSize="14"><![CDATA[<b>Unsuitable</b>]]></target>
+
+
+			<option>
+				<dragger width="113" height="102" bColour="0xA59FBD" delay="1">draggerMC</dragger>
+				<iconImage>icon1</iconImage>
+				<title width="250" tColour="0x000000" fSize="14" popupx="700" popupy="455"><![CDATA[Dirty bar of soap]]></title>
+				<correct>2</correct>
+			</option>
+
+			<option>
+				<dragger width="113" height="102" bColour="0xA59FBD" delay="3">draggerMC</dragger>
+				<iconImage>icon2</iconImage>
+				<title width="250" tColour="0x000000" fSize="14" popupx="700" popupy="455"><![CDATA[Non-perfumed liquid hand soap]]></title>
+				<correct>1</correct>				
+			</option>
+
+			<option>
+				<dragger width="113" height="102" bColour="0xA59FBD" delay="2">draggerMC</dragger>
+				<iconImage>icon3</iconImage>
+				<title width="250" tColour="0x000000" fSize="14" popupx="700" popupy="455"><![CDATA[Highly perfumed hand soap]]></title>
+				<correct>2</correct>
+			</option>
+	
+			<option>
+				<dragger width="113" height="102" bColour="0xA59FBD" delay="3">draggerMC</dragger>
+				<iconImage>icon4</iconImage>
+				<title width="250" tColour="0x000000" fSize="14" popupx="700" popupy="455"><![CDATA[Washing-up liquid]]></title>
+				<correct>2</correct>
+			</option>
+	
+			<option>
+				<dragger width="113" height="102" bColour="0xA59FBD" delay="2.5">draggerMC</dragger>
+				<iconImage>icon5</iconImage>
+				<title width="250" tColour="0x000000" fSize="14" popupx="700" popupy="455"><![CDATA[Tea towel]]></title>
+				<correct>2</correct>
+			</option>
+
+			<option>
+				<dragger width="113" height="102" bColour="0xA59FBD" delay="3">draggerMC</dragger>
+				<iconImage>icon6</iconImage>
+				<title width="250" tColour="0x000000" fSize="14" popupx="700" popupy="455"><![CDATA[Paper towel]]></title>
+				<correct>1</correct>				
+			</option>		
+
+			<option>
+				<dragger width="113" height="102" bColour="0xA59FBD" delay="0.5">draggerMC</dragger>
+				<iconImage>icon7</iconImage>
+				<title width="250" tColour="0x000000" fSize="14" popupx="700" popupy="455"><![CDATA[Very hot water]]></title>
+				<correct>2</correct>
+			</option>
+
+			<option>
+				<dragger width="113" height="102" bColour="0xA59FBD" delay="3">draggerMC</dragger>
+				<iconImage>icon8</iconImage>
+				<title width="250" tColour="0x000000" fSize="14" popupx="700" popupy="455"><![CDATA[Cold water only]]></title>
+				<correct>2</correct>
+			</option>		
+			
+			<option>
+				<dragger width="113" height="102" bColour="0xA59FBD" delay="3">draggerMC</dragger>
+				<iconImage>icon9</iconImage>
+				<title width="300" tColour="0x000000" fSize="14" popupx="700" popupy="455"><![CDATA[Warm running water]]></title>
+				<correct>1</correct>				
+			</option>	
+			
+			<option>
+				<dragger width="113" height="102" bColour="0xA59FBD" delay="3">draggerMC</dragger>
+				<iconImage>icon10</iconImage>
+				<title width="250" tColour="0x000000" fSize="14" popupx="700" popupy="455"><![CDATA[Sink for washing food equipment]]></title>
+				<correct>2</correct>
+			</option>
+					
+			<option>
+				<dragger width="113" height="102" bColour="0xA59FBD" delay="3">draggerMC</dragger>
+				<iconImage>icon11</iconImage>
+				<title width="250" tColour="0x000000" fSize="14" popupx="700" popupy="455"><![CDATA[Wash-hand basin]]></title>
+				<correct>1</correct>				
+			</option>
+							
+		
+		</selectOptions>
+	</page>
+	
+</content>

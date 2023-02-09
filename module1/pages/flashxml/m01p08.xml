@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	
+	<LoaderMax name="pageLoader8" load="true">
+	
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m01p08/m01p08.mp3" />
+		<MP3Loader name="corfb" autoPlay="false" url="pages/assets/m01p08/correct.mp3" />
+		<MP3Loader name="incorfb" autoPlay="false" url="pages/assets/m01p08/incorrect.mp3" />
+	
+		<SWFLoader name="item1" autoPlay="false" url="pages/assets/m01p08/item1.swf" />	
+		<SWFLoader name="item2" autoPlay="false" url="pages/assets/m01p08/item2.swf" />	
+		<SWFLoader name="item3" autoPlay="false" url="pages/assets/m01p08/item3.swf" />	
+		<SWFLoader name="item4" autoPlay="false" url="pages/assets/m01p08/item4.swf" />	
+		<SWFLoader name="item5" autoPlay="false" url="pages/assets/m01p08/item5.swf" />	
+		<SWFLoader name="item6" autoPlay="false" url="pages/assets/m01p08/item6.swf" />	
+		<SWFLoader name="item7" autoPlay="false" url="pages/assets/m01p08/item7.swf" />	
+		<SWFLoader name="item8" autoPlay="false" url="pages/assets/m01p08/item8.swf" />	
+		<SWFLoader name="item9" autoPlay="false" url="pages/assets/m01p08/item9.swf" />	
+		<SWFLoader name="item10" autoPlay="false" url="pages/assets/m01p08/item10.swf" />	
+		<SWFLoader name="item11" autoPlay="false" url="pages/assets/m01p08/item11.swf" />	
+		<SWFLoader name="item12" autoPlay="false" url="pages/assets/m01p08/item12.swf" />	
+		<SWFLoader name="item13" autoPlay="false" url="pages/assets/m01p08/item13.swf" />	
+		<SWFLoader name="item14" autoPlay="false" url="pages/assets/m01p08/item14.swf" />	
+		<SWFLoader name="item15" autoPlay="false" url="pages/assets/m01p08/item15.swf" />	
+		
+		
+		
+		
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[High-risk foods are those which support the growth of potentially harmful micro-organisms and that will not be subjected to any further processing which will remove or destroy them prior to consumption.Click on the foods that are at a high-risk of bacterial contamination if they are not treated appropriately and then click ‘Check Answers’ to see if you are right.]]></transcript>
+	
+	<transcript sound="corfb"><![CDATA[Great work!High-risk foods are ready-to-eat foods that will support the growth of pathogenic bacteria. We will look at the specific requirements for bacterial growth in the next module.]]></transcript>
+	
+	<transcript sound="incorfb"><![CDATA[That's not rightHigh-risk foods are ready-to-eat foods that will support the growth of pathogenic bacteria. We will look at the specific requirements for bacterial growth in the next module.Click 'View correct answer' to see the correct answers.]]></transcript>
+	
+	
+	
+	<page sound="sound1">
+		<activities>
+			<activity>ActivityText</activity>
+			<activity>SelectItems</activity>
+		</activities>
+		
+		<instructionOptions x="50" y="110" width="550" delay="1">
+			<instruction><![CDATA[Select the foods that you think are high-risk, and then click 'Check Answers'.]]>						
+		</instruction>
+		
+		</instructionOptions>
+		
+			
+		<selectItemsOptions>
+			<delayReveal>1</delayReveal>
+			<delayActivation>20</delayActivation>
+			
+			
+			
+			
+			<!-- ---------- Row one ---------- -->
+			
+			<clickitem>
+				<x>50</x>
+				<y>185</y>
+				<button>item1</button>
+				<correct>0</correct>
+			</clickitem>
+			
+			
+			<clickitem>
+				<x>175</x>
+				<y>185</y>
+				<button>item2</button>
+				<correct>1</correct>
+			</clickitem>
+						
+			
+			<clickitem>
+				<x>300</x>
+				<y>185</y>
+				<button>item3</button>
+				<correct>0</correct>
+			</clickitem>
+						
+			
+			<clickitem>
+				<x>425</x>
+				<y>185</y>
+				<button>item4</button>
+				<correct>1</correct>
+			</clickitem>
+						
+	
+			<clickitem>
+				<x>550</x>
+				<y>185</y>
+				<button>item5</button>
+				<correct>0</correct>
+			</clickitem>
+				
+				
+				
+				
+				
+						
+			
+			<!-- ---------- Row two ---------- -->
+			
+			<clickitem>
+				<x>50</x>
+				<y>315</y>
+				<button>item6</button>
+				<correct>0</correct>
+			</clickitem>
+			
+				
+			<clickitem>
+				<x>175</x>
+				<y>315</y>
+				<button>item7</button>
+				<correct>1</correct>
+			</clickitem>
+			
+			
+			<clickitem>
+				<x>300</x>
+				<y>315</y>
+				<button>item8</button>
+				<correct>0</correct>
+			</clickitem>
+						
+			
+			<clickitem>
+				<x>425</x>
+				<y>315</y>
+				<button>item9</button>
+				<correct>1</correct>
+			</clickitem>
+						
+			
+			<clickitem>
+				<x>550</x>
+				<y>315</y>
+				<button>item10</button>
+				<correct>0</correct>
+			</clickitem>
+						
+			
+			
+			
+			
+				
+				
+				
+			
+			<!-- ---------- Row three ---------- -->
+			
+			<clickitem>
+				<x>50</x>
+				<y>445</y>
+				<button>item11</button>
+				<correct>1</correct>
+			</clickitem>
+						
+			
+			<clickitem>
+				<x>175</x>
+				<y>445</y>
+				<button>item12</button>
+				<correct>0</correct>
+			</clickitem>
+			
+
+			<clickitem>
+				<x>300</x>
+				<y>445</y>
+				<button>item13</button>
+				<correct>1</correct>
+			</clickitem>
+
+			<clickitem>
+				<x>425</x>
+				<y>445</y>
+				<button>item14</button>
+				<correct>0</correct>
+			</clickitem>
+						
+			
+			<clickitem>
+				<x>550</x>
+				<y>445</y>
+				<button>item15</button>
+				<correct>1</correct>
+			</clickitem>
+				
+						
+			<checkAnswerButton x="735" y="502" bWidth="160" bHeight="35" bColour="0x7446A2" bRoColour="0x7037AD" bSelColour="0xCC6600"  fontColour="0xffffff" bFontSize="14">Check Answers</checkAnswerButton>
+			
+				
+			<correctFb sound="corfb" width="290" height="200" x="670" y="180" fontColour="0x000000"><![CDATA[<b>Great work!</b><br /><br />High-risk foods are ready-to-eat foods that will support the growth of pathogenic bacteria.<br /><br />We will look at the specific requirements for bacterial growth in the next module.]]></correctFb>
+			
+			<incorrectFb sound="incorfb" width="290" height="320" x="670" y="180" fontColour="0x000000"><![CDATA[<b>That's not right.</b><br /><br />High-risk foods are ready-to-eat foods that will support the growth of pathogenic bacteria.<br /><br />We will look at the specific requirements for bacterial growth in the next module.<br /><br /><br />Click 'View correct answer' to see the correct answers.]]></incorrectFb>
+			
+			
+			<showingInfo x="48" y="570" width="600" >
+				<!--<correctInfo><b>These are the correct items.</b></correctInfo>
+				<yourInfo><b>Here are the items you selected.</b></yourInfo>-->
+			</showingInfo>
+			
+			
+		</selectItemsOptions>
+		
+	</page>
+
+</content>

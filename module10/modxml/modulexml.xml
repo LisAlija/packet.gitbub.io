@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><content>
+
+	<LoaderMax name="moduleLoader" load="true">
+		
+		<!-- pages -->
+		<XMLLoader pageLoader="pageLoaderHelp" name="starterPage" autoPlay="false" estimatedBytes="249856" url="../common/globalxml/starterpage.xml"/>
+		<XMLLoader pageLoader="pageLoader2" name="page2" autoPlay="false" estimatedBytes="2781184" url="pages/flashxml/m10p02.xml"/>
+		<XMLLoader pageLoader="pageLoader3" name="page3" autoPlay="false" estimatedBytes="671744" url="pages/flashxml/m10p03.xml"/>
+		<XMLLoader pageLoader="pageLoader5" name="page5" autoPlay="false" estimatedBytes="4157440" url="pages/flashxml/m10p05.xml"/>
+		<XMLLoader pageLoader="pageLoaderAssessment" name="assessment" autoPlay="false" estimatedBytes="4894720" url="pages/flashxml/assessment.xml"/>
+	
+	</LoaderMax>
+	
+	<information>
+		<coursetitle>Food Safety Level 2</coursetitle>
+		<modtitle>Food Safety Enforcement</modtitle>
+		<withAssessment>true</withAssessment>
+		<scorm>true</scorm>
+		<iAmDeveloping>false</iAmDeveloping>
+	</information>
+	
+	<page xmlName="starterPage">Course Navigation</page>
+	<page xmlName="page2">Food Safety Legislation</page>
+	<page xmlName="page3">Food Safety Enforcement</page>
+	<page xmlName="page5">Due Diligence</page>
+	
+	<page xmlName="assessment">Assessment</page>
+</content>

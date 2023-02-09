@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	<LoaderMax name="pageLoader24c" load="true">
+		
+		
+		<!-- Icons - max width: 90, max height: 80 -->
+		
+		<!-- Icons - Hazards -->
+		
+		<SWFLoader name="image1" autoPlay="false" url="pages/assets/m05p24c/image1.swf" />
+		<SWFLoader name="image2" autoPlay="false" url="pages/assets/m05p24c/image2.swf" />
+		<SWFLoader name="image3" autoPlay="false" url="pages/assets/m05p24c/image3.swf" />
+		<SWFLoader name="image4" autoPlay="false" url="pages/assets/m05p24c/image4.swf" />
+		<SWFLoader name="image5" autoPlay="false" url="pages/assets/m05p24c/image5.swf" />
+		<SWFLoader name="image6" autoPlay="false" url="pages/assets/m05p24c/image6.swf" />
+
+	
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m05p24c/m05p24c.mp3" />
+
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[When checking and recording temperatures, it is important to follow these steps:<li>For checking core temperatures or surface temperatures use a clean, disinfected, calibrated tip-sensitive digital thermometer;</li><li>Take the core temperature;</li><li>Allow a minimum of 30 seconds contact time to ensure the temperature has stabilised;</li><li>Avoid fat, bone or gristle or container sides;</li><li>Record the temperature in accordance with the HACCP plan;</li><li>For checking surface temperatures only you can use a calibrated digital infra-red thermometer.</li>]]></transcript>
+	
+	
+	
+	<page sound="sound1" clearTime="35">
+	
+	<activities>
+		<activity>Image</activity>
+		<activity>AddText</activity>
+		<activity>Bullets</activity>
+		<activity>Transcript</activity>
+	</activities>
+	
+	
+	<statement delay="0" x="50" y="120" width="909"><![CDATA[<b><font color='#7446A2'>When checking and recording temperatures, it is important to follow these steps:</font></b>]]></statement>
+	
+	<placeImage x="61" y="210" stop="yes" name="image1">
+		<moveImage delay="5.2" x="61" y="215" alpha="1" />
+	</placeImage> 
+	
+	<placeImage x="212" y="210" stop="yes" name="image3">
+		<moveImage delay="13" x="212" y="215" alpha="1" />
+	</placeImage> 
+	
+	<placeImage x="363" y="210" stop="yes" name="image2">
+		<moveImage delay="15.1" x="363" y="215" alpha="1" />
+	</placeImage> 
+	
+	<placeImage x="514" y="210" stop="yes" name="image4">
+		<moveImage delay="20.8" x="514" y="215" alpha="1" />
+	</placeImage> 
+	
+	<placeImage x="665" y="210" stop="yes" name="image5">
+		<moveImage delay="25.22" x="665" y="215" alpha="1" />
+	</placeImage> 
+	
+	<placeImage x="816" y="210" stop="yes" name="image6">
+		<moveImage delay="28.9" x="816" y="215" alpha="1" />
+	</placeImage> 
+	
+		
+		</page>
+		
+</content>

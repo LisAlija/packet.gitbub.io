@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	<LoaderMax name="pageLoader14" load="true">
+	
+		<SWFLoader name="words" autoPlay="false" url="pages/assets/m02p14/text.swf" />
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m02p14/m02p14.mp3" />
+		
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[You have learnt how to prevent pathogens from multiplying in food and how to destroy them, complete the following descriptions of food safety methods.<br /><br />Drag and drop the correct word to fill in the blanks for each sentence.]]></transcript>
+	
+	<transcript sound="fb"><![CDATA[Well done. You have been able to identify how to keep food safe from food poisoning bacteria.]]></transcript>
+	
+	
+	
+
+	<page sound="sound1"> 
+	
+		<activities>
+			<activity>AddText</activity>
+			<activity>Image</activity>
+			<activity>ActivityText</activity>
+			<activity>DragDropToTargets</activity>
+			<activity>Transcript</activity>
+		</activities>
+		
+			<!--<statement delay="0.5" x="50" y="110" width="900" ><![CDATA[The multiplication of bacteria can be restricted by preparing and storing food in an environment that does not support bacterial growth.]]></statement>-->
+		
+		
+		
+		<instructionOptions x="50" y="105" width="850" delay=".8">
+			<instruction><![CDATA[Complete the following descriptions of food safety methods. Drag and drop the correct word from the list on the right to fill in the blanks for each sentence.]]></instruction>						
+		</instructionOptions>
+			
+			
+		<placeImage x="50" y="150" name="words">
+			<moveImage delay=".75" x="50" y="155"  alpha="1"/>
+		</placeImage>
+		
+		
+			
+		<draganddrop delay=".8" targetVisible="yes" shufflePositions="yes" oneAtTime="no"> 
+
+			<target  name="1" targetx="240" targety="170" targetWidth="120" targetHeight="24">invisibl</target>
+			<target  name="2" targetx="70" targety="196" targetWidth="120" targetHeight="24">invisibl</target>
+			<target  name="3" targetx="256" targety="250" targetWidth="120" targetHeight="24">invisibl</target>
+			<target  name="4" targetx="360" targety="301" targetWidth="120" targetHeight="24">invisibl</target>
+			<target  name="5" targetx="314" targety="380" targetWidth="120" targetHeight="24">invisibl</target>
+			<target  name="6" targetx="275" targety="433" targetWidth="120" targetHeight="24">invisibl</target>
+			<target  name="7" targetx="174" targety="486" targetWidth="120" targetHeight="24">invisibl</target>
+			<target  name="9" targetx="83" targety="538" targetWidth="120" targetHeight="24">invisibl</target>
+			<target  name="10" targetx="364" targety="538" targetWidth="120" targetHeight="24">invisibl</target>
+			
+			
+			
+			<drag>
+				<dragger startingx="810" startingy="170" target="1">multiplying</dragger>	
+			</drag>
+			
+			<drag>
+				<dragger startingx="810" startingy="210" target="2">cool</dragger>	
+			</drag>
+
+			<drag>
+				<dragger startingx="810" startingy="250" target="3">danger zone</dragger>
+			</drag>	
+			
+			<drag>
+				<dragger startingx="810" startingy="290" target="4">delays</dragger>
+			</drag>
+			
+			<drag>
+				<dragger startingx="810" startingy="330" target="5">thaw</dragger>
+			</drag>
+			
+			<drag>
+				<dragger startingx="810" startingy="370" target="6">chilled</dragger>
+			</drag>
+			
+			<drag>
+				<dragger startingx="810" startingy="410" target="7">hot</dragger>	
+			</drag>
+			
+			<drag>
+				<dragger startingx="810" startingy="450" target="9">cook</dragger>	
+			</drag>
+			
+			<drag>
+				<dragger startingx="810" startingy="490" target="10">destroy</dragger>	
+			</drag>
+
+		</draganddrop>
+		
+		
+
+	</page> 		 
+	
+</content>

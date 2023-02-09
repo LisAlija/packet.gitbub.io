@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	<LoaderMax name="pageLoader4" load="true">
+	<SWFLoader name="bkg" autoPlay="false" url="pages/assets/m09p04/bkg.swf" />
+	<SWFLoader name="image1" autoPlay="false" url="pages/assets/m09p04/image1.swf" />
+	<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m09p04/m09p04.mp3" />
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[Although cleaning is intended to remove microbiological hazards, unsatisfactory cleaning may result in the redistribution of contamination, which may be an even greater hazard.<br /><br />Other hazards include failure to destroy pathogens and failure to clean and disinfect cleaning equipment after use.<br /><br />There can also be cross-contamination, especially from cloths. Separate, colour-coded or disposable cloths are preferred<br /><br />Cleaning may also result in chemical contamination due to inappropriate use or storage of chemicals<br /><br />A typical example of this is cleaning near open food.<br /><br />Failure to rinse in accordance with the manufacturer's instructions may also result in chemical taint of food<br /><br />Physical hazards like brush bristles may also occur from defective cleaning equipment or inappropriate cleaning equipment such as soft wooden handles. ]]></transcript>
+	
+	
+	<page sound="sound1" clearTime="54">
+	
+	<activities>
+			<activity>Image</activity>
+			<activity>Bullets</activity>
+			<activity>AddText</activity>
+			<activity>Transcript</activity>
+	</activities>
+	
+	<placeImage x="110" y="160" stop="yes" name="bkg" >
+			<moveImage delay="0" x="110" y="165" alpha="1" />
+		</placeImage> 
+			 
+		
+	<placeImage x="125" y="150" stop="yes" name="image1" center="true" >
+			<moveImage delay="0.7" x="125" y="155" alpha="1" />
+		</placeImage> 
+		
+		
+		<statement delay="2" x="450" y="200" width="400" remove="25" ><![CDATA[<font color='#7446A2'><b>Microbiological hazards:</b></font>]]></statement> 
+	
+	<bullet delay="5.5" x="480" y="245" width="400" remove="21.5"><![CDATA[Redistribution of contamination due to unsatifsactory cleaning]]></bullet> 
+	<bullet delay="13" x="480" y="290" width="400" remove="14"><![CDATA[Failure to destroy pathogens]]></bullet>
+	<bullet delay="15" x="480" y="335" width="400" remove="12"><![CDATA[Failure to clean and disinfect cleaning equipment after use]]></bullet>
+	<bullet delay="19.5" x="480" y="380" width="400" remove="7.5"><![CDATA[Cross-contamination, especially from cloths.]]></bullet>
+	
+	<statement delay="28" x="450" y="200" width="400" remove="18" ><![CDATA[<font color='#7446A2'><b>Chemical hazards:</b></font>]]></statement> 
+	
+	<bullet delay="28" x="480" y="245" width="400" remove="18"><![CDATA[Contamination due to inappropriate use or storage of chemicals]]></bullet> 
+	<bullet delay="39.5" x="480" y="290" width="400" remove="6.5"><![CDATA[Failure to rinse properly.]]></bullet>  
+	
+	<statement delay="48" x="450" y="200" width="400" ><![CDATA[<font color='#7446A2'><b>Physical hazards:</b></font>]]></statement> 
+	
+	<bullet delay="50" x="480" y="245" width="400" ><![CDATA[Contamination from defective cleaning equipment e.g. brush bristles]]></bullet> 
+	<bullet delay="51" x="480" y="305" width="400" ><![CDATA[Inappropriate cleaning equipment, e.g. soft wooden handles.]]></bullet> 
+	
+
+			
+	
+	
+	</page>
+</content>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	
+	<LoaderMax name="pageLoader5" load="true">
+	
+		<SWFLoader name="Microbiology" autoPlay="false" url="pages/assets/m01p05/image1.swf" />
+		<SWFLoader name="Physical" autoPlay="false" url="pages/assets/m01p05/image2.swf" />
+		<SWFLoader name="Chemical" autoPlay="false" url="pages/assets/m01p05/image3.swf" />
+		<SWFLoader name="Allergenic" autoPlay="false" url="pages/assets/m01p05/image4.swf" />
+		<SWFLoader name="box1" autoPlay="false" url="pages/assets/m01p05/box.swf" />
+		<SWFLoader name="box2" autoPlay="false" url="pages/assets/m01p05/box.swf" />
+		<SWFLoader name="box3" autoPlay="false" url="pages/assets/m01p05/box.swf" />
+		<SWFLoader name="box4" autoPlay="false" url="pages/assets/m01p05/box.swf" />
+		<SWFLoader name="keywordsicon" autoPlay="false" extras="selected, done" url="../common/commonassets/keywords.swf" />
+		
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m01p05/m01p05.mp3" />
+		<MP3Loader name="sound2" autoPlay="false" url="pages/assets/m01p05/pop.mp3" />
+
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[We now know what a food hazard is-anything that has the potential to cause harm to the consumer.<br/><br/>There are four types of hazard:<br /><li>(Micro) biological - such as bacteria, viruses, moulds and parasites;</li><br /><li>Physical - such as glass, screws, drawing pins, and stones;</li><br /><li>Chemical - such as insecticides and cleaning agents;</li><br /><li>Allergenic - food that can cause allergic reactions, such as peanuts and sesame seeds.</li><br /><br />Click on the icon to find out more about your responsibilities as a food handler. When you have finished, click 'Next' to continue.]]></transcript>
+	
+	<transcript sound="sound2"><![CDATA[Apart from knowing the types of hazards and how to control them, it is also important to know your company’s reporting procedures, for example, if there is a glass breakage or you see a rodent.<br /><br />Your responsibility is:<li>To learn about food safety and keep your knowledge up-to-date;</li><li>To control potential hazards and practice good food safety;</li><li>To protect your customers.</li>]]></transcript>
+
+	<page sound="sound1">
+	
+		<activities>
+			<activity>Image</activity>
+			<activity>AddText</activity>
+			<activity>ActivityText</activity>
+			<activity>ClickRevealStandard</activity>
+			<activity>Transcript</activity>
+		</activities> 
+
+		<placeImage x="59" y="155" name="Microbiology" >
+			<moveImage delay="8.5" x="59" y="160" alpha="1" speed="1"/>
+		</placeImage>
+		
+		<placeImage x="296.25" y="155" name="Physical" >
+			<moveImage delay="15" x="296.25" y="160" alpha="1" speed="1"  />
+		</placeImage>
+		
+		<placeImage x="533.5" y="155" name="Chemical">
+			<moveImage delay="21" x="533.5" y="160" alpha="1" speed="1"/>
+		</placeImage>
+		
+		<placeImage x="770.75" y="155" name="Allergenic">
+			<moveImage delay="26" x="770.75" y="160" alpha="1" speed="1"/>
+		</placeImage>
+		
+		<placeImage x="59" y="345" name="box1" >
+			<moveImage delay="8.5" x="59" y="350" alpha="1" speed="1"/>
+		</placeImage>
+		
+		<placeImage x="296.25" y="345" name="box2" >
+			<moveImage delay="15" x="296.25" y="350" alpha="1" speed="1" />
+		</placeImage>
+		
+		<placeImage x="533.5" y="345" name="box3">
+			<moveImage delay="21" x="533.5" y="350" alpha="1" speed="1"/>
+		</placeImage>
+		
+		<placeImage x="770.75" y="345" name="box4">
+			<moveImage delay="26" x="770.75" y="350" alpha="1" speed="1"/>
+		</placeImage>
+		
+		<statement delay="1" x="50" y="100" width="900"><![CDATA[<b>A food hazard is anything that has the potential to cause harm to the consumer.</b>]]></statement>
+
+		<statement delay="8.5" x="59" y="360" width="175" align="center"><![CDATA[<font color='#7446A2'><b>(Micro) biological</b></font><br/>bacteria, viruses, moulds and parasites.]]></statement>
+
+		<statement delay="15" x="296.25" y="360" width="175" align="center"><![CDATA[<font color='#7446A2'><b>Physical</b></font><br/>such as glass, screws, drawing pins, and stones.]]></statement>
+
+		<statement delay="21" x="533.5" y="360" width="175" align="center"><![CDATA[<font color='#7446A2'><b>Chemical</b></font><br/>such as insecticides and cleaning agents.]]></statement>
+		
+		<statement delay="26" x="770.75" y="360" width="175" align="center"><![CDATA[<font color='#7446A2'><b>Allergenic</b></font><br/>such as peanuts and sesame seeds.]]></statement>
+
+	<instructionOptions x="145" y="520" width="600" delay="33" style="slide">
+			<instruction><![CDATA[<b>Click on the icon to find out more about your responsibilities as a food handler.</b>]]></instruction>
+		</instructionOptions>
+
+<!--Click reveal-->
+		<clickrevealOptions mouseaction="click" closebutton="yes" timedremoval="no" style="fadein" delayactivation="42">
+		
+			<clickreveal x="48" y="205" width="560" height="270" bg="yes">
+				<clicker x="75" y="500" revealDelay="33">keywordsicon</clicker>
+				<page sound="sound2">
+					<activities>
+						<activity>AddText</activity>
+						<activity>Image</activity>
+						<activity>Bullets</activity>
+					</activities>
+					
+					<statement delay="0" x="20" y="15" width="520"><![CDATA[Apart from knowing the types of hazards and how to control them, it is also important to know your company’s reporting procedures, for example, if there is a glass breakage or you see a rodent.]]></statement>	
+					<statement delay="0" x="20" y="90" width="450"><![CDATA[<b>Your responsibility is:</b]]></statement>
+					
+					<bullet delay="0" x="50" y="135" width="450"><![CDATA[To learn about food safety and keep up-to-date]]></bullet>
+					<bullet delay="0" x="50" y="180" width="450"><![CDATA[To control hazards and practise good food safety]]></bullet>
+					<bullet delay="0" x="50" y="225" width="450"><![CDATA[To protect your customers.]]></bullet>
+
+				</page>
+			
+			</clickreveal>
+			
+		</clickrevealOptions>
+
+	</page>
+
+	
+</content>

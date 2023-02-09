@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<content>
+	<LoaderMax name="pageLoader2" load="true">
+	
+		<SWFLoader name="image1" autoPlay="false" url="pages/assets/m05p02/image1.swf" />
+		<SWFLoader name="lawicon" autoPlay="false" extras="selected, done" url="../common/commonassets/law.swf" />
+		
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m05p02/m05p02.mp3" />
+	
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[Let us look at the importance of a food safety management system.<br /><br />To ensure that risks to food safety are minimised, food sector businesses are required to operate a food safety management system.<br /><br />Hazard Analysis Critical Control Point, or HACCP, is a food safety management system which identifies and controls hazards which are significant for food safety.<br /><br />The law requires all food safety management systems to be documented and records maintained proportional to the size of the business.<br /><br />Click the icon to learn what the law says about implementing food safety management systems. When you have finished, click the ‘Next’ button to continue.]]></transcript>			
+	
+	
+	<page sound="sound1">
+	
+		<activities>
+			<activity>Image</activity>
+			<activity>AddText</activity>
+			<activity>Bullet</activity>
+			<activity>ActivityText</activity>
+			<activity>ClickRevealStandard</activity>
+			<activity>Transcript</activity>
+		</activities> 
+
+	<placeImage x="100" y="140" name="image1" >
+			<moveImage delay="0.6" x="100" y="145" alpha="1"  scaleX="1" scaleY="1" />
+		</placeImage> 
+	
+	<statement delay="4" x="530" y="180" width="400" ><![CDATA[Food sector businesses are required to operate a food safety management system.]]></statement> 
+	
+	<statement delay="11.8" x="530" y="240" width="400" ><![CDATA[Hazard Analysis Critical Control Point (HACCP) is a food safety management system that identifies and controls hazards which are significant for food safety.]]></statement> 
+	
+	<statement delay="22.5" x="530" y="315" width="400" ><![CDATA[The law requires all food safety management systems to be documented and records maintained proportional to the size of the business.]]></statement> 
+	
+
+	
+	<instructionOptions x="145" y="520" width="600" delay="30.6" style="slide">
+				
+	<instruction><![CDATA[<b>Click on the icon to learn what the law says about implementing food safety management systems.</b>]]></instruction>
+		</instructionOptions>
+
+	
+	<!--Click reveal-->
+		<clickrevealOptions mouseaction="click" closebutton="yes" timedremoval="no" style="fadein" delayactivation="38.7">
+			<clickreveal x="48" y="90" width="900" height="410" bg="yes">
+				<clicker x="75" y="500" revealDelay="30.6">lawicon</clicker>
+
+				<!--FEEDBACK-->
+
+			<page>
+					<activities>
+						<activity>AddText</activity>
+					</activities>
+					
+					<statement delay="0" x="20" y="20" width="860" ><![CDATA[<b><font color='#7446A2'>Food business operators must:</b></font>]]></statement> 
+ 
+
+					<statement delay="0" x="20" y="65" width="860"><![CDATA[1) Identify the hazards (what could go wrong) and the control measures to prevent things going wrong<br/><br/>2) Identify the critical control points (CCPs) those steps in the preparation or production of food which must be controlled as they are critical to food safety<br/><br/>3) Establish critical limits for control measures at each CCP, for example, cooking food to a core temperature of 75°C<br/><br/>4) Monitor (check) the control measures at each CCP to ensure the process is under control, i.e prevent problems occurring<br/><br/>5) Establish corrective actions that need to be taken if critical limits are breached i.e when something goes wrong<br/><br/>6) Establish procedures for verification i.e prove that the HACCP system is working<br/><br/>7) Establish documentation and records for the HACCP system.<br/><br/>Review the system if there are any changes.<br/><br/>However, 'Regulations (EC) 852/2004' does allow flexibility and, in addition to codex HACCP, many other food safety management systems have been developed including Safer Food, Better Business(SFBB), CookSafe and Safe Catering.]]></statement> 
+ 
+
+				</page>
+				<!--FEEDBACK-->
+			</clickreveal>
+			
+		</clickrevealOptions>
+			
+	
+		</page>
+</content>

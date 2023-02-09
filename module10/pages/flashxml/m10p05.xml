@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	
+	<LoaderMax name="pageLoader5" load="true">
+	
+		<SWFLoader name="image1" autoPlay="false" url="pages/assets/m10p05/image1.swf" />
+		<SWFLoader name="image2" autoPlay="false" url="pages/assets/m10p05/image2.swf" />
+		<SWFLoader name="keywordsicon" autoPlay="false" extras="over, selected, done" url="../common/commonassets/law.swf" />
+		
+		<MP3Loader name="keyWords" autoPlay="false" url="pages/assets/m10p05/m10p05key.mp3" />
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m10p05/m10p05.mp3" />
+		
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[The main defence under food legislation is known as the due-diligence defence.<br /><br />It enables a defendant to be acquitted of an offence if they prove they 'took all reasonable precautions and exercised all due diligence to avoid committing the offence'.<br /><br />To support a due diligence defence, accurate, written records are recommended.<br /><br />Compliance with industry guides to good hygiene practice will also assist a due-diligence defence.<br /><br />Click the icon to learn about your responsibility regarding food safety law.]]></transcript>
+
+
+		
+	
+	<page sound="sound1" >
+	
+		<activities>
+			<activity>Image</activity>
+			<activity>AddText</activity>
+			<activity>Bullets</activity>
+			<activity>ActivityText</activity>
+			<activity>ClickRevealStandard</activity>
+			<activity>Transcript</activity>
+		</activities>  
+
+
+		<placeImage x="500" y="90" name="image1">
+			<moveImage delay="0.5" x="500" y="100" alpha="1" speed="1"/>
+		</placeImage>
+		
+		<placeImage x="700" y="202" name="image2">
+			<moveImage delay="4" x="700" y="212" alpha="1" speed="1"/>
+		</placeImage>
+		
+		
+		
+		
+		<statement delay="2.5" x="50" y="110" width="400" ><![CDATA[Due diligence is the main defence under food legislation.]]></statement>
+		
+		<statement delay="5.4" x="50" y="155" width="400" ><![CDATA[It enables a defendant to be acquitted if they prove they <i>‘took all reasonable precautions and exercised all due diligence to avoid committing the offence’</i>.]]></statement>
+		
+		
+		
+		
+		
+		<statement delay="16.6" x="50" y="235" width="360" ><![CDATA[To support a due-diligence defence:]]></statement>
+
+		<bullet delay="19.2" x="90" y="280" width="320" ><![CDATA[Accurate written records are recommended ]]></bullet>
+		
+		<bullet delay="22.4" x="90" y="325" width="320" ><![CDATA[Compliance with industry guides to good hygiene practice will assist.]]></bullet>
+		
+
+		
+		<instructionOptions x="145" y="520" width="600" delay="30" style="slide">
+			<instruction><![CDATA[<b>Click the icon to learn about your responsibility regarding food safety law.</b>]]></instruction>
+		</instructionOptions>
+		
+<!--Click reveal-->
+		<clickrevealOptions mouseaction="click" closebutton="yes" timedremoval="no" style="fadein" delayactivation="8.4">
+			<clickreveal x="48" y="400" width="370" height="90" bg="yes">
+				<clicker x="75" y="495" revealDelay="30">keywordsicon</clicker>
+				<!--FEEDBACK-->
+				<page sound="keyWords">
+					<activities>
+						<activity>AddText</activity>
+						<activity>Image</activity>
+						<activity>Bullets</activity>
+					</activities>
+					
+					<statement delay="0" x="20" y="20" width="310"><![CDATA[To know the law that applies to food handlers and what you need to do to comply with the law.]]></statement>
+				
+					
+				</page>
+				<!--FEEDBACK-->
+			</clickreveal>
+			
+		</clickrevealOptions>
+
+		
+
+	</page>
+	
+	
+	
+</content>

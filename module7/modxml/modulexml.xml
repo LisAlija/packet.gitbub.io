@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><content>
+
+	<LoaderMax name="moduleLoader" load="true">
+		
+		<!-- pages -->
+		<XMLLoader pageLoader="pageLoaderHelp" name="starterPage" autoPlay="false" estimatedBytes="249856" url="../common/globalxml/starterpage.xml"/>
+		<XMLLoader pageLoader="pageLoader1" name="page1" autoPlay="false" estimatedBytes="823296" url="pages/flashxml/m07p01.xml"/>
+		<XMLLoader pageLoader="pageLoader3" name="page3" autoPlay="false" estimatedBytes="716800" url="pages/flashxml/m07p03.xml"/>
+		<XMLLoader pageLoader="pageLoader5" name="page5" autoPlay="false" estimatedBytes="2187264" url="pages/flashxml/m07p05.xml"/>
+		<XMLLoader pageLoader="pageLoader6" name="page6" autoPlay="false" estimatedBytes="11436032" url="pages/flashxml/m07p06.xml"/>		
+		
+		<XMLLoader pageLoader="pageLoaderAssessment" name="assessment" autoPlay="false" estimatedBytes="2416640" url="pages/flashxml/assessment.xml"/>
+	
+	</LoaderMax>
+	
+	<information>
+		<coursetitle>Food Safety Level 2</coursetitle>
+		<modtitle>Food Premises and Equipment</modtitle>
+		<withAssessment>true</withAssessment>
+		<scorm>true</scorm>
+	<iAmDeveloping>false</iAmDeveloping>
+
+		
+	</information>
+	
+			<!---->
+	<page xmlName="starterPage">Course Navigation</page>		
+	<page xmlName="page1">Introduction</page>
+	<page xmlName="page3">Food premises</page>
+	<page xmlName="page5">Storage and disposal of waste</page>
+	<page xmlName="page6">External waste storage</page>
+	
+	
+	<page xmlName="assessment">Assessment</page>
+	
+</content>

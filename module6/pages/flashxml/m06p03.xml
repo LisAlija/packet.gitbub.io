@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	
+	<LoaderMax name="pageLoader3" load="true">
+		
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m06p03/m06p03a.mp3" />	
+		<MP3Loader name="sound2" autoPlay="false" url="pages/assets/m06p03/m06p03b.mp3" />	
+		
+		<SWFLoader name="bkg" autoPlay="false" url="pages/assets/m06p03/bkg.swf" />
+		<SWFLoader name="bkg-tint" autoPlay="false" url="pages/assets/m06p03/bkg-tint.swf" />
+		<SWFLoader name="block" autoPlay="false" url="pages/assets/m06p03/block.swf" />
+		
+		<SWFLoader name="icon1" autoPlay="false" extras="over, selected, done" url="pages/assets/m06p03/icon1.swf" />
+		<SWFLoader name="icon2" autoPlay="false" extras="over, selected, done" url="pages/assets/m06p03/icon2.swf" />
+		<SWFLoader name="icon4" autoPlay="false" extras="over, selected, done" url="pages/assets/m06p03/icon4.swf" />
+		<SWFLoader name="icon5" autoPlay="false" extras="over, selected, done" url="pages/assets/m06p03/icon5.swf" />
+		<SWFLoader name="icon6" autoPlay="false" extras="over, selected, done" url="pages/assets/m06p03/icon6.swf" />
+		<SWFLoader name="icon7" autoPlay="false" extras="over, selected, done" url="pages/assets/m06p03/icon7.swf" />
+		<SWFLoader name="icon8" autoPlay="false" extras="over, selected, done" url="pages/assets/m06p03/icon8.swf" />
+		<SWFLoader name="icon9" autoPlay="false" extras="over, selected, done" url="pages/assets/m06p03/icon9.swf" />
+		<SWFLoader name="icon10" autoPlay="false" extras="over, selected, done" url="pages/assets/m06p03/icon10.swf" />
+		<SWFLoader name="icon11" autoPlay="false" extras="over, selected, done" url="pages/assets/m06p03/icon11.swf" />
+		<SWFLoader name="icon12" autoPlay="false" extras="over, selected, done" url="pages/assets/m06p03/icon12.swf" />
+		
+		<SWFLoader name="dragger1" autoPlay="false" url="pages/assets/m06p03/dragger1.swf" />
+		<SWFLoader name="dragger2" autoPlay="false" url="pages/assets/m06p03/dragger2.swf" />
+		<SWFLoader name="dragger4" autoPlay="false" url="pages/assets/m06p03/dragger4.swf" />
+		<SWFLoader name="dragger5" autoPlay="false" url="pages/assets/m06p03/dragger5.swf" />
+		<SWFLoader name="dragger6" autoPlay="false" url="pages/assets/m06p03/dragger6.swf" />
+		<SWFLoader name="dragger7" autoPlay="false" url="pages/assets/m06p03/dragger7.swf" />
+		<SWFLoader name="dragger8" autoPlay="false" url="pages/assets/m06p03/dragger8.swf" />
+		<SWFLoader name="dragger9" autoPlay="false" url="pages/assets/m06p03/dragger9.swf" />
+		<SWFLoader name="dragger10" autoPlay="false" url="pages/assets/m06p03/dragger10.swf" />
+		<SWFLoader name="dragger11" autoPlay="false" url="pages/assets/m06p03/dragger11.swf" />
+		<SWFLoader name="dragger12" autoPlay="false" url="pages/assets/m06p03/dragger12.swf" />
+
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[Carefully examine the illustration and identify the personal hygiene hazards.<br /><br />Identify the personal hygiene hazards by clicking on them.]]></transcript>
+	<transcript sound="sound2"><![CDATA[Now drag and drop them into the MOST appropriate category.]]></transcript>
+
+	<page sound="sound1" noRemove="true">
+		<activities>
+				<activity>Image</activity>
+				<activity>ClickRevealStandard</activity>
+				<activity>ActivityText</activity>
+				<activity>AddText</activity>
+		</activities>
+
+		<placeImage x="50" y="145" name="bkg" >
+			<moveImage delay="0.5" x="50" y="145" alpha="1" speed="1"/>
+		</placeImage>
+
+		<instructionOptions x="50" y="100" width="900" delay="1" >
+			<instruction><![CDATA[Carefully examine the illustration and identify the hazards by clicking on them.]]></instruction>
+		</instructionOptions>
+
+<!--Click reveal-->
+
+		<clickrevealOptions mouseaction="click" closebutton="no" timedremoval="no" style="fadein" delayactivation="1.2">
+
+			<clickreveal x="0" y="0" >
+				<clicker x="129.6" y="154" revealDelay="1">icon1</clicker>
+				<page >
+					<activities>
+					</activities>
+				</page>
+			</clickreveal>
+			
+			<clickreveal x="0" y="0" >
+				<clicker x="158" y="215" revealDelay="1">icon2</clicker>
+				<page >
+					<activities>
+					</activities>
+				</page>
+			</clickreveal>
+			
+			<clickreveal x="0" y="0" >
+				<clicker x="190" y="363" revealDelay="1">icon4</clicker>
+				<page >
+					<activities>
+					</activities>
+				</page>
+			</clickreveal>
+			
+			
+			<clickreveal x="0" y="0" >
+				<clicker x="292" y="189.6" revealDelay="1">icon5</clicker>
+				<page >
+					<activities>
+					</activities>
+				</page>
+			</clickreveal>
+			
+			
+			<clickreveal x="0" y="0" >
+				<clicker x="345" y="320" revealDelay="1">icon6</clicker>
+				<page >
+					<activities>
+					</activities>
+				</page>
+			</clickreveal>
+			
+			
+			<clickreveal x="0" y="0" >
+				<clicker x="500" y="220" revealDelay="1">icon7</clicker>
+				<page >
+					<activities>
+					</activities>
+				</page>
+			</clickreveal>
+			
+			
+			<clickreveal x="0" y="0" >
+				<clicker x="445" y="255" revealDelay="1">icon8</clicker>
+				<page >
+					<activities>
+					</activities>
+				</page>
+			</clickreveal>
+			
+			
+			<clickreveal x="0" y="0" >
+				<clicker x="530" y="325" revealDelay="1">icon9</clicker>
+				<page >
+					<activities>
+					</activities>
+				</page>
+			</clickreveal>
+			
+			
+			<clickreveal x="0" y="0" >
+				<clicker x="445" y="335" revealDelay="1">icon10</clicker>
+				<page >
+					<activities>
+					</activities>
+				</page>
+			</clickreveal>
+			
+			
+			<clickreveal x="0" y="0" >
+				<clicker x="520" y="515" revealDelay="1">icon11</clicker>
+				<page >
+					<activities>
+					</activities>
+				</page>
+			</clickreveal>
+			
+			
+			<clickreveal x="0" y="0" >
+				<clicker x="270" y="228" revealDelay="1">icon12</clicker>
+				<page >
+					<activities>
+					</activities>
+				</page>
+			</clickreveal>
+			
+			
+			
+			
+			
+			
+		</clickrevealOptions>
+	
+	</page>
+
+	<page sound="sound2">
+	
+		<activities>
+				<activity>Image</activity>
+				<activity>DragDropToTargets</activity>
+				<activity>ActivityText</activity>
+				<activity>AddText</activity>
+				<activity>Transcript</activity>
+		</activities>
+		
+	
+		
+		<placeImage x="40" y="90" name="block" width="930"  >
+			<moveImage delay="0" x="40" y="90" alpha="1" speed="0.5" />
+		</placeImage>
+		
+		<placeImage x="50" y="145" name="bkg-tint" >
+			<moveImage delay="1" x="50" y="145" alpha="1" speed="0.5"/>
+		</placeImage>
+		
+		
+		
+		<instructionOptions x="50" y="100" width="900" delay="2.5" >
+			<instruction><![CDATA[Drag and drop each hazard into the appropriate category on the right.]]></instruction>
+		</instructionOptions>
+
+		<statement delay="1" x="760" y="210" width="210" align="right" ><![CDATA[<b>Allergenic</b>]]></statement>
+
+		<statement delay="1" x="760" y="330" width="210" align="right" ><![CDATA[<b>Physical</b>]]></statement>
+
+		<statement delay="1" x="760" y="450" width="210" align="right" ><![CDATA[<b>Microbiological</b>]]></statement>
+
+
+	<draganddrop delay="1" targetVisible="yes" > 
+		
+		<target name="1" targetx="710" targety="155" targetWidth="270" targetHeight="90">a</target>
+		<target name="2" targetx="710" targety="275" targetWidth="270" targetHeight="90">a</target>
+		<target name="3" targetx="710" targety="395" targetWidth="270" targetHeight="90">a</target>
+		
+		
+		<drag>
+			<dragger startingx="148.2" startingy="156.8" target="2" finishx="720" finishy="285" order="1">dragger1</dragger>
+		</drag>
+		
+		<drag>
+			<dragger startingx="162.75" startingy="220.3" target="3" finishx="720" finishy="405" order="1">dragger2</dragger>
+		</drag>	
+		
+		<drag>
+			<dragger startingx="197.3" startingy="369" target="3" finishx="770" finishy="405" order="1">dragger4</dragger>
+		</drag>
+		
+		<drag>
+			<dragger startingx="305" startingy="192" target="2" finishx="770" finishy="285" order="1">dragger5</dragger>
+		</drag>
+		
+		
+		<drag>
+			<dragger startingx="351.45" startingy="324.2" target="2" finishx="820" finishy="285" order="1">dragger6</dragger>
+		</drag>
+		
+		
+		<drag>
+			<dragger startingx="503.4" startingy="225.5" target="2" finishx="870" finishy="285" order="1">dragger7</dragger>
+		</drag>
+		
+		
+		<drag>
+			<dragger startingx="454" startingy="257" target="3" finishx="820" finishy="405" order="1">dragger8</dragger>
+		</drag>
+		
+		
+		<drag>
+			<dragger startingx="537.3" startingy="327.5" target="3" finishx="870" finishy="405" order="1">dragger9</dragger>
+		</drag>
+		
+		
+		<drag>
+			<dragger startingx="457" startingy="342" target="1" finishx="720" finishy="165" order="1">dragger10</dragger>
+		</drag>
+		
+		
+		<drag>
+			<dragger startingx="540" startingy="520" target="2" finishx="920" finishy="285" order="1">dragger11</dragger>
+		</drag>
+		
+		
+		<drag>
+			<dragger startingx="280" startingy="230.3" target="3" finishx="920" finishy="405" order="1">dragger12</dragger>
+		</drag>
+		
+		
+		
+		
+	</draganddrop>	
+	
+
+	</page>
+
+	
+	
+	
+	
+	
+	
+</content>

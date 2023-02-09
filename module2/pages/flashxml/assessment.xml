@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	<LoaderMax name="pageLoaderAssessment" load="true">
+		<SWFLoader name="correctMC" autoPlay="false" url="../common/commonassets/assessment_right.swf" />
+		<SWFLoader name="preMC" autoPlay="false" url="../common/commonassets/assessment_pre.swf" />
+		<SWFLoader name="incorrectMC" autoPlay="false" url="../common/commonassets/assessment_wrong.swf" />
+		<MP3Loader name="before_assessment" autoPlay="false" url="../common/commonassets/before_assessment.mp3" />
+		<MP3Loader name="passed_module" autoPlay="false" url="../common/commonassets/passed_module.mp3" />
+		<MP3Loader name="review_short_course" autoPlay="false" url="../common/commonassets/review_short_course.mp3" />
+		<MP3Loader name="try_again" autoPlay="false" url="../common/commonassets/try_again.mp3" />
+		<MP3Loader name="failed" autoPlay="false" url="../common/commonassets/failed.mp3" />
+		
+	</LoaderMax>
+	
+	<transcript sound="before_assessment"><![CDATA[See on-screen text.]]></transcript>
+	
+	<page clearTime="14" sound="before_assessment">
+		<activities>
+			<activity>Image</activity>
+			<activity>AddText</activity>
+			<activity>Transcript</activity>
+		</activities>
+		
+		<placeImage x="172" y="165" name="preMC">
+			<moveImage delay="0" x="172" y="165" alpha="1" speed="0"/>
+		</placeImage>
+		<statement delay="0" x="220" y="205" width="440" ><![CDATA[<b>To complete this module you need to pass the following assessment; the passmark is 100%.<br /><br />We recommend you read the questions carefully before answering. Once you have moved on you cannot return to previous questions.</b>]]></statement> 
+	</page>
+	
+	<page>
+	<activities>
+			<activity>Assessment</activity>
+	</activities>
+	
+	<assessmentOptions>
+		 <postorpre>post</postorpre>
+		 <noofqspermod>3</noofqspermod>
+		 <tolerance>2</tolerance>
+		
+		 <bgX>172</bgX>
+		 <bgY>130</bgY>
+		 <quFontColour>0xffffff</quFontColour>
+		 <quFontSize>16</quFontSize>
+		 <quX>305</quX>
+		 <quY>183</quY>
+		 
+		 <ansPanelX>235</ansPanelX>
+		 <ansPanelY>263</ansPanelY>
+		 <ansPanelWidth>540</ansPanelWidth>
+		 <ansFontSize>15</ansFontSize>
+		 <ansFontColour>0xffffff</ansFontColour>
+		 <ansBgColour>0xA17AC7</ansBgColour>
+		 <ansRoColour>0x63CCF2</ansRoColour>
+		 <ansSelColour>0x27bcf2</ansSelColour>
+		 <!-- <ansShade>false</ansShade> -->
+		 
+		
+	
+		<question refPageNo="8" modNo="2">
+    		<text width="540"><![CDATA[<b>Which of the following statements regarding spores is correct?</b>]]></text>
+			<ans correct="0"><![CDATA[<b>Spores cause food to develop bad smells</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>Spores survive high temperatures, drying and disinfection</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Spores can, under optimum conditions, divide into two every 10 minutes</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Cooking will destroy most harmful spores</b>]]></ans>
+		</question>
+
+		<question refPageNo="7" modNo="2">
+    		<text width="540"><![CDATA[<b>What is the range of temperatures known as the "danger zone"?</b>]]></text>
+			<ans correct="0"><![CDATA[<b>Those that could scald food handlers</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>Within which food poisoning bacteria are most likely to grow</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>That which allows bacteria to survive</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>The temperatures used to ensure all bacteria are destroyed</b>]]></ans>
+		</question>
+		
+		<question refPageNo="6" modNo="2">
+    		<text width="540"><![CDATA[<b>Which of the following are all required for the multiplication of food poisoning bacteria?</b>]]></text>
+			<ans correct="0"><![CDATA[<b>Food, dirt and warmth</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Warmth, acid and water</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>Warmth, food and time</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Time, warmth and dirt</b>]]></ans>
+		</question>
+			
+		<question refPageNo="9" modNo="2">
+    		<text width="540"><![CDATA[<b>Which of the following statements is true?</b>]]></text>
+			<ans correct="1"><![CDATA[<b>Food poisoning bacteria are unlikely to grow in acidic foods</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Most bacteria are capable of causing illness</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Bacteria are microscopic organisms only found on people, raw food and soil</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Raw foods are rarely contaminated with food poisoning bacteria</b>]]></ans>
+		</question>
+		
+		<question refPageNo="7" modNo="2">
+    		<text width="540"><![CDATA[<b>Which of the following is within the danger zone temperature?</b>]]></text>
+			<ans correct="0"><![CDATA[<b>3&#176;C</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>100&#176;C</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>50&#176;C</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>70&#176;C</b>]]></ans>
+		</question>
+		
+		<question refPageNo="6" modNo="2">
+    		<text width="540"><![CDATA[<b>In ideal conditions, how quickly can some food poisoning bacteria double in number?</b>]]></text>
+			<ans correct="0"><![CDATA[<b>Every 2-4 minutes</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Every 30-60 minutes</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Every hour</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>Every 10-20 minutes</b>]]></ans>
+		</question>
+		
+		<question refPageNo="9" modNo="2">
+    		<text width="540"><![CDATA[<b>In which of the following foods do food poisoning bacteria best multiply in?</b>]]></text>
+			<ans correct="0"><![CDATA[<b>Vinegar</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Dried rice</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>Cooked meat</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Frozen food</b>]]></ans>
+		</question>
+		
+		<question refPageNo="10" modNo="2">
+    		<text width="540"><![CDATA[<b>Which of the following statements is true?</b>]]></text>
+			<ans correct="0"><![CDATA[<b>Freezing destroys all food poisoning bacteria</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Bacteria can multiply slowly in frozen food</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>Cooking destroys most bacteria</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>It is safe to store high-risk foods within the danger zone</b>]]></ans>
+		</question>
+
+		<question refPageNo="7" modNo="2">
+    		<text width="540"><![CDATA[<b>Which of the following will accelerate food spoilage?</b>]]></text>
+			<ans correct="0"><![CDATA[<b>Freezing the food</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Storing raw and high-risk food together</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>Poor temperature control</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Cooling high-risk food</b>]]></ans>
+		</question>
+		
+		<question refPageNo="12" modNo="2">
+    		<text width="540"><![CDATA[<b>Which of the following often causes food spoilage?</b>]]></text>
+			<ans correct="0"><![CDATA[<b>Acids</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Preservatives</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Viruses</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>Moulds</b>]]></ans>
+		</question>
+		
+		<question refPageNo="12" modNo="2">
+    		<text width="540"><![CDATA[<b>Which of the following statements is correct?</b>]]></text>
+			<ans correct="0"><![CDATA[<b>Food spoilage is always prevented by temperatures below 7&#176;C</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Food will not spoil if it is thoroughly cooked</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Food which is spoilt looks, tastes and smells normal</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>Spoilage can be prevented by good hygiene</b>]]></ans>
+		</question>
+		
+		<question refPageNo="12" modNo="2">
+    		<text width="540"><![CDATA[<b>Which of the following are all signs of spoilage?</b>]]></text>
+			<ans correct="1"><![CDATA[<b>The presence of mould, discolouration and unusual odour</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Discolouration, the presence of bacteria and low temperatures</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>An unusual odour, the presence of enzymes and blood</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>The presence of any insects, dented cans and no packaging</b>]]></ans>
+		</question>
+		
+		<passed image="correctMC" centre="true" sound="passed_module"><![CDATA[Well done you have answered all of the questions correctly and have passed the module.<br /><br />Use the ‘Save and Exit’ button to leave this module and return to the Learning Management System.]]></passed>
+		<tolwrong image="incorrectMC" sound="try_again" buttontext="Try again" buttonx="230" buttony="400" btnColour="0x673E90" roColour="0xFF9933"><![CDATA[You have not answered all of the questions correctly.<br /><br />Use the Try again button to have another go at the question/s that you did not answer correctly.]]></tolwrong>
+		<intolwrong image="incorrectMC" sound="failed"><![CDATA[You have not passed the assessment.<br /><br />Use the next button to review the module content and then try the assessment again.]]></intolwrong>
+		<intolfirstgowrong image="incorrectMC" sound="failed"><![CDATA[You have not passed the assessment.<br /><br />Use the next button to review the module content and then try the assessment again.]]></intolfirstgowrong>
+		<stillwrong image="incorrectMC" sound="review_short_course"><![CDATA[You have not answered all of the questions correctly.<br /><br />Please use the next button to review a short course tailored to cover the content that you need to revise.<br /><br />When you have finished this, you will be able to try the assessment again.]]></stillwrong>
+		
+		 
+	</assessmentOptions>	 
+		
+	
+	</page>
+</content>

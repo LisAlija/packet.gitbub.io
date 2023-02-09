@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	
+	<LoaderMax name="pageLoader4" load="true">	
+		<SWFLoader name="image1" autoPlay="false" url="pages/assets/m01p04/image1.swf" />
+		<SWFLoader name="image2" autoPlay="false" url="pages/assets/m01p04/image2.swf" />
+		<SWFLoader name="image3" autoPlay="false" url="pages/assets/m01p04/image3.swf" />	
+		<SWFLoader name="lawicon" autoPlay="false" extras="selected, done" url="../common/commonassets/law.swf" />
+		
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m01p04/m01p04.mp3" />
+		<MP3Loader name="sound2" autoPlay="false" url="pages/assets/m01p04/pop.mp3" />
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[If you are a food handler you need to know the good food safety practices you should follow to prevent food poisoning and food complaints.<br/><br/>You have a legal and moral duty to protect your customer's health and to ensure the food you handle is safe to eat.<br/><br/>Click the icon to learn what the law says about training food handlers in food safety.<br/><br/>When you have finished, click the 'Next' button to continue.]]></transcript>
+	
+	<transcript sound="sound2"><![CDATA[Food handlers must be supervised and instructed and/or trained in food hygiene matters commensurate with their work activity.]]></transcript>
+
+	<page sound="sound1">
+	
+		<activities>
+			<activity>Image</activity>
+			<activity>AddText</activity>
+			<activity>ActivityText</activity>	
+			<activity>ClickRevealStandard</activity>
+			<activity>Bullets</activity>
+			<activity>Transcript</activity>
+		</activities>  
+
+		<placeImage x="166" y="120" name="image1">
+			<moveImage delay="0" x="166" y="125" alpha="1" speed="1"/>
+		</placeImage>
+
+		<placeImage x="498" y="120" stop="yes" name="image3" alpha="0">
+			<moveImage delay="6" x="498" y="125" alpha="1"/>
+		</placeImage>
+		
+		<placeImage x="658" y="120" stop="yes" name="image2" alpha="0">
+			<moveImage delay="8" x="658" y="125" alpha="1"/>
+		</placeImage>
+		
+		<statement delay="0" x="77" y="440" width="350" align="center" ><![CDATA[<b>Good food safety practices are essential to prevent food poisoning and food complaints.</b>]]></statement>
+		
+		<statement delay="8" x="560" y="440" width="350" align="center"><![CDATA[<b>It is your legal and moral duty to ensure that the food you handle is safe to eat.<b>]]></statement>
+
+		<instructionOptions x="145" y="520" width="630" delay="14" style="slide">
+			<instruction><![CDATA[<b>Click on the icon to learn what the law says about training food handlers in food safety.</b>]]></instruction>
+		</instructionOptions>
+
+		<clickrevealOptions mouseaction="click" closebutton="yes" timedremoval="no" style="fadein" delayactivation="24">
+			<clickreveal x="48" y="370" width="400" height="120" bg="yes">
+				<clicker x="75" y="500" revealDelay="14">lawicon</clicker>
+				<!--FEEDBACK-->
+				<page sound="sound2">
+					<activities>
+						<activity>AddText</activity>
+						<activity>Transcript</activity>
+						<activity>Image</activity>
+					</activities>
+					
+					<statement delay="0" x="20" y="15" width="340"><![CDATA[Food handlers must be supervised and instructed and/or trained in food hygiene matters commensurate with their work activity.]]></statement>
+										
+				</page>
+				<!--FEEDBACK-->
+			</clickreveal>
+			
+		</clickrevealOptions>
+			
+	</page>
+
+</content>

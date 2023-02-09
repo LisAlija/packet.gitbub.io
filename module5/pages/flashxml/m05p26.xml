@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+  <LoaderMax name="pageLoader26" load="true">
+
+    <SWFLoader name="ham" autoPlay="false" url="pages/assets/m05p26/Ham.swf" />
+    <SWFLoader name="meat" autoPlay="false" url="pages/assets/m05p26/Meat.swf" />
+    <SWFLoader name="rice" autoPlay="false" url="pages/assets/m05p26/Rice.swf" />
+    <SWFLoader name="icecream" autoPlay="false" url="pages/assets/m05p26/Icecream.swf" />
+    <SWFLoader name="soup" autoPlay="false" url="pages/assets/m05p26/Soup.swf" />
+    <SWFLoader name="salad" autoPlay="false" url="pages/assets/m05p26/Salad.swf" />
+    <SWFLoader name="mayo" autoPlay="false" url="pages/assets/m05p26/Mayo.swf" />
+    <SWFLoader name="tinnedTomatoes" autoPlay="false" url="pages/assets/m05p26/TinnedTomatoes.swf" />
+    <SWFLoader name="beans" autoPlay="false" url="pages/assets/m05p26/Beans.swf" />
+    <SWFLoader name="beans2" autoPlay="false" url="pages/assets/m05p26/Beans.swf" />
+    <SWFLoader name="sausages" autoPlay="false" url="pages/assets/m05p26/Sausages.swf" />
+    <SWFLoader name="chicken" autoPlay="false" url="pages/assets/m05p26/Chicken.swf" />
+	
+    <MP3Loader name="sound1" autoPlay="false" url="pages/assets/m05p26/m05p26.mp3" />
+	<MP3Loader name="fb1" autoPlay="false" url="pages/assets/m05p26/fb1.mp3" />
+	<MP3Loader name="fb2" autoPlay="false" url="pages/assets/m05p26/fb2.mp3" />
+	<MP3Loader name="fb3" autoPlay="false" url="pages/assets/m05p26/fb3.mp3" />
+	<MP3Loader name="fb4" autoPlay="false" url="pages/assets/m05p26/fb4.mp3" />
+	<MP3Loader name="fb5" autoPlay="false" url="pages/assets/m05p26/fb5.mp3" />
+	<MP3Loader name="fb6" autoPlay="false" url="pages/assets/m05p26/fb6.mp3" />
+	<MP3Loader name="fb7" autoPlay="false" url="pages/assets/m05p26/fb7.mp3" />
+	<MP3Loader name="fb8" autoPlay="false" url="pages/assets/m05p26/fb8.mp3" />
+	<MP3Loader name="fb9" autoPlay="false" url="pages/assets/m05p26/fb9.mp3" />
+	<MP3Loader name="fb10" autoPlay="false" url="pages/assets/m05p26/fb10.mp3" />
+	<MP3Loader name="fb11" autoPlay="false" url="pages/assets/m05p26/fb11.mp3" />
+	<MP3Loader name="fb12" autoPlay="false" url="pages/assets/m05p26/fb12.mp3" />
+	
+  </LoaderMax>
+
+
+  <transcript sound="sound1"><![CDATA[In this exercise you must inspect the items and decide where each item belongs by selecting an option on the right.]]></transcript>
+  <transcript sound="fb1"><![CDATA[Ice cream should always be stored in the freezer to maintain its quality.]]></transcript>
+  <transcript sound="fb2"><![CDATA[Cooked meats should be stored in the fridge.]]></transcript>
+  <transcript sound="fb3"><![CDATA[Dented cans should always be discarded as the contents cannot be guaranteed as safe.]]></transcript>
+  <transcript sound="fb4"><![CDATA[Food that has passed its best-before date should be discarded.]]></transcript>
+  <transcript sound="fb5"><![CDATA[Raw meats should be kept in the fridge.]]></transcript>
+  <transcript sound="fb6"><![CDATA[Previously opened mayonnaise must be kept in the fridge.]]></transcript>
+  <transcript sound="fb7"><![CDATA[Once open decant into a sealed non-metallic container and use within 7 days.]]></transcript>
+  <transcript sound="fb8"><![CDATA[Food that has passed its use-by date should always be discarded immediately.]]></transcript>
+  <transcript sound="fb9"><![CDATA[Smoked salmon is a ready-to-eat food that should be stored below 8°C, preferably below 5°C to achieve its shelf life and ensure its safety.]]></transcript>
+  <transcript sound="fb10"><![CDATA[Canned beans should be stored in the dry store.]]></transcript>
+  <transcript sound="fb11"><![CDATA[Fresh salad should be kept in the fridge.]]></transcript>
+  <transcript sound="fb12"><![CDATA[Food should always be cooled as quickly as possible before refrigeration. It is perfectly acceptable to cool rice and pasta under cold running water.]]></transcript>
+  
+  <page sound="sound1">
+		<activities>
+			<activity>ActivityText</activity>
+			<activity>AddText</activity>
+			<activity>ScenarioSeriesWithSelectionBtns</activity>
+			<activity>Transcript</activity>
+		</activities>
+		
+		<instructionOptions x="50" y="110" width="850" delay="1">
+			<instruction><![CDATA[Inspect the following items and decide where each item belongs by selecting an option on the right.]]></instruction>					
+		</instructionOptions>
+	
+		<questionSeries delay="1" x="80" y="175" feedback="yes" feedbackdirection="right" transition="slide" style="twoPanel" > 
+		
+		<question width="400"  height="390" colour="0x7A719F" answerPanelWidth="220" answerPanelHeight="330" answerPanelColour="0xECECEC" answerPanelX="630">
+			<questiontext width="400" x="10" y="25"  fontColour="0xffffff" fSize="16"><![CDATA[<b>Vanilla ice cream</b><br />Today's date: 08/12/2015<br />Use-by: 10/12/2015<br />Temperature: -17°C]]></questiontext>
+			<questionImage x="65" y="107">icecream</questionImage> 
+			<answer width="200" height="50" x="640" y="20" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14" ><![CDATA[<b>Bin</b>]]></answer>
+			<answer width="200" height="50" x="640" y="80" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="1" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Freezer</b>]]></answer>
+			<answer width="200" height="50" x="640" y="140" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Fridge</b>]]></answer>
+			<answer width="200" height="50" x="640" y="200" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Drystore</b>]]></answer>
+			<answer width="200" height="50" x="640" y="260" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Running water</b>]]></answer>
+			
+			<feedback width="230" height="320" bgColour="0x999999" textWidth="200" fontColour="0xffffff" fontSize="14">
+				<correctFeedback delay="3" x="25" y="35" sound="fb1"><![CDATA[<b>Correct<br /></b><br />Ice cream should always be stored in the freezer to maintain its quality.]]></correctFeedback>
+				<incorrectFeedback delay="3" x="25" y="35" sound="fb1"><![CDATA[<b>Incorrect<br /></b><br />Ice cream should always be stored in the freezer to maintain its quality.]]></incorrectFeedback>
+			</feedback>
+			<checkBtn width="118" height="30" colour="0x444487" roColour="0xF7810B" fontColour="0xffffff" fontSize="14" x="730">Check Answer</checkBtn>
+		</question>
+		
+	
+	
+		
+		<question width="400"  height="390" colour="0x7A719F" answerPanelWidth="220" answerPanelHeight="330" answerPanelColour="0xECECEC" answerPanelX="630">
+			<questiontext width="400" x="10" y="25"  fontColour="0xffffff" fSize="16"><![CDATA[<b>Cooked roast beef</b><br />Today's date: 08/12/2015<br />Use-by: 08/12/2015<br />Temperature: 4°C]]></questiontext>
+			<questionImage x="65" y="272">ham</questionImage> 
+			<answer width="200" height="50" x="640" y="20" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14" ><![CDATA[<b>Bin</b>]]></answer>
+			<answer width="200" height="50" x="640" y="80" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Freezer</b>]]></answer>
+			<answer width="200" height="50" x="640" y="140" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="1" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Fridge</b>]]></answer>
+			<answer width="200" height="50" x="640" y="200" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Drystore</b>]]></answer>
+			<answer width="200" height="50" x="640" y="260" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Running water</b>]]></answer>
+			
+			<feedback width="230" height="320" bgColour="0x999999" textWidth="200" fontColour="0xffffff" fontSize="14">
+				<correctFeedback delay="3" x="25" y="35" sound="fb2"><![CDATA[<b>Correct<br /><br /></b>Cooked meats should be stored in the fridge.]]></correctFeedback>
+				<incorrectFeedback delay="3" x="25" y="35" sound="fb2"><![CDATA[<b>Incorrect<br /><br /></b>Cooked meats should be stored in the fridge.]]></incorrectFeedback>
+			</feedback>
+			<checkBtn width="118" height="30" colour="0x444487" roColour="0xF7810B" fontColour="0xffffff" fontSize="14" x="730">Check Answer</checkBtn>
+		</question>
+		
+	
+	
+		
+		<question width="400"  height="390" colour="0x7A719F" answerPanelWidth="220" answerPanelHeight="330" answerPanelColour="0xECECEC" answerPanelX="630">
+			<questiontext width="400" x="10" y="25"  fontColour="0xffffff" fSize="16"><![CDATA[<b>Canned Ministrone soup</b><br />Today's date: 08/12/2015<br />Best-before: 15/12/2015<br />Temperature: 4°C]]></questiontext>
+			<questionImage x="120" y="161">soup</questionImage> 
+			<answer width="200" height="50" x="640" y="20" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="1" delay="0" fontColour="0x000000" fontSize="14" ><![CDATA[<b>Bin</b>]]></answer>
+			<answer width="200" height="50" x="640" y="80" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Freezer</b>]]></answer>
+			<answer width="200" height="50" x="640" y="140" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Fridge</b>]]></answer>
+			<answer width="200" height="50" x="640" y="200" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Drystore</b>]]></answer>
+			<answer width="200" height="50" x="640" y="260" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Running water</b>]]></answer>
+			
+			<feedback width="230" height="320" bgColour="0x999999" textWidth="200" fontColour="0xffffff" fontSize="14">
+				<correctFeedback delay="3" x="25" y="35" sound="fb3"><![CDATA[<b>Correct<br /><br /></b>Dented cans should always be discarded as the contents cannot be guaranteed as safe.]]></correctFeedback>
+				<incorrectFeedback delay="3" x="25" y="35" sound="fb3"><![CDATA[<b>Incorrect<br /><br /></b>Dented cans should always be discarded as the contents cannot be guaranteed as safe.]]></incorrectFeedback>
+			</feedback>
+			<checkBtn width="118" height="30" colour="0x444487" roColour="0xF7810B" fontColour="0xffffff" fontSize="14" x="730">Check Answer</checkBtn>
+		</question>
+		
+	
+	
+		
+		<question width="400"  height="390" colour="0x7A719F" answerPanelWidth="220" answerPanelHeight="330" answerPanelColour="0xECECEC" answerPanelX="630">
+			<questiontext width="400" x="10" y="25"  fontColour="0xffffff" fSize="16"><![CDATA[<b>Canned baked beans in tomato sauce</b><br />Today's date: 08/12/2015<br />Best-before: 5/12/2015<br />Temperature: 4°C]]></questiontext>
+			<questionImage x="140" y="174">beans</questionImage> 
+			<answer width="200" height="50" x="640" y="20" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="1" delay="0" fontColour="0x000000" fontSize="14" ><![CDATA[<b>Bin</b>]]></answer>
+			<answer width="200" height="50" x="640" y="80" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Freezer</b>]]></answer>
+			<answer width="200" height="50" x="640" y="140" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Fridge</b>]]></answer>
+			<answer width="200" height="50" x="640" y="200" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Drystore</b>]]></answer>
+			<answer width="200" height="50" x="640" y="260" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Running water</b>]]></answer>
+			
+			<feedback width="230" height="320" bgColour="0x999999" textWidth="200" fontColour="0xffffff" fontSize="14">
+				<correctFeedback delay="3" x="25" y="35" sound="fb4"><![CDATA[<b>Correct<br /><br /></b>Food that has passed its best-before date should be discarded.]]></correctFeedback>
+				<incorrectFeedback delay="3" x="25" y="35" sound="fb4"><![CDATA[<b>Incorrect<br /><br /></b>Food that has passed its best-before date should be discarded.]]></incorrectFeedback>
+			</feedback>
+			<checkBtn width="118" height="30" colour="0x444487" roColour="0xF7810B" fontColour="0xffffff" fontSize="14" x="730">Check Answer</checkBtn>
+		</question>
+		
+	
+	
+		
+		<question width="400"  height="390" colour="0x7A719F" answerPanelWidth="220" answerPanelHeight="330" answerPanelColour="0xECECEC" answerPanelX="630">
+			<questiontext width="400" x="10" y="25"  fontColour="0xffffff" fSize="16"><![CDATA[<b>Raw fresh chicken</b><br />Today's date: 08/12/2015<br />Best-before: 10/12/2015<br />Temperature: 4°C]]></questiontext>
+			<questionImage x="69" y="151">chicken</questionImage> 
+			<answer width="200" height="50" x="640" y="20" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14" ><![CDATA[<b>Bin</b>]]></answer>
+			<answer width="200" height="50" x="640" y="80" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Freezer</b>]]></answer>
+			<answer width="200" height="50" x="640" y="140" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="1" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Fridge</b>]]></answer>
+			<answer width="200" height="50" x="640" y="200" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Drystore</b>]]></answer>
+			<answer width="200" height="50" x="640" y="260" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Running water</b>]]></answer>
+			
+			<feedback width="230" height="320" bgColour="0x999999" textWidth="200" fontColour="0xffffff" fontSize="14">
+				<correctFeedback delay="3" x="25" y="35" sound="fb5"><![CDATA[<b>Correct<br /><br /></b>Raw meats should be kept in the fridge.]]></correctFeedback>
+				<incorrectFeedback delay="3" x="25" y="35" sound="fb5"><![CDATA[<b>Incorrect<br /><br /></b>Raw meats should be kept in the fridge.]]></incorrectFeedback>
+			</feedback>
+			<checkBtn width="118" height="30" colour="0x444487" roColour="0xF7810B" fontColour="0xffffff" fontSize="14" x="730">Check Answer</checkBtn>
+		</question>
+		
+		
+		<question width="400"  height="390" colour="0x7A719F" answerPanelWidth="220" answerPanelHeight="330" answerPanelColour="0xECECEC" answerPanelX="630">
+			<questiontext width="400" x="10" y="25"  fontColour="0xffffff" fSize="16"><![CDATA[<b>Mayonnaise</b> (Previously opened)<br />Today's date: 08/12/2015<br />Best-before: 8/12/2015<br />Temperature: 4°C]]></questiontext>
+			<questionImage x="130" y="155">mayo</questionImage> 
+			<answer width="200" height="50" x="640" y="20" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14" ><![CDATA[<b>Bin</b>]]></answer>
+			<answer width="200" height="50" x="640" y="80" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Freezer</b>]]></answer>
+			<answer width="200" height="50" x="640" y="140" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="1" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Fridge</b>]]></answer>
+			<answer width="200" height="50" x="640" y="200" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Drystore</b>]]></answer>
+			<answer width="200" height="50" x="640" y="260" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Running water</b>]]></answer>
+			
+			<feedback width="230" height="320" bgColour="0x999999" textWidth="200" fontColour="0xffffff" fontSize="14">
+				<correctFeedback delay="3" x="25" y="35" sound="fb6"><![CDATA[<b>Correct<br /><br /></b>Previously opened mayonnaise must be kept in the fridge.]]></correctFeedback>
+				<incorrectFeedback delay="3" x="25" y="35" sound="fb6"><![CDATA[<b>Incorrect<br /><br /></b>Previously opened mayonnaise must be kept in the fridge.]]></incorrectFeedback>
+			</feedback>
+			<checkBtn width="118" height="30" colour="0x444487" roColour="0xF7810B" fontColour="0xffffff" fontSize="14" x="730">Check Answer</checkBtn>
+		</question>
+		
+	
+		
+		<question width="400"  height="390" colour="0x7A719F" answerPanelWidth="220" answerPanelHeight="330" answerPanelColour="0xECECEC" answerPanelX="630">
+			<questiontext width="400" x="10" y="25"  fontColour="0xffffff" fSize="16"><![CDATA[<b>Canned plum tomatoes</b><br />Today's date: 08/12/2015<br />Best-before: 11/12/2015<br />Date of opening: 6/12/2015<br />Temperature: 4°C]]></questiontext>
+			<questionImage x="118" y="150">tinnedTomatoes</questionImage> 
+			<answer width="200" height="50" x="640" y="20" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="1" delay="0" fontColour="0x000000" fontSize="14" ><![CDATA[<b>Bin</b>]]></answer>
+			<answer width="200" height="50" x="640" y="80" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Freezer</b>]]></answer>
+			<answer width="200" height="50" x="640" y="140" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Fridge</b>]]></answer>
+			<answer width="200" height="50" x="640" y="200" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Drystore</b>]]></answer>
+			<answer width="200" height="50" x="640" y="260" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Running water</b>]]></answer>
+			
+			<feedback width="230" height="320" bgColour="0x999999" textWidth="200" fontColour="0xffffff" fontSize="14">
+				<correctFeedback delay="3" x="25" y="35" sound="fb7"><![CDATA[<b>Correct<br /><br /></b>Once open decant into a sealed non-metallic container and use within 7 days.]]></correctFeedback>
+				<incorrectFeedback delay="3" x="25" y="35" sound="fb7"><![CDATA[<b>Incorrect<br /><br /></b>Once open decant into a sealed non-metallic container and use within 7 days.]]></incorrectFeedback>
+			</feedback>
+			<checkBtn width="118" height="30" colour="0x444487" roColour="0xF7810B" fontColour="0xffffff" fontSize="14" x="730">Check Answer</checkBtn>
+		</question>
+		
+		
+		
+		
+		<question width="400"  height="390" colour="0x7A719F" answerPanelWidth="220" answerPanelHeight="330" answerPanelColour="0xECECEC" answerPanelX="630">
+			<questiontext width="400" x="10" y="25"  fontColour="0xffffff" fSize="16"><![CDATA[<b>Pork and apple sausages</b><br />Today's date: 08/12/2015<br />Use-by: 05/12/2015<br />Date of opening: 6/12/2015<br />Temperature: 4°C]]></questiontext>
+			<questionImage x="104" y="183">sausages</questionImage> 
+			<answer width="200" height="50" x="640" y="20" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="1" delay="0" fontColour="0x000000" fontSize="14" ><![CDATA[<b>Bin</b>]]></answer>
+			<answer width="200" height="50" x="640" y="80" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Freezer</b>]]></answer>
+			<answer width="200" height="50" x="640" y="140" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Fridge</b>]]></answer>
+			<answer width="200" height="50" x="640" y="200" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Drystore</b>]]></answer>
+			<answer width="200" height="50" x="640" y="260" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Running water</b>]]></answer>
+			
+			<feedback width="230" height="320" bgColour="0x999999" textWidth="200" fontColour="0xffffff" fontSize="14">
+				<correctFeedback delay="3" x="25" y="35" sound="fb8"><![CDATA[<b>Correct<br /><br /></b>Food that has passed its use-by date should always be discarded immediately.]]></correctFeedback>
+				<incorrectFeedback delay="3" x="25" y="35" sound="fb8"><![CDATA[<b>Incorrect<br /><br /></b>Food that has passed its use-by date should always be discarded immediately.]]></incorrectFeedback>
+			</feedback>
+			<checkBtn width="118" height="30" colour="0x444487" roColour="0xF7810B" fontColour="0xffffff" fontSize="14" x="730">Check Answer</checkBtn>
+		</question>
+		
+	
+		
+		<question width="400"  height="390" colour="0x7A719F" answerPanelWidth="220" answerPanelHeight="330" answerPanelColour="0xECECEC" answerPanelX="630">
+			<questiontext width="400" x="10" y="25"  fontColour="0xffffff" fSize="16"><![CDATA[<b>Fresh scottish salmon</b><br />Today's date: 08/12/2015<br />Use-by: 08/12/2015<br />Temperature: 24°C]]></questiontext>
+			<questionImage x="23" y="218">meat</questionImage> 
+			<answer width="200" height="50" x="640" y="20" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="1" delay="0" fontColour="0x000000" fontSize="14" ><![CDATA[<b>Bin</b>]]></answer>
+			<answer width="200" height="50" x="640" y="80" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Freezer</b>]]></answer>
+			<answer width="200" height="50" x="640" y="140" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Fridge</b>]]></answer>
+			<answer width="200" height="50" x="640" y="200" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Drystore</b>]]></answer>
+			<answer width="200" height="50" x="640" y="260" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Running water</b>]]></answer>
+			
+			<feedback width="230" height="320" bgColour="0x999999" textWidth="200" fontColour="0xffffff" fontSize="14">
+				<correctFeedback delay="3" x="25" y="35" sound="fb9"><![CDATA[<b>Correct<br /><br /></b>Smoked salmon is a ready-to-eat food that should be stored below 8°C, preferably below 5°C to achieve its shelf life and ensure its safety.]]></correctFeedback>
+				<incorrectFeedback delay="3" x="25" y="35" sound="fb9"><![CDATA[<b>Incorrect<br /><br /></b>Smoked salmon is a ready-to-eat food that should be stored below 8°C, preferably below 5°C to achieve its shelf life and ensure its safety.]]></incorrectFeedback>
+			</feedback>
+			<checkBtn width="118" height="30" colour="0x444487" roColour="0xF7810B" fontColour="0xffffff" fontSize="14" x="730">Check Answer</checkBtn>
+		</question>
+		
+		
+		<question width="400"  height="390" colour="0x7A719F" answerPanelWidth="220" answerPanelHeight="330" answerPanelColour="0xECECEC" answerPanelX="630">
+			<questiontext width="400" x="10" y="25"  fontColour="0xffffff" fSize="16"><![CDATA[<b>Canned baked beans in tomato sauce</b><br />Today's date: 08/12/2015<br />Best-before: 26/12/2015<br />Temperature: 4°C]]></questiontext>
+			<questionImage x="140" y="174">beans2</questionImage> 
+			<answer width="200" height="50" x="640" y="20" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14" ><![CDATA[<b>Bin</b>]]></answer>
+			<answer width="200" height="50" x="640" y="80" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Freezer</b>]]></answer>
+			<answer width="200" height="50" x="640" y="140" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Fridge</b>]]></answer>
+			<answer width="200" height="50" x="640" y="200" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="1" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Drystore</b>]]></answer>
+			<answer width="200" height="50" x="640" y="260" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Running water</b>]]></answer>
+			
+			<feedback width="230" height="320" bgColour="0x999999" textWidth="200" fontColour="0xffffff" fontSize="14">
+				<correctFeedback delay="3" x="25" y="35" sound="fb10"><![CDATA[<b>Correct<br /><br /></b>Canned beans should be stored in the dry store.]]></correctFeedback>
+				<incorrectFeedback delay="3" x="25" y="35" sound="fb10"><![CDATA[<b>Incorrect<br /><br /></b>Canned beans should be stored in the dry store.]]></incorrectFeedback>
+			</feedback>
+			<checkBtn width="118" height="30" colour="0x444487" roColour="0xF7810B" fontColour="0xffffff" fontSize="14" x="730">Check Answer</checkBtn>
+		</question>
+		
+		
+		
+		<question width="400"  height="390" colour="0x7A719F" answerPanelWidth="220" answerPanelHeight="330" answerPanelColour="0xECECEC" answerPanelX="630">
+			<questiontext width="400" x="10" y="25"  fontColour="0xffffff" fSize="16"><![CDATA[<b>Fresh salad</b><br />Today's date: 08/12/2015<br />Best-before: 09/12/2015<br />Temperature: 4°C]]></questiontext>
+			<questionImage x="30" y="110">salad</questionImage> 
+			<answer width="200" height="50" x="640" y="20" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14" ><![CDATA[<b>Bin</b>]]></answer>
+			<answer width="200" height="50" x="640" y="80" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Freezer</b>]]></answer>
+			<answer width="200" height="50" x="640" y="140" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="1" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Fridge</b>]]></answer>
+			<answer width="200" height="50" x="640" y="200" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Drystore</b>]]></answer>
+			<answer width="200" height="50" x="640" y="260" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Running water</b>]]></answer>
+			
+			<feedback width="230" height="320" bgColour="0x999999" textWidth="200" fontColour="0xffffff" fontSize="14">
+				<correctFeedback delay="3" x="25" y="35" sound="fb11"><![CDATA[<b>Correct<br /><br /></b>Fresh salad should be kept in the fridge.]]></correctFeedback>
+				<incorrectFeedback delay="3" x="25" y="35" sound="fb11"><![CDATA[<b>Incorrect<br /><br /></b>Fresh salad should be kept in the fridge.]]></incorrectFeedback>
+			</feedback>
+			<checkBtn width="118" height="30" colour="0x444487" roColour="0xF7810B" fontColour="0xffffff" fontSize="14" x="730">Check Answer</checkBtn>
+		</question>
+		
+	
+		
+		<question width="400"  height="390" colour="0x7A719F" answerPanelWidth="220" answerPanelHeight="330" answerPanelColour="0xECECEC" answerPanelX="630">
+			<questiontext width="400" x="10" y="25"  fontColour="0xffffff" fSize="16"><![CDATA[<b>Cooked rice</b><br />Today's date: 08/12/2015<br />Date cooked: 08/12/2015<br />Temperature: 26°C]]></questiontext>
+			<questionImage x="84" y="109">rice</questionImage> 
+			<answer width="200" height="50" x="640" y="20" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14" ><![CDATA[<b>Bin</b>]]></answer>
+			<answer width="200" height="50" x="640" y="80" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Freezer</b>]]></answer>
+			<answer width="200" height="50" x="640" y="140" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Fridge</b>]]></answer>
+			<answer width="200" height="50" x="640" y="200" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="0" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Drystore</b>]]></answer>
+			<answer width="200" height="50" x="640" y="260" colour="0xCDC6E9" roColour="0xFFCC66" selColour="0xFF9900" correct="1" delay="0" fontColour="0x000000" fontSize="14"><![CDATA[<b>Running water</b>]]></answer>
+			
+			<feedback width="230" height="320" bgColour="0x999999" textWidth="200" fontColour="0xffffff" fontSize="14">
+				<correctFeedback delay="3" x="25" y="35" sound="fb12"><![CDATA[<b>Correct<br /><br /></b>Food should always be cooled as quickly as possible before refrigeration. It is perfectly acceptable to cool rice and pasta under cold running water.]]></correctFeedback>
+				<incorrectFeedback delay="3" x="25" y="35" sound="fb12"><![CDATA[<b>Incorrect<br /><br /></b>Food should always be cooled as quickly as possible before refrigeration. It is perfectly acceptable to cool rice and pasta under cold running water.]]></incorrectFeedback>
+			</feedback>
+			<checkBtn width="118" height="30" colour="0x444487" roColour="0xF7810B" fontColour="0xffffff" fontSize="14" x="730">Check Answer</checkBtn>
+		</question>
+		
+	</questionSeries>
+	
+	</page>
+</content>
+	

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	<LoaderMax name="pageLoader7" load="true">
+	
+		<SWFLoader name="bkg" autoPlay="false" url="pages/assets/m05p07/bkg.swf" />
+		<SWFLoader name="image" autoPlay="false" url="pages/assets/m05p07/image.swf" />
+	
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m05p07/m05p07.mp3" />
+		<MP3Loader name="fb" autoPlay="false" url="pages/assets/m05p07/fb.mp3" />
+		
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[What is the correct temperature at which refrigerators operate?<li>6°C to 8°C;</li><li>1°C to 4°C;</li><li>-1°C to - 4°C.</li>]]></transcript>
+	<transcript sound="fb"><![CDATA[Refrigerators usually operate between 1°C to 4°C. The display temperature should be checked every time the fridge is used.]]></transcript>
+	
+
+	
+<page sound="sound1">
+
+		<activities>
+			<activity>Image</activity>			
+			<activity>AddText</activity>
+			<activity>ActivityText</activity>
+			<activity>RadioButtons</activity>		
+			<activity>Transcript</activity>
+		</activities>
+		
+		<instructionOptions x="50" y="150" width="880" delay="0">
+			<instruction><![CDATA[What is the correct temperature at which refrigerators operate?]]></instruction>					
+		</instructionOptions>
+		
+		<placeImage x="136" y="236" name="bkg">
+			<moveImage delay="0" x="136" y="236" alpha="1"/>
+		</placeImage>
+		
+		<placeImage x="610" y="221" name="image">
+			<moveImage delay="0" x="610" y="221" alpha="1"/>
+		</placeImage>
+		
+		<statement delay="0" x="156" y="230" width= "800" height="100"><![CDATA[6°C to 8°C]]></statement>
+		<statement delay="0" x="156" y="270" width= "800" height="100"><![CDATA[1°C to 4°C]]></statement>
+		<statement delay="0" x="156" y="310" width= "800" height="100"><![CDATA[-1°C to -4°C]]></statement>
+		
+		
+		<radiobuttonoptions showFb="select" revealdelay="0">
+			
+			<radioGroup>
+				<radio correct="0" x="390" y="241" width="400"></radio>
+				<radio correct="1" x="390" y="281" width="400"></radio>
+				<radio correct="0" x="390" y="321" width="400"></radio>
+			</radioGroup>
+				
+				<feedbackcorrect x="305" y="400" height="150" width="399" sound="fb"><![CDATA[<b>Correct.</b><br /><br />Refrigerators usually operate between 1°C to 4°C. The display temperature should be checked every time the fridge is used.]]></feedbackcorrect>
+			
+			
+			
+			<feedbackincorrect x="305" y="400" height="150" width="399" sound="fb"><![CDATA[<b>Incorrect.</b><br /><br />Refrigerators usually operate between 1°C to 4°C. The display temperature should be checked every time the fridge is used.]]></feedbackincorrect>
+			
+				</radiobuttonoptions>
+						
+		 
+		</page>
+
+</content>
+
+

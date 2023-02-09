@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<content>
+	<LoaderMax name="pageLoader3" load="true">
+		<SWFLoader name="bkg" autoPlay="false" url="pages/assets/m09p03/bkg.swf" />		
+		<SWFLoader name="image1" autoPlay="false" url="pages/assets/m09p03/image1.swf" />
+		<SWFLoader name="image2" autoPlay="false" url="pages/assets/m09p03/image2.swf" />
+		<SWFLoader name="image3" autoPlay="false" url="pages/assets/m09p03/image3.swf" />
+
+		
+		<SWFLoader name="lawicon" autoPlay="false" url="../common/commonassets/law.swf" />
+		
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m09p03/m09p03.mp3" />
+	
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[Why is cleaning important?<br /><br />Cleaning is important for several reasons. It minimizes the risk of food contamination, food poisoning and spoilage by:<li>Removing matter on which bacteria would grow and enabling the effective disinfection of equipment and surfaces;</li><li>Removing materials that would encourage pest infestations;</li><li>Removing dirt and grease; and</li><li>Reducing the risk of foreign matter contamination.</li><br />Cleaning also ensures a pleasant and safe working environment and promotes a favourable image to customers. By law businesses must ensure that food is fit for human consumption. To meet these requirements cleaning will be needed at some point.<br /><br />While cleaning you must use hot water, detergent and physical energy to effectively remove dirt and grease.<br /><br />Always 'Clear-and-clean-as-you-go' to efficiently maintain cleanliness.<br /><br />Keep work areas clean and tidy; don't let waste food and dirty equipment build up.<br /><br />Remove spillages and waste packaging immediately.<br /><br />Click the icon to learn what the law says about cleaning and disinfection.<br /><br />When you have finished, click the ‘Next’ button to continue.]]></transcript>
+		
+	<page sound="sound1">
+	
+		<activities>
+			<activity>Image</activity>
+			<activity>AddText</activity>
+			<activity>Bullets</activity>
+			<activity>ActivityText</activity>
+			<activity>ClickRevealStandard</activity>
+			<activity>Transcript</activity>
+		</activities> 
+		
+		
+		<placeImage x="100" y="160" stop="yes" name="bkg" >
+			<moveImage delay="0" x="100" y="165" alpha="1"/>
+	</placeImage>  
+
+
+	<placeImage x="100" y="140" name="image1" >
+			<moveImage delay="0.6" x="100" y="145" alpha="1"  scaleX="1" scaleY="1" />
+			<moveImage delay="10.9" x="110" y="145" alpha="0"  scaleX="1" scaleY="1" />
+		</placeImage> 
+		
+		<placeImage x="100" y="140" name="image2"  >
+			<moveImage delay="12" x="100" y="145" alpha="1"  scaleX="1" scaleY="1" />
+			<moveImage delay="19" x="110" y="145" alpha="0"  scaleX="1" scaleY="1" />
+		</placeImage> 
+		
+		<placeImage x="100" y="140" stop="yes" name="image3" >
+			<moveImage delay="32" x="110" y="145" alpha="1"  scaleX="1" scaleY="1" />
+		</placeImage> 
+	
+	<statement delay="1.1" x="490" y="190" width="450" ><![CDATA[<font color='#7446A2'><b>Reasons for cleaning:</b>]]></statement> 
+	
+	<bullet delay="4.5" x="520" y="235" width="360"  remove="20.5"><![CDATA[Minimises the risk of food contamination, food poisoning and spoilage by:]]></bullet> 
+	<bullet delay="9.5" x="550" y="280" width="330" style="2" remove="15.5"><![CDATA[Removing matter on which bacteria would grow and enabling effective disinfection of equipment and surfaces]]></bullet> 
+	<bullet delay="16" x="550" y="340" width="330" style="2" remove="9"><![CDATA[Removing materials which would encourage pest infestations]]></bullet> 
+	<bullet delay="20" x="550" y="385" width="330" style="2" remove="5"><![CDATA[Removing dirt and grease]]></bullet> 
+	<bullet delay="22.5" x="550" y="415" width="330" style="2" remove="2.5"><![CDATA[Reducing the risk of foreign matter contamination]]></bullet>
+	
+	<bullet delay="26" x="520" y="235" width="360" ><![CDATA[Ensures a pleasant and safe working environment]]></bullet> 
+	<bullet delay="29" x="520" y="280" width="360"><![CDATA[Promotes a favourable image to customers]]></bullet>
+	<bullet delay="32" x="520" y="325" width="360"><![CDATA[Required to comply with the law.]]></bullet>
+	
+	
+	<statement delay="40" x="490" y="370" width="390" ><![CDATA[<b>While cleaning you must use hot water, detergent and physical energy to effectively remove dirt and grease.</b>]]></statement> 
+	
+	<statement delay="47" x="490" y="420" width="390" ><![CDATA[Clear-and-clean-as-you-go.]]></statement> 
+	
+	<instructionOptions x="145" y="520" width="600" delay="61" style="slide"><instruction><![CDATA[<b>Click on the icon</b> to learn what the law says about cleaning and disinfection. When you have finished click the 'next' button to continue.]]></instruction>
+	</instructionOptions>
+
+	
+	<!--Click reveal-->
+		<clickrevealOptions mouseaction="click" closebutton="yes" timedremoval="no" style="fadein" delayactivation="65.4">
+			<clickreveal x="48" y="280" width="470" height="180" bg="yes">
+				<clicker x="75" y="508" revealDelay="61">lawicon</clicker>
+
+				<!--FEEDBACK-->
+			<page>
+					<activities>
+						<activity>AddText</activity>
+						<activity>Bullets</activity>
+					</activities>
+
+					<bullet delay="0" x="20" y="40" width="410"><![CDATA[Food premises are to be kept clean]]></bullet>
+					<bullet delay="0" x="20" y="85" width="410"><![CDATA[All food-contact equipment to be kept clean and disinfected as frequently as necessary.]]></bullet>
+
+				</page>
+				<!--FEEDBACK-->
+			</clickreveal>
+			
+		</clickrevealOptions>
+			
+		</page>
+</content>

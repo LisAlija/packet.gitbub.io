@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?><content>
+
+	<LoaderMax name="moduleLoader" load="true">
+		
+		<!-- pages -->
+		<XMLLoader pageLoader="pageLoaderHelp" name="starterPage" autoPlay="false" estimatedBytes="249856" url="../common/globalxml/starterpage.xml"/>
+		<XMLLoader pageLoader="pageLoader2" name="page2" autoPlay="false" estimatedBytes="1310720" url="pages/flashxml/m04p02.xml"/>
+		<XMLLoader pageLoader="pageLoader3" name="page3" autoPlay="false" estimatedBytes="716800" url="pages/flashxml/m04p03.xml"/>
+		<XMLLoader pageLoader="pageLoader4" name="page4" autoPlay="false" estimatedBytes="651264" url="pages/flashxml/m04p04.xml"/>
+		<XMLLoader pageLoader="pageLoader6" name="page6" autoPlay="false" estimatedBytes="11436032" url="pages/flashxml/m04p06.xml"/>
+		
+		<XMLLoader pageLoader="pageLoaderAssessment" name="assessment" autoPlay="false" estimatedBytes="2416640" url="pages/flashxml/assessment.xml"/>
+	
+	</LoaderMax>
+	
+	<information>
+		<coursetitle>Food Safety Level 2</coursetitle>
+		<modtitle>Contamination Hazards and Controls</modtitle>
+		<withAssessment>true</withAssessment>
+		<scorm>true</scorm>
+	<iAmDeveloping>false</iAmDeveloping>
+
+		
+	</information>
+	
+	<page xmlName="starterPage">Course Navigation</page>
+	<page xmlName="page2">Introduction</page>
+	<page xmlName="page3">Types of contamination hazards</page>
+	<page xmlName="page4">Sources, vehicles and routes of contamination</page>
+	<page xmlName="page6">Interactive quiz: types of contamination</page>
+
+	<page xmlName="assessment">Assessment</page>
+	
+</content>

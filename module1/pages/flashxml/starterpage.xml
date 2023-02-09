@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	
+	<LoaderMax name="pageLoaderHelp" load="true">
+		<SWFLoader name="starterpage" autoPlay="false" url="pages/assets/starterpage/starterpage.swf" />
+	</LoaderMax>
+	
+	<page clearTime="1" >
+		<activities>
+			<activity>Image</activity>
+		</activities>  
+	
+		<placeImage x="6" y="55" name="starterpage">
+			<moveImage delay="1" x="6" y="55" alpha="1"/>
+		</placeImage>
+
+	</page>
+	
+</content>

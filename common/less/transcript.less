@@ -1,0 +1,40 @@
+/* CSS Document */
+
+#transcript{
+	display:none;
+	position:absolute;
+	top:425px;
+	left:530px;
+	width:450px;
+	height:170px;
+	background-color:@transcriptBgColour;
+	overflow-y:hidden;
+	padding:10px 2px 0 2px;
+	.drop-shadow(8px, 8px, 5px, -6px, 0.6);
+	z-index: 2050;
+	h4{
+		color:white;
+		height: 100%;	
+	}
+	#close-transcript{
+		position: absolute;
+		left: 420px;
+		top:2px;
+	}
+	#transcript-inner{
+		height: 130px;
+		overflow-y:scroll;
+		.gradient (#eaeaea, #e2e2e2);
+		color:@mainThemeColour;
+		margin-top:10px;
+		padding:5px;
+		p{
+			padding-top:20px;	
+		}
+		li{
+			padding-top:15px;
+			padding-left:40px;	
+			background: url("../images/bullet.png") no-repeat 20px 20px;
+		}
+	}
+}

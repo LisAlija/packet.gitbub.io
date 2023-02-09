@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	
+	<LoaderMax name="pageLoader3" load="true">
+		
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m10p03/m10p03.mp3" />
+		<SWFLoader name="image1" autoPlay="false" url="pages/assets/m10p03/image.swf" />
+
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[Local authorities appoint representatives to enforce food safety legislation.<br /><br />These are known as environmental health practitioners or environmental health officers.<br /><br />These officers are authorized to enter food premises at any reasonable time to carry out duties under the food safety legislation.<br /><br />They may provide guidance, advice or training.<br /><br />They have powers to investigate food poisoning and food complaints to serve notices and to seize or detain unsafe food.<br /><br />They even have the authority to close food premises and stop unsafe practices which are a risk to public health.]]></transcript>
+	
+		
+		
+	<page sound="sound1" clearTime="40.5">
+	
+		<activities>
+			<activity>Image</activity>
+			<activity>AddText</activity>
+			<activity>Bullets</activity>
+			<activity>Transcript</activity>
+		</activities>  
+
+
+		<placeImage x="550" y="140" name="image1" applyEffect="no">
+			<moveImage delay="0.5" x="550" y="150" alpha="1" speed="1"/>
+		</placeImage>
+		
+		
+
+		<statement delay="0.5" x="50" y="110" width="420" ><![CDATA[Environmental health practitioners/officers are authorised to:]]></statement>
+ 
+ 
+		<bullet delay="13.1" x="90" y="155" width="320" ><![CDATA[Enter food premises at any reasonable time to carry out their duties]]></bullet>
+		
+		<bullet delay="17.5" x="90" y="215" width="320" ><![CDATA[Enforce food safety legislation]]></bullet>
+		
+		<bullet delay="20.2" x="90" y="260" width="320" ><![CDATA[Provide guidance, advice or training]]></bullet>
+		
+		<bullet delay="24.9" x="90" y="305" width="320" ><![CDATA[Investigate food poisoning and food complaints]]></bullet>
+		
+		<bullet delay="28" x="90" y="350" width="320" ><![CDATA[Serve notices]]></bullet>
+		
+		<bullet delay="29.6" x="90" y="395" width="320" ><![CDATA[Seize or detain unsafe food]]></bullet>
+		
+		<bullet delay="35.3" x="90" y="440" width="320" ><![CDATA[Close food premises.]]></bullet>
+ 
+ 
+
+	</page>
+
+	
+</content>

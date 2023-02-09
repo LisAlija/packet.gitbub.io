@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	<LoaderMax name="pageLoader4" load="true">
+		<SWFLoader name="image1" autoPlay="false" url="pages/assets/m05p04/image1.swf" />
+		
+	
+		
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m05p04/m05p04.mp3" />
+
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[Let's start by looking at the first step in the process, delivery and unloading.<br /><br />It is essential to purchase food from approved suppliers who have demonstrated a commitment to high standards of food hygiene.]]></transcript>
+	
+	
+	<page sound="sound1" clearTime="13">
+	
+	<activities>
+		<activity>Image</activity>
+		<activity>AddText</activity>
+		<activity>Bullets</activity>
+		<activity>Transcript</activity>
+	</activities>
+	
+	<statement delay="0" x="50" y="120" width="350" ><![CDATA[<b><font color='#7446A2'>During the delivery and unloading of food:</font></b>]]></statement> 
+	<bullet delay="6" x="80" y="165" width="350" ><![CDATA[It is essential to purchase food from approved suppliers who have demonstrated a commitment to high standards of food hygiene.]]></bullet> 
+	
+	<placeImage x="550" y="120" stop="yes" name="image1" >
+			<moveImage delay="0" x="550" y="125" alpha="1"/>
+	</placeImage>
+	
+	</page>
+		
+</content>

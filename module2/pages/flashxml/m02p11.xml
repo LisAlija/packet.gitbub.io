@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	
+	<LoaderMax name="pageLoader11" load="true">
+		
+		<SWFLoader name="icon1" autoPlay="false" extras="over, selected, done" url="pages/assets/m02p11/icon1.swf" />
+		<SWFLoader name="icon2" autoPlay="false" extras="over, selected, done" url="pages/assets/m02p11/icon2.swf" />
+		<SWFLoader name="icon3" autoPlay="false" extras="over, selected, done" url="pages/assets/m02p11/icon3.swf" />
+		<SWFLoader name="icon4" autoPlay="false" extras="over, selected, done" url="pages/assets/m02p11/icon4.swf" />
+				
+		<SWFLoader name="image1" autoPlay="false" url="pages/assets/m02p11/image1.swf" />
+		<SWFLoader name="clickerhider" autoPlay="false" url="pages/assets/m02p11/hideuntilactive.swf" />
+		
+		<SWFLoader name="pop_image1" autoPlay="false" url="pages/assets/m02p11/pop_image1.swf" />
+		<SWFLoader name="pop_image2" autoPlay="false" url="pages/assets/m02p11/pop_image2.swf" />
+		<SWFLoader name="pop_image3" autoPlay="false" url="pages/assets/m02p11/pop_image3.swf" />
+		<SWFLoader name="pop_image4" autoPlay="false" url="pages/assets/m02p11/pop_image4.swf" />
+		
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m02p11/m02p11.mp3" />	
+		<MP3Loader name="pop1" autoPlay="false" url="pages/assets/m02p11/high_risk.mp3" />	
+		<MP3Loader name="pop2" autoPlay="false" url="pages/assets/m02p11/low_risk.mp3" />
+		<MP3Loader name="pop3" autoPlay="false" url="pages/assets/m02p11/cook_raw.mp3" />	
+		<MP3Loader name="pop4" autoPlay="false" url="pages/assets/m02p11/ready_raw.mp3" />		
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[Food can be divided into four types, depending on whether it is likely to be a source of food poisoning bacteria, whether it will support the growth of food poisoning bacteria and whether it will be cooked before eating.<br /><br />The four categories are:<br /><br /><li>High-risk;</li><li>Low-risk;</li><li>Raw foods to be cooked; and</li><li>Ready to eat raw.</li><br /><br />Click the graphics to learn more about these four categories.]]></transcript>
+	
+	<transcript sound="pop1"><![CDATA[High-risk foods are ready to eat foods which support the multiplication of harmful bacteria and are intended for consumption without treatment, such as cooking, which would destroy such organisms. These foods are usually proteins.<br /><br />They must be protected from contamination and require refrigerated storage to prevent bacteria multiplying. They must be kept separate from raw foods.<br /><br />Examples are:<br /><br /><li>Cooked meat and cooked poultry;</li><li>Cooked meat products, including spreads, stews and meat pies;</li><li>Milk and dairy products;</li><li>Raw or cooked egg based products, like mayonnaise and mousses;</li><li>Shellfish and other seafood, especially oysters, prawns and crabs;</li><li>Also, cooked rice.</li>]]></transcript>
+	
+	<transcript sound="pop2"><![CDATA[Bacteria are not able to multiply in low-risk foods. These include dry food or food containing very high concentrations of sugar, salt, acid (for example vinegar and other preservatives), or foods which are fat based, like oil and butter.<br /><br />These foods are stored in cool, dry places. However, when water is added to dried food, such as milk powder and gravy granules, it becomes high risk and must be stored under refrigeration or consumed immediately.<br /><br />Examples include:<br /><br /><li>Cereals;</li><li>Dried pasta;</li><li>Bread;</li><li>Biscuits;</li><li>Jams;</li><li>Canned foods;</li><li>Crisps; and</li><li>Margarine.</li>]]></transcript>
+	
+	<transcript sound="pop3"><![CDATA[Raw foods intended for cooking, such as poultry or red meat, are often contaminated with large numbers of pathogens.<br /><br />They support the multiplication of bacteria and should be stored under refrigeration prior to thorough cooking.<br /><br />They must always be kept separate from ready to eat foods and raw foods that are only going to be washed before consumption.]]></transcript>
+	
+	<transcript sound="pop4"><![CDATA[Ready to eat raw foods, such as lettuce, tomatoes and fruits, can also be contaminated with pathogens.<br /><br />They should be washed thoroughly in running water before cutting, chopping or eating. Once melons and tomatoes have been cut, they should be treated as high-risk foods and stored under refrigeration.]]></transcript>
+	
+	<page sound="sound1">
+		<activities>
+				<activity>ClickRevealStandard</activity>
+				<activity>Image</activity>
+				<activity>ActivityText</activity>
+				<activity>AddText</activity>
+		</activities>
+		
+		<statement delay="0" x="50" y="100" width="900" ><![CDATA[Food can be divided into four categories that require different storage and handling.]]></statement> 
+		
+		
+				
+		<instructionOptions x="600" y="200" width="320" delay="20.8" >
+			<instruction><![CDATA[Click on the icons to learn more about these four categories.]]></instruction>
+		</instructionOptions>
+		
+		
+		<placeImage x="50" y="170" name="clickerhider" >
+			<moveImage delay="0" x="50" y="170" alpha="1" speed="1"/>
+			<moveImage delay="25" x="50" y="170" alpha="0" speed="1" scaleX="0" scaleY="0" />
+		</placeImage>
+		
+<!--Click reveal-->
+
+
+		<clickrevealOptions mouseaction="click" closebutton="yes" timedremoval="no" style="fadein" delayactivation="24.8">
+			
+					
+			<clickreveal x="565" y="180" width="405" height="420" bg="yes">
+				<clicker x="50" y="170" revealDelay="13.7">icon1</clicker>
+				
+				<page sound="pop1" clearTime="24">
+					<activities>
+						<activity>AddText</activity>
+						<activity>Bullets</activity>
+					</activities>
+
+
+		<statement delay="0" x="25" y="25" width="335"><![CDATA[<b>High-risk foods</b>]]></statement>
+		<statement delay="0.5" x="25" y="60" width="335"><![CDATA[Ready-to-eat foods that are meant to be consumed without cooking. They support multiplication of harmful bacteria.]]></statement>
+					
+	<statement delay="0.5" x="25" y="125" width="335"><![CDATA[Protect from contamination, keep refrigerated and separate from raw foods.]]></statement>
+					
+					<statement delay="0.5" x="25" y="175" width="310"><![CDATA[Examples include:]]></statement>
+					<bullet delay="0.5" x="55" y="210" width="310"><![CDATA[Cooked meat and cooked poultry]]></bullet>
+					<bullet delay="0.5" x="55" y="245" width="310"><![CDATA[Cooked meat products]]></bullet>
+					<bullet delay="0.5" x="55" y="280" width="310"><![CDATA[Milk and dairy products]]></bullet>
+					<bullet delay="0.5" x="55" y="315" width="310"><![CDATA[Raw egg-based products]]></bullet>
+					<bullet delay="0.5" x="55" y="350" width="310"><![CDATA[Seafood]]></bullet>
+					<bullet delay="0.5" x="55" y="385" width="310"><![CDATA[Cooked rice.]]></bullet>
+					
+		
+				</page>
+			
+			</clickreveal>
+			
+			
+			<clickreveal x="565" y="180" width="405" height="380" bg="yes">
+				<clicker x="320" y="170" revealDelay="15.1">icon2</clicker>
+				<!--FEEDBACK-->
+				<page sound="pop2" clearTime="32">
+					<activities>
+						<activity>AddText</activity>
+						<activity>Bullets</activity>
+					</activities>
+
+					<statement delay="0" x="25" y="25" width="335"><![CDATA[<b>Low-risk foods</b>]]></statement>
+					<statement delay="0.5" x="25" y="60" width="335"><![CDATA[Foods which are dry or have a high content of sugar, salt, acid (vinegar), preservatives or are fat based.]]></statement>
+					
+					<statement delay="0.5" x="25" y="110" width="335"><![CDATA[Store in cool, dry conditions. If water or milk is added to them, refrigerate or consume immediately.]]></statement>
+					
+					<statement delay="0.5" x="25" y="160" width="335"><![CDATA[Examples include:]]></statement>
+					
+					<bullet delay="0.5" x="55" y="195" width="135"><![CDATA[Cereals]]></bullet>
+					<bullet delay="0.5" x="55" y="225" width="135"><![CDATA[Dried pasta]]></bullet>
+					<bullet delay="0.5" x="55" y="255" width="135"><![CDATA[Bread]]></bullet>
+					<bullet delay="0.5" x="55" y="285" width="135"><![CDATA[Biscuits]]></bullet>
+					<bullet delay="0.5" x="200" y="195" width="135"><![CDATA[Jams]]></bullet>
+					<bullet delay="0.5" x="200" y="225" width="135"><![CDATA[Canned foods]]></bullet>
+					<bullet delay="0.5" x="200" y="255" width="135"><![CDATA[Crisps]]></bullet>
+					<bullet delay="0.5" x="200" y="285" width="135"><![CDATA[Oil, butter, margarine (refrigerate to reduce spoilage).]]></bullet>
+					
+				</page>
+			</clickreveal>
+			
+			
+			
+			<clickreveal x="565" y="180" width="405" height="380" bg="yes">
+				<clicker x="50" y="390" revealDelay="16.3">icon3</clicker>
+				<!--FEEDBACK-->
+				<page sound="pop3" clearTime="30">
+					<activities>
+						<activity>AddText</activity>
+					</activities>
+
+					<statement delay="0" x="25" y="25" width="335"><![CDATA[<b>Raw foods to be cooked</b>]]></statement>
+					<statement delay="0.5" x="25" y="60" width="335"><![CDATA[Often contaminated with large numbers of pathogens. Support the multiplication of bacteria.<br /><br />Store under refrigeration and separate from ready-to-eat foods.<br /><br />Examples include poultry and red meat.]]></statement>
+					
+					
+				</page>
+			</clickreveal>
+			
+			
+			<clickreveal x="565" y="180" width="405" height="380" bg="yes">
+				<clicker x="320" y="390" revealDelay="18.5">icon4</clicker>
+				<!--FEEDBACK-->
+				<page sound="pop4" clearTime="30">
+					<activities>
+						<activity>AddText</activity>
+						<activity>Bullets</activity>
+					</activities>
+
+					<statement delay="0" x="25" y="25" width="335"><![CDATA[<b>Ready-to-eat raw foods</b>]]></statement>
+					<statement delay="0.5" x="25" y="60" width="335"><![CDATA[Ready-to-eat raw foods do not usually support the rapid multiplication of food poisoning organisms.]]></statement>
+					
+					<statement delay="0.5" x="25" y="110" width="335"><![CDATA[May be stored in cool dry places or under refrigeration. Wash in running water before cutting and chopping or eating.]]></statement>
+					
+					<statement delay="0.5" x="25" y="175" width="310"><![CDATA[Examples include:]]></statement>
+					<bullet delay="0.5" x="55" y="210" width="290"><![CDATA[Lettuce]]></bullet>
+					<bullet delay="0.5" x="55" y="245" width="290"><![CDATA[Tomatoes]]></bullet>
+					<bullet delay="0.5" x="55" y="280" width="290"><![CDATA[Fruit.]]></bullet>
+					
+								 
+				</page>
+			</clickreveal>
+			
+			
+		</clickrevealOptions>
+	
+	</page>
+	
+	
+</content>

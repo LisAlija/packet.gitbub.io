@@ -1,0 +1,39 @@
+/* CSS Document */
+
+.frame{
+	width: 100%; height: 160px; padding: 0;
+	ul#scrollulvert{
+		margin: 0; padding: 0; height: 100%; list-style: none;
+		li{
+			float: left; margin: 0 0 0 0; padding: 0; height: 100%; cursor:pointer
+		}
+	}
+}
+
+.scrollcontrol{
+	position:absolute;
+	width:25px;
+	text-align:center;
+	cursor: pointer;
+	.scarrow{
+		position: absolute;
+		margin: 0 auto;
+		width: 0; 
+		height: 0;
+		border-top: 12px solid transparent;
+		border-bottom: 12px solid transparent; 
+	}
+	&.scrollerleft{
+		.horizontal-gradient(darken(@panelColour, 10%), lighten(@panelColour, 10%));
+		.arrow-left{ 
+			border-right:18px solid black; 	
+		}	
+	}
+	&.scrollerright{
+		.horizontal-gradient(lighten(@panelColour, 10%), darken(@panelColour, 10%));
+		.arrow-right {
+			border-left: 18px solid black;
+		}
+	}
+ }
+

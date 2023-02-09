@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	<LoaderMax name="pageLoader2" load="true">
+		
+		<SWFLoader name="image1" autoPlay="false" url="pages/assets/m02p02/petri.swf" />
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m02p02/m02p02.mp3" />
+		
+		<SWFLoader name="background" autoPlay="false" url="../common/commonassets/background.swf" />
+		<SWFLoader name="moduleNumber" autoPlay="false" url="pages/assets/m02p02/welcome.swf" />
+		<SWFLoader name="moduleName" autoPlay="false" url="pages/assets/m02p02/title.swf" />
+		
+	</LoaderMax>
+
+	<transcript sound="sound1"><![CDATA[In this module, we will be looking at microbiological hazards in food.<br /><br />We need to understand:<li>What bacteria are;</li><li>Where to find them;</li><li>How they get in to food;</li><li>How they multiply; and</li><li>How they can be controlled.</li>]]></transcript>
+	
+	<page clearTime="19" sound="sound1">
+	
+	<activities>
+			<activity>Bullets</activity>
+			<activity>Image</activity>
+			<activity>AddText</activity>
+			<activity>Transcript</activity>
+	</activities>
+
+		<placeImage x="7" y="65" stop="yes" name="background" >
+			<moveImage delay="0" x="7" y="65" alpha="0.5" playit="0"/>
+			<moveImage delay="3" x="7" y="65" alpha="0" />
+		</placeImage>
+		
+		<placeImage x="0" y="0" stop="yes" name="moduleNumber" description="Module Number" centre="true">
+			<moveImage delay="0" x="504" y="280" alpha="0" playit="0" scaleX="1" scaleY="0.5" />
+			<moveImage delay="0" x="504" y="260" alpha="1" scaleX="0.75" scaleY="0.75" />
+			<moveImage delay="3" x="504" y="260" alpha="0" scaleX="0.75" scaleY="0.75" />
+		</placeImage>
+		
+		<placeImage x="0" y="0" stop="yes" name="moduleName" centre="true"  >
+			<moveImage delay="0" x="504" y="320" alpha="0" playit="0" scaleX="0.5" scaleY="0.5" />
+			<moveImage delay="0" x="504" y="340" alpha="1" scaleX="1" scaleY="1" />
+			<moveImage delay="3" x="504" y="340" alpha="0" scaleX="1" scaleY="1" />
+		</placeImage>
+
+		<placeImage x="550" y="135" stop="yes" name="image1">
+			<moveImage delay="0" x="550" y="135" scaleX="1" scaleY="1" alpha="0"/>
+			<moveImage delay="4" x="550" y="140" scaleX="1" scaleY="1" alpha="1"/>
+			
+		</placeImage>
+
+		<statement delay="4" x="50" y="180" width="410" ><![CDATA[<b>Microbiological Hazards</b>]]></statement> 
+		<statement delay="9" x="50" y="225" width="410" ><![CDATA[We need to understand:]]></statement> 
+		<bullet delay="10" x="80" y="270" width="375"><![CDATA[What bacteria are]]></bullet>
+		<bullet delay="12" x="80" y="315" width="375"><![CDATA[Where to find them]]></bullet>
+		<bullet delay="13.5" x="80" y="360" width="375"><![CDATA[How they get in to food]]></bullet>
+		<bullet delay="15.4" x="80" y="405" width="375"><![CDATA[How they multiply]]></bullet>
+		<bullet delay="16.8" x="80" y="450" width="375"><![CDATA[How they can be controlled.]]></bullet>
+
+	</page>
+
+</content>

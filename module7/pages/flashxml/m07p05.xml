@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	
+	<LoaderMax name="pageLoader5" load="true">
+	
+		<SWFLoader name="image1" autoPlay="false" url="pages/assets/m07p05/image1.swf" />
+		<SWFLoader name="image2" autoPlay="false" url="pages/assets/m07p05/image2.swf" />
+		<SWFLoader name="lawicon" autoPlay="false" url="../common/commonassets/law.swf" />
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m07p05/m07p05.mp3" />
+
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[Waste must be removed from food rooms regularly to minimize the risk of contaminating food to reduce odour and to avoid the encouragement of pests, especially flies.<br /><br />For internal use, easy to clean bins with foot-operated lids and disposable plastic liners are preferred.<br /><br />Internal refuse containers must be emptied regularly throughout the day and always at the end of the day.<br /><br />Internal refuse containers must be emptied regularly throughout the day and always at the end of the day.<br /><br />Receptacles used for storage of refuse should not be reused for the storage of food.<br /><br />Unfit or out-of-date food should be marked and stored in clearly marked containers whilst awaiting collection.<br /><br />It should be isolated from food intended for use or sale.<br /><br />Click the icon to learn what the law says about waste storage and disposal.<br /><br />When you have finished, click the Next button to continue.]]></transcript>		
+
+	<page sound="sound1">
+	
+		<activities>
+			<activity>Image</activity>
+			<activity>AddText</activity>
+			<activity>Bullets</activity>
+			<activity>ActivityText</activity>
+			<activity>ClickRevealStandard</activity> 
+			<activity>Transcript</activity>
+		</activities> 
+
+		<placeImage x="50" y="105" name="image1" >
+			<moveImage delay="1" x="50" y="105" alpha="1" speed="1"/>
+		</placeImage>
+		
+		<placeImage x="250" y="200" name="image2" >
+			<moveImage delay="1" x="250" y="205" alpha="1" speed="1"/>
+		</placeImage>
+
+		<statement delay="1" x="500" y="130" width="450" remove="9.8"><![CDATA[<font color='#7446A2'><b>Waste must be removed from food rooms regularly to:</b></font>]]></statement>
+
+		<bullet delay="3.6" x="530" y="175" width="400" remove="7.2" ><![CDATA[Minimise the risk of contaminating food]]></bullet>
+		<bullet delay="6.2" x="530" y="220" width="400" remove="4.6"><![CDATA[Reduce odour]]></bullet>
+		<bullet delay="7.4" x="530" y="265" width="400" remove="3.4" ><![CDATA[Avoid attracting or breeding pests, especially flies.]]></bullet>
+
+		<statement delay="11.6" x="500" y="130" width="450" ><![CDATA[<font color='#7446A2'><b>Internal containers should be:</b></font>]]></statement>
+
+		<bullet delay="12.8" x="530" y="175" width="400" ><![CDATA[Easy to clean]]></bullet>
+		<bullet delay="14" x="530" y="220" width="400" ><![CDATA[Foot operated with disposable plastic liners]]></bullet>
+		<bullet delay="18.8" x="530" y="265" width="400" ><![CDATA[Emptied regularly throughout the day and always at the end of the day]]></bullet>
+		<bullet delay="24" x="530" y="325" width="400" ><![CDATA[Never reused for the storage of food.]]></bullet>
+		
+		
+		<statement delay="29.8" x="500" y="370" width="450"><![CDATA[<b>Unfit/out-of-date food should be clearly identified and stored in clearly marked containers whilst awaiting collection; isolated from food intended for use or sale.</b>]]></statement>
+		
+
+		<instructionOptions x="150" y="520" width="600" delay="40.5" style="slide">
+			<instruction><![CDATA[<b>Click the icon to learn what the law says about waste storage and disposal. When you have finished, click the next button to continue.</b>]]></instruction>
+		</instructionOptions>
+
+<!--Click reveal-->
+		<clickrevealOptions mouseaction="click" closebutton="yes" timedremoval="no" style="fadein" delayactivation="40.5">
+			<clickreveal x="48" y="340" width="440" height="140" bg="yes">
+				<clicker x="75" y="500" revealDelay="40.5">lawicon</clicker>
+
+				<!--FEEDBACK-->
+
+				<page>
+					<activities>
+						<activity>AddText</activity>
+						<activity>Image</activity>
+						<activity>Bullets</activity>
+					</activities>
+
+					<statement delay="0" x="20" y="30" width="380"><![CDATA[Waste must not be allowed to accumulate in food rooms.<br /><br />Waste must be deposited in closable containers.]]></statement>
+
+				</page>
+				<!--FEEDBACK-->
+			</clickreveal>
+			
+		</clickrevealOptions>
+
+	</page>
+
+	
+</content>

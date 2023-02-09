@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	
+	<LoaderMax name="pageLoader7" load="true">
+	
+		<SWFLoader name="bkg" autoPlay="false" url="pages/assets/m06p07/bkg.swf" />
+		<SWFLoader name="image1" autoPlay="false" url="pages/assets/m06p07/image1.swf" />
+		<SWFLoader name="image2" autoPlay="false" url="pages/assets/m06p07/image2.swf" />
+		
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m06p07/m06p07.mp3" />
+
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[Cuts, spots and sores are an ideal place for bacterial multiplication. Septic cuts and boils often harbour large numbers of food poisoning organisms.<br /><br />Food handlers with open wounds or skin infections should not handle food or be allowed to work in food rooms.<br /><br />To prevent contamination of food by harmful bacteria and blood, these lesions should be completely covered by waterproof dressings, preferably coloured blue to aid detection if they become detached.<br /><br />Dressings should be replaced immediately if they become loose. Cuts on fingers may need the extra protection of waterproof finger-stalls.<br /><br />Blue, waterproof dressings are an essential part of the first aid box. Antiseptics and pills should not be included.]]></transcript>
+	
+		
+		
+		
+	<page sound="sound1" clearTime="52">
+	
+		<activities>
+			<activity>Image</activity>
+			<activity>AddText</activity>
+			<activity>Bullets</activity>
+			<activity>Transcript</activity>
+		</activities> 
+
+
+		<placeImage x="100" y="210" name="bkg">
+			<moveImage delay="1" x="100" y="220" alpha="1" />
+		</placeImage>
+
+		<placeImage x="180" y="170" name="image1">
+			<moveImage delay="1" x="180" y="180" alpha="1" />
+			<moveImage delay="18" x="180" y="180" alpha="0" />
+		</placeImage>
+
+		<placeImage x="140" y="170" name="image2">
+			<moveImage delay="20" x="140" y="180" alpha="1" />
+		</placeImage>
+		
+
+		
+
+		<statement delay="1.5" x="450" y="310" width="350" remove="17.5" ><![CDATA[<b>Food handlers with open wounds or skin infections should not handle food or be allowed to work in food rooms.</b>]]></statement>
+		
+
+		<statement delay="20" x="500" y="240" width="350" ><![CDATA[To prevent contamination of food by harmful bacteria and blood:]]></statement>
+		
+		<bullet delay="24" x="530" y="300" width="330"><![CDATA[Cuts should be completely covered by waterproof dressings - preferably use blue-coloured dressings to aid detection if they become detached]]></bullet>
+		
+		<bullet delay="32.5" x="530" y="360" width="320"><![CDATA[Dressings should be replaced immediately if they become loose]]></bullet>
+		
+		<bullet delay="37" x="530" y="405" width="320"><![CDATA[Waterproof fingerstalls should be used for cuts on fingers for extra protection.]]></bullet>
+
+
+		<statement delay="42.5" x="500" y="450" width="350" ><![CDATA[First aid box must contain blue waterproof dressings.]]></statement>
+
+	</page>
+
+	
+</content>

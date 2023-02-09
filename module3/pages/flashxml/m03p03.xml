@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	
+	<LoaderMax name="pageLoader3" load="true">
+	
+		<SWFLoader name="bkg" autoPlay="false" url="pages/assets/m03p03/bkg.swf" />
+		<SWFLoader name="image1" autoPlay="false" url="pages/assets/m03p03/image.swf" />
+		
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m03p03/m03p03.mp3" />
+
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[Food poisoning is an acute illness, which occurs within 1 to 36 hours of eating contaminated or poisonous food and normally lasts for 1 to 7 days.<br /><br />It usually requires a large number of food poisoning organisms to cause such an illness.]]></transcript>
+	
+		
+		
+		
+	<page sound="sound1" clearTime="16">
+	
+		<activities>
+			<activity>Image</activity>
+			<activity>AddText</activity>
+			<activity>Bullets</activity>
+			<activity>Transcript</activity>
+		</activities> 
+
+
+		<placeImage x="100" y="210" name="bkg">
+			<moveImage delay="1" x="100" y="220" alpha="1" />
+		</placeImage>
+
+		<placeImage x="140" y="170" name="image1">
+			<moveImage delay="1" x="140" y="180" alpha="1" />
+		</placeImage>
+		
+
+		
+
+		<statement delay="1" x="510" y="250" width="350" ><![CDATA[Incubation period:]]></statement>
+		
+		<bullet delay="3.5" x="540" y="290" width="350"><![CDATA[1 to 36 hours]]></bullet>
+
+
+		<statement delay="7.2" x="510" y="330" width="350" ><![CDATA[Duration:]]></statement>
+		
+		<bullet delay="8.4" x="540" y="370" width="350"><![CDATA[1 to 7 days]]></bullet>
+
+
+		<statement delay="11" x="510" y="410" width="350" ><![CDATA[Usually requires a large number of food poisoning organisms to cause illness.]]></statement>
+
+	</page>
+
+	
+</content>

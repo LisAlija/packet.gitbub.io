@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	<LoaderMax name="pageLoader2" load="true">
+		<SWFLoader name="background" autoPlay="false" url="../common/commonassets/background.swf" />
+		<SWFLoader name="moduleNumber" autoPlay="false" url="pages/assets/m04p02/welcome.swf" />
+		<SWFLoader name="moduleName" autoPlay="false" url="pages/assets/m04p02/title.swf" />
+		<SWFLoader name="image1" autoPlay="false" url="pages/assets/m04p02/image1.swf" />
+		
+		<MP3Loader name="intro" autoPlay="false" url="pages/assets/m04p02/m04p02a.mp3" />
+		<MP3Loader name="soundcorrect" autoPlay="false" url="pages/assets/m04p02/correct.mp3" />
+		<MP3Loader name="soundincorrect" autoPlay="false" url="pages/assets/m04p02/incorrect.mp3" />
+	</LoaderMax>
+		
+
+	
+	<transcript sound="intro"><![CDATA[Welcome to module 4.<br /><br />In this module we will be looking at contamination hazards. <br /><br />We will learn what contamination hazards are, how they transfer to food and how to control them.<br /><br />Let's first learn the meaning of a few terms related to contamination.<br /><br />Click a term on the left and then match it to its meaning by clicking on a definition, then click 'Check Answer'.]]></transcript>
+	
+	<transcript sound="soundcorrect"><![CDATA[You are right! Take a minute to study the definitions again before clicking ‘Next’ to proceed.]]></transcript>
+	<transcript sound="soundincorrect"><![CDATA[That’s not quite right.]]></transcript>
+
+	<page clearTime="14" sound="intro">
+	
+		<activities>
+			<activity>Image</activity>
+			<activity>Bullets</activity>
+			<activity>AddText</activity> 
+			<activity>Transcript</activity>
+		</activities>  
+	
+	
+		<placeImage x="0" y="0" stop="yes" name="background" >
+			<moveImage delay="0" x="7" y="60" alpha="0" />
+			<moveImage delay="0.25" x="7" y="60" alpha="0.5" />
+			<moveImage delay="2" x="7" y="60" alpha="0" />
+			
+		</placeImage>
+		
+		<placeImage x="0" y="0" stop="yes" name="moduleNumber" description="Module Number" centre="true">
+			<moveImage delay="0" x="504" y="280" alpha="0" scaleX="1" scaleY="0.5" />
+			<moveImage delay="0.5" x="504" y="260" alpha="1" scaleX="0.75" scaleY="0.75" />
+			<moveImage delay="2" x="504" y="260" alpha="0" />
+		</placeImage>
+		
+		<placeImage x="0" y="0" stop="yes" name="moduleName" description="Module Name" centre="true" >
+			<moveImage delay="0" x="504" y="340" alpha="0" scaleX="0.5" scaleY="0.5" />
+			<moveImage delay="0.5" x="504" y="360" alpha="1"  scaleX="1" scaleY="1" />
+			<moveImage delay="2" x="504" y="360" alpha="0" />
+		</placeImage>
+		
+		<placeImage x="504" y="140" name="image1">
+			<moveImage delay="4" x="504" y="145" alpha="1" speed="1"/>
+		</placeImage>
+
+
+		<statement delay="4" x="50" y="180" width="420" ><![CDATA[<b>Contamination hazards</b>]]></statement>
+		<statement delay="6.5" x="50" y="225" width="420" ><![CDATA[We will learn:]]></statement> 
+		<bullet delay="8" x="80" y="270" width="420" ><![CDATA[What contamination hazards are]]></bullet>
+		<bullet delay="10" x="80" y="315" width="420" ><![CDATA[How they transfer to food]]></bullet>
+		<bullet delay="11.7" x="80" y="360" width="420" ><![CDATA[How to control them.]]></bullet>
+	</page>
+
+
+	<page>
+	<activities>
+			<activity>ActivityText</activity>
+			<activity>DefinitionMatcher</activity>
+			<activity>AddText</activity>
+			<activity>Transcript</activity>
+	</activities>
+		
+		
+		<instructionOptions x="50" y="140" width="880" delay="0">
+			<instruction><![CDATA[Click a term on the left and match it with its meaning on the right, then click the ‘Check Answer’ button.]]></instruction>					
+		</instructionOptions>
+		
+		
+		<matcherOptions delay="0" delayactivation="6" shufflepositions="yes">
+		
+		 <leftbuttonwidth>280</leftbuttonwidth>
+		 <rightbuttonwidth>520</rightbuttonwidth>
+		 <buttonheight>60</buttonheight> 
+		 <leftColumnX>95</leftColumnX>
+		 <startingY>210</startingY>
+		 <paddingBetween>10</paddingBetween>
+		 <paddingBelow>12</paddingBelow>
+		 <termBgColour>0x7A719F</termBgColour> 
+		 <termRollColour>0xF79636</termRollColour> 
+		 <termSelectColour>0x5DACFF</termSelectColour>
+		 <defBgColour>0xBFBCD0</defBgColour> 
+		 <defRollColour>0x8D67B2</defRollColour> 
+		 <defSelectColour>0x87A383</defSelectColour>
+		 
+		 <checkBtn width="125" height="30" bColour="0x7446A2" roColour="0x7037AD" fontColour="0xffffff" fontSize="14">Check Answer</checkBtn>
+
+
+
+			<couple>
+				<term fontColour="0xffffff" fontSize="14"><![CDATA[<b>Allergen</b>]]></term>
+				<definition fontSize="13.5" fontColour="0x000000"><![CDATA[A protein that induces an allergy]]></definition>
+			</couple>
+			
+
+			<couple>
+				<term fontColour="0xffffff" fontSize="14"><![CDATA[<b>Allergy</b>]]></term>
+				<definition fontSize="13.5" fontColour="0x000000"><![CDATA[An immunological response to food that may affect the skin, gastrointestinal tract or respiratory system]]></definition>
+			</couple>
+			
+
+			<couple>
+				<term fontColour="0xffffff" fontSize="14"><![CDATA[<b>Contamination</b>]]></term>
+				<definition fontSize="13.5" fontColour="0x000000"><![CDATA[The presence or introduction of something harmful (a hazard) or objectionable in food]]></definition>
+			</couple>
+			
+
+			<couple>
+				<term fontColour="0xffffff" fontSize="14"><![CDATA[<b>Cross-contamination</b>]]></term>
+				<definition fontSize="13.5" fontColour="0x000000"><![CDATA[The transfer of bacteria from a contaminated source, usually raw food, to ready-to-eat food]]></definition>
+			</couple>
+			
+
+			<couple>
+				<term fontColour="0xffffff" fontSize="14"><![CDATA[<b>Sources of food poisoning bacteria</b>]]></term>
+				<definition fontSize="13.5" fontColour="0x000000"><![CDATA[Things that bring food poisoning bacteria into food premises (the origin)]]></definition>
+			</couple>
+			
+
+
+			<correctfeedback sound="soundcorrect" width="400" height="200" fontColour="0x000000"><![CDATA[<b>You are right!</b><br /><br />Take a minute to study the definitions again before clicking ‘Next’ to proceed.]]></correctfeedback>
+			
+			
+			<incorrectfeedback sound="soundincorrect" width="400" height="200" fontColour="0x000000"><![CDATA[<b>That’s not quite right.</b><br /><br />Click ‘View Correct Answer’ to see the correct definitions.]]></incorrectfeedback>
+			
+			
+		</matcherOptions>
+	
+	</page>
+</content>

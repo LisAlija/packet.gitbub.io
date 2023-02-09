@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><content>
+
+	<LoaderMax name="moduleLoader" load="true">
+		
+		<!-- pages -->
+		<XMLLoader pageLoader="pageLoaderHelp" name="starterPage" autoPlay="false" estimatedBytes="249856" url="../common/globalxml/starterpage.xml"/>
+		<XMLLoader pageLoader="pageLoader2" name="page2" autoPlay="false" estimatedBytes="2781184" url="pages/flashxml/m02p02.xml"/>
+		<XMLLoader pageLoader="pageLoader3" name="page3" autoPlay="false" estimatedBytes="671744" url="pages/flashxml/m02p03.xml"/>
+		<XMLLoader pageLoader="pageLoader4" name="page4" autoPlay="false" estimatedBytes="573440" url="pages/flashxml/m02p04.xml"/>
+		<XMLLoader pageLoader="pageLoader5" name="page5" autoPlay="false" estimatedBytes="4157440" url="pages/flashxml/m02p05.xml"/>
+		<XMLLoader pageLoader="pageLoader6" name="page6" autoPlay="false" estimatedBytes="1114112" url="pages/flashxml/m02p06.xml"/>
+		<XMLLoader pageLoader="pageLoader7" name="page7" autoPlay="false" estimatedBytes="159744" url="pages/flashxml/m02p07.xml"/>
+		<XMLLoader pageLoader="pageLoader8" name="page8" autoPlay="false" estimatedBytes="131072" url="pages/flashxml/m02p08.xml"/>
+		<XMLLoader pageLoader="pageLoader11" name="page11" autoPlay="false" estimatedBytes="229376" url="pages/flashxml/m02p11.xml"/>
+		<XMLLoader pageLoader="pageLoader13" name="page13" autoPlay="false" estimatedBytes="745472" url="pages/flashxml/m02p13.xml"/>
+		<XMLLoader pageLoader="pageLoader14" name="page14" autoPlay="false" estimatedBytes="622592" url="pages/flashxml/m02p14.xml"/>
+		<XMLLoader pageLoader="pageLoader15" name="page15" autoPlay="false" estimatedBytes="565248" url="pages/flashxml/m02p15.xml"/>
+		<XMLLoader pageLoader="pageLoader16" name="page16" autoPlay="false" estimatedBytes="1118208" url="pages/flashxml/m02p16.xml"/>
+		
+
+		<XMLLoader pageLoader="pageLoaderAssessment" name="assessment" autoPlay="false" estimatedBytes="4894720" url="pages/flashxml/assessment.xml"/>
+	
+	</LoaderMax>
+	
+	<information>
+		<coursetitle>Food Safety Level 2</coursetitle>
+		<modtitle>Microbiological Hazards</modtitle>
+		<withAssessment>true</withAssessment>
+		<scorm>true</scorm>
+		<iAmDeveloping>false</iAmDeveloping>
+	</information>
+	
+	<page xmlName="starterPage">Course Navigation</page>
+	<page xmlName="page2">Introduction</page>
+	<page xmlName="page3">What are Microbiological Hazards?</page>
+	<page xmlName="page4">Bacteria</page>
+	<page xmlName="page5">Sources of Bacteria</page>
+	<page xmlName="page6">Requirements for Bacterial Multiplication</page>
+	<page xmlName="page7">Temperature and Bacterial Multiplication</page>
+	<page xmlName="page8">Bacterial Spores</page>
+	<page xmlName="page11">Food Types and Risks</page>
+	<page xmlName="page13">Destroying Food Poisoning Bacteria</page>
+	<page xmlName="page14">Keeping Food Safe</page>
+	<page xmlName="page15">Signs of Food Spoilage</page>
+	<page xmlName="page16">Summary</page> 
+	<page xmlName="assessment">Assessment</page>
+</content>

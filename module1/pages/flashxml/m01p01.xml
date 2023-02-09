@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	
+	<LoaderMax name="pageLoader1" load="true">
+	
+		<SWFLoader name="background" autoPlay="false" url="../common/commonassets/background.swf" />
+		<SWFLoader name="title" autoPlay="false" url="pages/assets/m01p01/title.swf" />
+		<SWFLoader name="welcome" autoPlay="false" url="pages/assets/m01p01/welcome.swf" />
+		
+		<SWFLoader name="image1" autoPlay="false" url="pages/assets/m01p01/image1.swf" />
+		<SWFLoader name="image2" autoPlay="false" url="pages/assets/m01p01/image2.swf" />
+		<SWFLoader name="image3" autoPlay="false" url="pages/assets/m01p01/image3.swf" />
+		<SWFLoader name="module" autoPlay="false" url="pages/assets/m01p01/module1.swf" />
+		<SWFLoader name="moduleTitle" autoPlay="false" url="pages/assets/m01p01/moduleTitle.swf" />
+		
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m01p01/m01p01.mp3" />
+
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[Welcome to this food safety e-learning programme.<br /><br />In this programme, you will learn about:<br /><br /><li>Food safety and the importance of giving priority to practices critical to food safety;</li><br /><li>The legal and moral responsibilities of food handlers;</li><br /><li>Food safety hazards with the potential to cause harm to the consumer;</li><br /><li>The costs of poor food safety and the benefits of good food safety.</li><br/>We will start with Module 1: Introduction to Food Safety.]]></transcript>
+			
+	<page clearTime="28" sound="sound1">
+		<activities>
+			<activity>Image</activity>
+			<activity>Bullets</activity>
+			<activity>AddText</activity> 
+			<activity>Transcript</activity>
+		</activities>  
+	
+		<placeImage x="7" y="60" stop="yes" name="background" >
+			<moveImage delay="0" x="7" y="60" alpha="0.5"/>
+		</placeImage>
+		
+		<placeImage x="0" y="0" stop="yes" name="welcome" description="Welcome to Food Safety Level 2" centre="true">
+			<moveImage delay="0" x="504" y="220" alpha="0" playit="0" scaleX="1" scaleY="0.5" />
+			<moveImage delay="0" x="504" y="220" alpha="1" scaleX="0.75" scaleY="0.75" />
+			<moveImage delay="2" x="210" y="140" alpha="1" />
+		</placeImage>
+		
+		<placeImage x="0" y="0" stop="yes" name="title" centre="true">
+			<moveImage delay="0" x="504" y="300" alpha="0" playit="0" scaleX="0.5" scaleY="0.5" />
+			<moveImage delay="1" x="504" y="300" alpha="1"  scaleX="1" scaleY="1" />
+			<moveImage delay="1" x="280" y="220" alpha="1" />
+		</placeImage>
+
+		<placeImage x="180" y="380" name="image1" alpha="0">
+			<moveImage delay="1.2" x="180" y="380" alpha="1" /> 
+			<moveImage delay="1.8" x="530" y="380" alpha="1" speed="0.5" />
+		</placeImage>
+		
+		<placeImage x="715" y="350" name="image2" alpha="0">
+			<moveImage delay="1.2" x="715" y="340" alpha="1"/> 
+			<moveImage delay="1.8" x="769" y="340" alpha="1" speed="0.5" />
+		</placeImage>
+		
+		<placeImage x="440" y="375" name="image3" alpha="0">
+			<moveImage delay="1.2" x="440" y="375" alpha="1" />
+			<moveImage delay="1.8" x="620" y="100" alpha="1" speed="0.5" />
+		</placeImage> 		
+
+		<statement delay="4.5" x="50" y="320" width="410" ><![CDATA[In this programme, you will learn about:]]></statement> 
+		
+		<bullet delay="6.5" x="80" y="365" width="375" ><![CDATA[Food safety and the importance of giving priority to practices critical to food safety]]></bullet>
+		<bullet delay="11.4" x="80" y="425" width="375" ><![CDATA[The legal and moral responsibilities of food handlers]]></bullet> 
+		<bullet delay="16.5" x="80" y="470" width="375" ><![CDATA[Food safety hazards with the potential to cause harm to the consumer]]></bullet> 
+		<bullet delay="21.7" x="80" y="530" width="375" ><![CDATA[The costs of poor food safety and the benefits of good food safety.]]></bullet> 
+		
+	</page>
+	
+	<page clearTime="5">
+		<activities>
+			<activity>Image</activity>
+			<activity>AddText</activity> 
+			<activity>Transcript</activity>
+		</activities> 
+			<placeImage x="7" y="85" stop="yes" name="background" >
+			<moveImage delay="0" x="7" y="85" alpha="0.5" playit="0"/>
+		</placeImage> 
+		
+		<placeImage x="0" y="0" stop="yes" name="module" description="Module 1" centre="true">
+			<moveImage delay="0" x="504" y="300" alpha="0" playit="0" scaleX="0.5" scaleY="0.5" />
+			<moveImage delay="0.5" x="504" y="280" alpha="1" scaleX="1" scaleY="1" />
+			<moveImage delay="0.75" x="504" y="280" alpha="1" scaleX="0.75" scaleY="0.75" />
+		</placeImage>
+		
+		<placeImage x="0" y="0" stop="yes" name="moduleTitle" centre="true" >
+			<moveImage delay="0.75" x="504" y="360" alpha="0" playit="0" scaleX="0.5" scaleY="0.5" />
+			<moveImage delay="1" x="504" y="360" alpha="1"  scaleX="1" scaleY="1" />
+
+		</placeImage>
+	
+	</page>
+	
+</content>

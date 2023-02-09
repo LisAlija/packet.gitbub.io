@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	
+	<LoaderMax name="pageLoader7" load="true">
+	
+		<SWFLoader name="image1" autoPlay="false" url="pages/assets/m03p07/image1.swf" />
+		<SWFLoader name="image2" autoPlay="false" url="pages/assets/m03p07/image2.swf" />
+		<SWFLoader name="image3" autoPlay="false" url="pages/assets/m03p07/image3.swf" />
+		<SWFLoader name="image4" autoPlay="false" url="pages/assets/m03p07/image4.swf" />
+		<SWFLoader name="image5" autoPlay="false" url="pages/assets/m03p07/image5.swf" />
+		<SWFLoader name="image6" autoPlay="false" url="pages/assets/m03p07/image6.swf" />
+		
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m03p07/m03p07.mp3" />
+
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[Food poisoning rarely occurs because of a single isolated mistake.<br /><br />High-risk food becomes contaminated usually because of bad hygiene practices.<br /><br />When you store food, contaminated with bacteria, at room temperature for too long, the bacteria multiply.<br /><br />Given time, the number of bacteria becomes sufficient to infect people when the food is consumed.<br /><br />To prevent food poisoning, break the chain - avoid conditions that can lead to the multiplication of bacteria.]]></transcript>
+	
+		
+	<page clearTime="32.5" sound="sound1">
+	
+		<activities>
+			<activity>Image</activity>
+			<activity>AddText</activity>
+			<activity>Bullets</activity>
+			<activity>Transcript</activity>
+		</activities>  
+
+
+		<placeImage x="142" y="265" name="image1">
+			<moveImage delay="1" x="142" y="265" alpha="1" speed="1"/>
+			<moveImage delay="4" x="142" y="265" alpha="0" speed="1"/>
+		</placeImage>
+		
+		<placeImage x="142" y="265" name="image2">
+			<moveImage delay="6" x="142" y="265" alpha="1" speed="1"/>
+			<moveImage delay="9" x="142" y="265" alpha="0" speed="1"/>
+		</placeImage>
+		
+		<placeImage x="142" y="265" name="image3">
+			<moveImage delay="16" x="142" y="265" alpha="1" speed="1"/>
+			<moveImage delay="3.5" x="142" y="265" alpha="0" speed="1"/>
+		</placeImage>
+		
+		<placeImage x="142" y="265" name="image4">
+			<moveImage delay="20.5" x="142" y="265" alpha="1" speed="1"/>
+			<moveImage delay="5" x="142" y="265" alpha="0" speed="1"/>
+		</placeImage>
+		
+		<placeImage x="142" y="265" name="image5">
+			<moveImage delay="26.5" x="142" y="265" alpha="1" speed="1"/>
+			<moveImage delay="3" x="142" y="265" alpha="0" speed="1"/>
+		</placeImage>
+		
+		<placeImage x="42" y="200" name="image6">
+			<moveImage delay="30.5" x="42" y="200" alpha="1" speed="1"/>
+		</placeImage>
+
+
+
+	</page>
+
+	
+</content>

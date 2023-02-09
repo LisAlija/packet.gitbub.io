@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	<LoaderMax name="pageLoader3" load="true">
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m01p03/m01p03.mp3" />
+		<MP3Loader name="soundcorrect" autoPlay="false" url="pages/assets/m01p03/correct.mp3" />
+		<MP3Loader name="soundincorrect" autoPlay="false" url="pages/assets/m01p03/incorrect.mp3" />
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[As we begin this module, there are certain terms and definitions that you should be familiar with.<br/><br/>Click a term on the left and then match it to its meaning by clicking on a definition.]]></transcript>
+	
+	<transcript sound="soundcorrect"><![CDATA[You are right!<br /><br />You already have some awareness of food safety. Take a minute to study the definitions again before clicking ‘Next’ to proceed.]]></transcript>
+	
+	<transcript sound="soundincorrect"><![CDATA[That’s not quite right.<br /><br />Click the ‘View correct answer’ button to see the correct matches.]]></transcript>
+
+
+	<page sound="sound1">
+	<activities>
+			<activity>ActivityText</activity>
+			<activity>DefinitionMatcher</activity>
+			<activity>AddText</activity>
+			<activity>Transcript</activity>
+	</activities>
+		
+		<instructionOptions x="50" y="120" width="880" delay="1">
+			<instruction><![CDATA[It is essential to be aware of certain terms and definitions related to food safety. Click a term on the left and match it with its meaning on the right.]]></instruction>					
+		</instructionOptions>
+		
+		
+		<matcherOptions delay="1" shufflepositions="yes" delayactivation="5">
+		
+		 <leftbuttonwidth>280</leftbuttonwidth>
+		 <rightbuttonwidth>520</rightbuttonwidth>
+		 <buttonheight>50</buttonheight> 
+		 <leftColumnX>95</leftColumnX>
+		 <startingY>190</startingY>
+		 <paddingBetween>10</paddingBetween>
+		 <paddingBelow>8</paddingBelow>
+		 <termBgColour>0x7A719F</termBgColour> 
+		 <termRollColour>0xF79636</termRollColour> 
+		 <termSelectColour>0x5DACFF</termSelectColour>
+		 <defBgColour>0xBFBCD0</defBgColour> 
+		 <defRollColour>0x8D67B2</defRollColour> 
+		 <defSelectColour>0x87A383</defSelectColour>
+		 
+		 <checkBtn width="125" height="30" bColour="0x7446A2" roColour="0x7037AD" fontColour="0xffffff" fontSize="14">Check Answers</checkBtn>
+
+
+
+			<couple>
+				<term fontColour="0xffffff" fontSize="14"><![CDATA[<b>Contamination</b>]]></term>
+				<definition fontSize="13.5" fontColour="0x000000"><![CDATA[The presence or introduction of something harmful (a hazard) or objectionable in food]]></definition>
+			</couple>
+			
+
+			<couple>
+				<term fontColour="0xffffff" fontSize="14"><![CDATA[<b>Food hygiene/safety</b>]]></term>
+				<definition fontSize="13.5" fontColour="0x000000"><![CDATA[Measures and conditions to ensure that food is fit to eat by controlling hazards and protecting it from harmful substances]]></definition>
+			</couple>
+			
+
+			<couple>
+				<term fontColour="0xffffff" fontSize="14"><![CDATA[<b>Food poisoning</b>]]></term>
+				<definition fontSize="13.5" fontColour="0x000000"><![CDATA[An acute illness caused by eating contaminated or poisonous food]]></definition>
+			</couple>
+			
+
+			<couple>
+				<term fontColour="0xffffff" fontSize="14"><![CDATA[<b>HACCP</b>]]></term>
+				<definition fontSize="13.5" fontColour="0x000000"><![CDATA[Hazard Analysis Critical Control Point – a safety management system to identify and control hazards related to food safety]]></definition>
+			</couple>
+			
+
+			<couple>
+				<term fontColour="0xffffff" fontSize="14"><![CDATA[<b>Hazard</b>]]></term>
+				<definition fontSize="13.5" fontColour="0x000000"><![CDATA[Anything in food with the potential to cause harm to consumers]]></definition>
+			</couple>
+			
+
+			<couple>
+				<term fontColour="0xffffff" fontSize="14"><![CDATA[<b>Risk groups</b>]]></term>
+				<definition fontSize="13.5" fontColour="0x000000"><![CDATA[Those people most at risk from food poisoning and most likely to die]]></definition>
+			</couple>
+			
+
+			<couple>
+				<term fontColour="0xffffff" fontSize="14"><![CDATA[<b>Safe food</b>]]></term>
+				<definition fontSize="13.5" fontColour="0x000000"><![CDATA[Food that is free from contaminants and will not cause harm, injury or illness]]></definition>
+			</couple>
+			
+
+
+			<correctfeedback sound="soundcorrect" width="400" height="200" fontColour="0x000000"><![CDATA[<b>Well done!</b><br /><br />You already have some awareness of food safety.<br /><br />Take a minute to study the definitions again before clicking ‘Next’ to proceed.]]></correctfeedback>
+			
+			
+			<incorrectfeedback sound="soundincorrect" width="400" height="200" fontColour="0x000000"><![CDATA[<b>That’s not quite right.</b><br /><br />Click the ‘View correct answer’ button to see the correct matches.]]></incorrectfeedback>
+			
+			
+		</matcherOptions>
+	
+	</page>
+</content>

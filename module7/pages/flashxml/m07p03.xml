@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	<LoaderMax name="pageLoader3" load="true">
+		<SWFLoader name="image1" autoPlay="false" url="pages/assets/m07p03/image1.swf" />
+		<SWFLoader name="image2" autoPlay="false" url="pages/assets/m07p03/image2.swf" />
+
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m07p03/m07p03.mp3" />
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[All equipment, working surfaces and other utensils in food premises, should be designed and constructed to minimise harbourage of soil, bacteria or pests.<br /><br />These items must also be easy to clean and disinfect.<br /><br />Food handlers must keep the work surfaces and equipment clean, being careful to avoid using dirty or defective equipment.<br /><br />They should report dirty or defective equipment, including leaking sinks and broken taps and never undertake temporary repairs.<br /><br />They should also make sure all the equipment including washbasins, is used properly.<br /><br />Report to your supervisor if there is no water or the toilet is blocked.]]></transcript>	
+
+	<page sound="sound1" clearTime="46">
+	
+		<activities>
+			<activity>Image</activity>
+			<activity>AddText</activity>
+			<activity>Bullets</activity>
+			<activity>Transcript</activity>
+		</activities>  
+		
+		<placeImage x="80" y="145" name="image1" alpha="0">
+			<moveImage delay="1" x="80" y="150" alpha="1" speed="1"/>
+		</placeImage>
+		
+		<placeImage x="250" y="245" name="image2" alpha="0">
+			<moveImage delay="1" x="250" y="250" alpha="1" speed="1"/>
+		</placeImage>
+		
+		<statement delay="1" x="500" y="120" width="450" ><![CDATA[<b>All equipment, working surfaces and other utensils should be designed and constructed to:</b>]]></statement>		
+		
+		<bullet delay="7.8" x="530" y="180" width="420" ><![CDATA[Minimise harbourage of soil, bacteria or pests]]></bullet>
+		<bullet delay="12" x="530" y="225" width="420" ><![CDATA[Enable them to be thoroughly cleaned and disinfected.]]></bullet>
+		
+		<statement delay="16.5" x="500" y="270" width="450" ><![CDATA[<b>Your role:</b>]]></statement>
+		
+		<bullet delay="20.1" x="530" y="315" width="420" ><![CDATA[Keep the work surfaces and equipment clean]]></bullet>
+		<bullet delay="23.5" x="530" y="360" width="420" ><![CDATA[Don’t use dirty or defective equipment]]></bullet>
+		<bullet delay="27.5" x="530" y="405" width="420" ><![CDATA[Report dirty or defective equipment]]></bullet>
+		<bullet delay="33.6" x="530" y="450" width="420" ><![CDATA[Do not undertake temporary repairs]]></bullet>
+		<bullet delay="36.8" x="530" y="495" width="420" ><![CDATA[Use all the equipment properly.]]></bullet>
+		
+		</page>
+		
+</content>

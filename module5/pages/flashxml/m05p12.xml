@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	
+	<LoaderMax name="pageLoader12" load="true">
+	
+		<SWFLoader name="image1" autoPlay="false" url="pages/assets/m05p12/image1.swf" />
+		
+		<SWFLoader name="image2" autoPlay="false" url="pages/assets/m05p12/image2.swf" />
+		
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m05p12/m05p12.mp3" />
+
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[Commercial freezers should operate at -18°C or below. At this temperature food will keep for a reasonable time with no bacterial growth.<br /><br />Proper controls, monitoring and corrective actions need to be taken while using frozen storage. These are very similar to those applied to refrigerated storage.<br /><br />Frozen food should not be allowed to rise above -15°C and should never be stored above the load line.<br /><br />All food should be suitably packaged to prevent freezer burn i.e. to prevent food drying out and protect it from contamination.]]></transcript>
+			
+	<page clearTime="35" sound="sound1">
+	
+		<activities>
+			<activity>Image</activity>
+			<activity>Bullets</activity>
+			<activity>AddText</activity> 
+			<activity>Transcript</activity>
+		</activities> 		 
+	
+	
+		<placeImage x="560" y="145" stop="yes" name="image1" >
+			<moveImage delay="0" x="560" y="150" alpha="1" />
+		</placeImage>
+		
+		<placeImage x="650" y="355" stop="yes" name="image2">
+			<moveImage delay="0" x="650" y="360" alpha="1"/>
+		</placeImage>
+		
+		
+		<statement delay="0" x="50" y="140" width="400" height="50"><![CDATA[Commercial freezers should operate at -18°C or below; at this temperature food will keep for a reasonable time with no bacterial growth.]]></statement>
+		<statement delay="9.7" x="50" y="215" width="400" height="50"><![CDATA[Proper controls, monitoring and corrective actions need to be taken while using frozen storage; these are very similar to those applied to refrigerated storage.]]></statement>
+		<statement delay="19.5" x="50" y="290" width="400" height="50"><![CDATA[Frozen food should not be allowed to rise above -15°C and should never be stored above the load line.]]></statement>
+		<statement delay="27" x="50" y="350" width="400" height="50"><![CDATA[All food should be suitably packaged to prevent freezer burn i.e. to prevent food drying out and protect it from contamination.]]></statement>
+		
+		
+	</page>
+	
+</content>

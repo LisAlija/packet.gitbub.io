@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	<LoaderMax name="pageLoaderAssessment" load="true">
+		<SWFLoader name="correctMC" autoPlay="false" url="../common/commonassets/assessment_right.swf" />
+		<SWFLoader name="preMC" autoPlay="false" url="../common/commonassets/assessment_pre.swf" />
+		<SWFLoader name="incorrectMC" autoPlay="false" url="../common/commonassets/assessment_wrong.swf" />
+		<MP3Loader name="before_assessment" autoPlay="false" url="../common/commonassets/before_assessment.mp3" />
+		<MP3Loader name="passed_module" autoPlay="false" url="../common/commonassets/passed_module.mp3" />
+		<MP3Loader name="review_short_course" autoPlay="false" url="../common/commonassets/review_short_course.mp3" />
+		<MP3Loader name="try_again" autoPlay="false" url="../common/commonassets/try_again.mp3" />
+		<MP3Loader name="failed" autoPlay="false" url="../common/commonassets/failed.mp3" />
+	</LoaderMax>
+	
+	<transcript sound="before_assessment"><![CDATA[See on-screen text.]]></transcript>
+	
+	<page clearTime="14" sound="before_assessment">
+		<activities>
+			<activity>Image</activity>
+			<activity>AddText</activity>
+			<activity>Transcript</activity>
+		</activities>
+		
+		<placeImage x="172" y="165" name="preMC">
+			<moveImage delay="0" x="172" y="165" alpha="1" speed="0"/>
+		</placeImage>
+		<statement delay="0" x="220" y="205" width="440" ><![CDATA[<b>To complete this module you need to pass the following assessment; the passmark is 100%.<br /><br />We recommend you read the questions carefully before answering. Once you have moved on you cannot return to previous questions.</b>]]></statement> 
+	</page>
+	
+	<page>
+	<activities>
+			<activity>Assessment</activity>
+	</activities>
+	
+	<assessmentOptions>
+		 <postorpre>post</postorpre>
+		 <noofqspermod>3</noofqspermod>
+		 <tolerance>2</tolerance>
+		
+		 <bgX>172</bgX>
+		 <bgY>130</bgY>
+		 <quFontColour>0xffffff</quFontColour>
+		 <quFontSize>16</quFontSize>
+		 <quX>305</quX>
+		 <quY>183</quY>
+		 
+		 <ansPanelX>235</ansPanelX>
+		 <ansPanelY>263</ansPanelY>
+		 <ansPanelWidth>540</ansPanelWidth>
+		 <ansFontSize>15</ansFontSize>
+		 <ansFontColour>0xffffff</ansFontColour>
+		 <ansBgColour>0xA17AC7</ansBgColour>
+		 <ansRoColour>0x63CCF2</ansRoColour>
+		 <ansSelColour>0x27bcf2</ansSelColour>
+		 <!-- <ansShade>false</ansShade> -->
+		 
+		<question refPageNo="3" modNo="10">
+    		<text width="540"><![CDATA[<b>Which of the following is a true statement about visits by authorised officers, for example EHPs/EHOs?</b>]]></text>
+			<ans correct="0"><![CDATA[<b>They need to make an appointment prior to a visit</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>They can visit at any reasonable time</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>They are not allowed to take samples and photographs</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>They can only visit whilst the manager is on duty</b>]]></ans>
+		</question>
+		
+		<question refPageNo="4" modNo="10">
+    		<text width="540"><![CDATA[<b>Which of the following may best be used to help prove a due diligence defence?</b>]]></text>
+			<ans correct="0"><![CDATA[<b>Payroll records</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>Temperature control monitoring forms</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Holiday records</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Complimentary letters from customers</b>]]></ans>
+		</question>
+		
+		<question refPageNo="2" modNo="10">
+    		<text width="540"><![CDATA[<b>Which of the following is an offence under food safety legislation?</b>]]></text>
+			<ans correct="0"><![CDATA[<b>Displaying chilled food above 8&#176;C for 3 hours</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Selling cheap food</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>Failing to implement a food safety management system based on the principles of HACCP</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Allowing customers to serve themselves without tongs</b>]]></ans>
+		</question>
+		
+		<question refPageNo="3" modNo="10">
+    		<text width="540"><![CDATA[<b>What legal powers has an authorised officer got to deal with unfit food?</b>]]></text>
+			<ans correct="0"><![CDATA[<b>Destroy the food</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Sell the food for an alternative use</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Require the food to be boiled</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>Seize the food</b>]]></ans>
+		</question>
+		
+		<question refPageNo="4" modNo="10">
+    		<text width="540"><![CDATA[<b>Which of the following best describes a due-diligence defence?</b>]]></text>
+			<ans correct="1"><![CDATA[<b>Taking all reasonable precautions to prevent an offence</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Proving that someone else was responsible for the offence</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Claiming that the offence was impossible to predict</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Proving that you were unaware of the law</b>]]></ans>
+		</question>	
+		
+		<passed image="correctMC" sound="passed_module"><![CDATA[Well done you have answered all of the questions correctly and have passed the module.<br /><br />Use the ‘Save and Exit’ button to leave this module and return to the Learning Management System.]]></passed>
+		<tolwrong image="incorrectMC" sound="try_again" buttontext="Try again" buttonx="230" buttony="400" btnColour="0x673E90" roColour="0xFF9933"><![CDATA[You have not answered all of the questions correctly.<br /><br />Use the Try again button to have another go at the question/s that you did not answer correctly.]]></tolwrong>
+		<intolwrong image="incorrectMC" sound="failed"><![CDATA[You have not passed the assessment.<br /><br />Use the next button to review the module content and then try the assessment again.]]></intolwrong>
+		<intolfirstgowrong image="incorrectMC" sound="failed"><![CDATA[You have not passed the assessment.<br /><br />Use the next button to review the module content and then try the assessment again.]]></intolfirstgowrong>
+		<stillwrong image="incorrectMC" sound="review_short_course"><![CDATA[You have not answered all of the questions correctly.<br /><br />Please use the next button to review a short course tailored to cover the content that you need to revise.<br /><br />When you have finished this, you will be able to try the assessment again.]]></stillwrong>
+		
+		 
+	</assessmentOptions>	 
+		
+	
+	</page>
+</content>

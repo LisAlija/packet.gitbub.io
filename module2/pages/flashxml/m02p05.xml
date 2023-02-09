@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	
+	<LoaderMax name="pageLoader5" load="true" >
+		
+		<SWFLoader name="icon1" autoPlay="false" extras="over, selected, done" url="pages/assets/m02p05/icon1.swf" />
+		<SWFLoader name="icon2" autoPlay="false" extras="over, selected, done" url="pages/assets/m02p05/icon2.swf" />
+		<SWFLoader name="icon3" autoPlay="false" extras="over, selected, done" url="pages/assets/m02p05/icon3.swf" />
+		<SWFLoader name="icon4" autoPlay="false" extras="over, selected, done" url="pages/assets/m02p05/icon4.swf" />
+		<SWFLoader name="icon5" autoPlay="false" extras="over, selected, done" url="pages/assets/m02p05/icon5.swf" />
+		<SWFLoader name="icon6" autoPlay="false" extras="over, selected, done" url="pages/assets/m02p05/icon6.swf" />
+		
+		<SWFLoader name="image1" autoPlay="false" url="pages/assets/m02p05/image1.swf" />
+		
+		<SWFLoader name="pop_image1" autoPlay="false" url="pages/assets/m02p05/pop_image1.swf" />
+		<SWFLoader name="pop_image2" autoPlay="false" url="pages/assets/m02p05/pop_image2.swf" />
+		<SWFLoader name="pop_image3" autoPlay="false" url="pages/assets/m02p05/pop_image3.swf" />
+		<SWFLoader name="pop_image4" autoPlay="false" url="pages/assets/m02p05/pop_image4.swf" />
+		<SWFLoader name="pop_image5" autoPlay="false" url="pages/assets/m02p05/pop_image5.swf" />
+		<SWFLoader name="pop_image6" autoPlay="false" url="pages/assets/m02p05/pop_image6.swf" />
+		
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m02p05/m02p05.mp3" />	
+		
+		<MP3Loader name="pop1" autoPlay="false" url="pages/assets/m02p05/pop1.mp3" />	
+		<MP3Loader name="pop2" autoPlay="false" url="pages/assets/m02p05/pop2.mp3" />
+		<MP3Loader name="pop3" autoPlay="false" url="pages/assets/m02p05/pop3.mp3" />	
+		<MP3Loader name="pop4" autoPlay="false" url="pages/assets/m02p05/pop4.mp3" />		
+		<MP3Loader name="pop5" autoPlay="false" url="pages/assets/m02p05/pop5.mp3" />		
+		<MP3Loader name="pop6" autoPlay="false" url="pages/assets/m02p05/pop6.mp3" />		
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[When running a food business, it is certain that food poisoning bacteria will be present at some time.<br /><br />If you know where to find them and what brings them in to a food business, you will have a better chance of controlling them.<br /><br />Click the graphics to learn about the sources of bacteria.]]></transcript>
+	
+	<transcript sound="pop1"><![CDATA[People commonly harbour food poisoning bacteria in the nose, mouth and intestines, aswell as in cuts and on the skin.<br /><br />Food may be contaminated directly by the hands, sneezing or coughing, or indirectly by sewage contaminated water.<br /><br />Polluted irrigation water often results in contaminated fresh produce.]]></transcript>
+	
+	<transcript sound="pop2"><![CDATA[Refuse and waste may harbour food poisoning bacteria. Care must always be taken to avoid contamination of food from waste, either directly or indirectly.]]></transcript>
+	
+	<transcript sound="pop3"><![CDATA[Water is a possible source of contamination. Only drinking water should be used in food preparation or in cleaning of food and hand contact surfaces.]]></transcript>
+	
+	<transcript sound="pop4"><![CDATA[Raw food is particularly hazardous, as it is likely to be contaminated with large numbers of food poisoning organisms.<br /><br />Especially:<br /><br /><li>Red meat;</li><li>Poultry;</li><li>Untreated milk;</li><li>Raw eggs; and</li><li>Shellfish, such as oysters.</li><br />Store raw foods separate from ready to eat foods so there is no risk of contamination. Raw foods which are thawing should be kept separate from ready to eat foods or equipment, cloths and surfaces used for ready to eat foods.]]></transcript>
+	
+	<transcript sound="pop5"><![CDATA[Pests may transmit food poisoning bacteria to food.<br /><br />Flies may land on rubbish and animal faeces and pick up large numbers of bacteria on their hairy bodies. They also defecate and vomit previous meals back on to the food they are eating.<br /><br />Rats and mice commonly excrete food poisoning organisms. Contamination also may occur from droppings, urine and hair.<br /><br />Food contact surfaces which may have been contaminated by pests must be cleaned and disinfected before use.<br /><br />Food suspected of being contaminated by pests must be destroyed.]]></transcript>
+		
+	<transcript sound="pop6"><![CDATA[Soil and dust harbour harmful bacteria and care must be taken when bringing unwashed fruit and vegetables in to food rooms.<br /><br />Separate, colour coded clean cloths must be used for surfaces used for raw food and surfaces used for ready to eat food. Open food should always be removed or covered when cleaning is carried out, especially dusting and sweeping.]]></transcript>
+	
+	<page sound="sound1">
+		<activities>
+				<activity>ClickRevealStandard</activity>
+				<activity>Image</activity>
+				<activity>ActivityText</activity>
+				<activity>AddText</activity>
+		</activities>
+		
+		<statement delay="0" x="50" y="100" width="900" ><![CDATA[Presence of pathogens in a food business is certain. Know their sources and growth requirements to better control them.]]></statement> 
+		
+		
+		
+		<placeImage x="307" y="155" name="image1">
+			<moveImage delay="0" x="307" y="155" alpha="1" speed="1"/>
+			<moveImage delay="12.75" x="405" y="265" scaleX="0.5" scaleY="0.5" alpha="0" />
+		</placeImage>
+		
+		
+		
+			
+		<instructionOptions x="135" y="330" width="600" delay="14.5" style="slide">
+			<instruction><![CDATA[<b>Click on the icons to learn about the sources of bacteria.</b>]]></instruction>
+		</instructionOptions>
+		
+<!--Click reveal-->
+
+		<clickrevealOptions mouseaction="click" closebutton="yes" timedremoval="no" style="fadein" delayactivation="14.5">
+				
+			<clickreveal x="134" y="170" width="750" height="375" bg="yes">
+				<clicker x="173" y="160" revealDelay="14">icon1</clicker>
+				
+				<page sound="pop1" clearTime="21.5">
+					<activities>
+						<activity>AddText</activity>
+						<activity>Bullets</activity>
+						<activity>Image</activity>
+					</activities>
+					
+					<placeImage x="440" y="35" stop="yes" name="pop_image1">
+						<moveImage delay="0" x="440" y="40" alpha="1"/>
+					</placeImage>
+					
+					
+					<statement delay="0" x="30" y="25" width="320"><![CDATA[<b>People</b>]]></statement>
+								
+					<statement delay="0.5" x="30" y="60" width="320"><![CDATA[Food poisoning bacteria are present in:]]></statement>
+					
+					<bullet delay="0.5" x="60" y="90" width="290"><![CDATA[The nose]]></bullet>
+					
+					<bullet delay="0.5" x="60" y="120" width="290"><![CDATA[The mouth]]></bullet>
+					
+					<bullet delay="0.5" x="60" y="150" width="290"><![CDATA[Intestines]]></bullet>
+					
+					<bullet delay="0.5" x="60" y="180" width="290"><![CDATA[Cuts]]></bullet>
+					
+					<bullet delay="0.5" x="60" y="210" width="290"><![CDATA[On the skin.]]></bullet>
+					
+					<statement delay="0.5" x="30" y="240" width="290"><![CDATA[Contamination occurs through:]]></statement>
+					
+					<bullet delay="0.5" x="60" y="270" width="290"><![CDATA[The hands]]></bullet>
+					
+					<bullet delay="0.5" x="60" y="300" width="290"><![CDATA[Sneezing or coughing]]></bullet>
+					
+					<bullet delay="0.5" x="60" y="330" width="290"><![CDATA[Contaminated water.]]></bullet>
+					
+				</page>
+			</clickreveal>
+
+
+
+			<clickreveal x="134" y="170" width="750" height="375" bg="yes">
+				<clicker x="425" y="160" revealDelay="14">icon2</clicker>
+				<!--FEEDBACK-->
+				<page sound="pop2" clearTime="10">
+					<activities>
+						<activity>AddText</activity>
+						<activity>Image</activity>
+					</activities>
+					
+					<placeImage x="500" y="35" stop="yes" name="pop_image2">
+						<moveImage delay="0" x="500" y="40" alpha="1"/>
+					</placeImage>
+					
+					<statement delay="0" x="30" y="25" width="355"><![CDATA[<b>Refuse and waste</b>]]></statement>
+					<statement delay="0.5" x="30" y="60" width="350"><![CDATA[Refuse and waste are a source of food poisoning bacteria.]]></statement>
+				</page>
+			</clickreveal>
+
+
+
+
+			<clickreveal x="134" y="170" width="750" height="375" bg="yes">
+				<clicker x="698" y="160" revealDelay="14">icon3</clicker>
+				<!--FEEDBACK-->
+				<page sound="pop3" clearTime="11">
+					<activities>
+						<activity>AddText</activity>
+						<activity>Image</activity>
+					</activities>
+					
+					<placeImage x="455" y="35" stop="yes" name="pop_image3">
+						<moveImage delay="0" x="455" y="40" alpha="1"/>
+					</placeImage>
+					
+					
+					<statement delay="0" x="30" y="25" width="355"><![CDATA[<b>Water</b>]]></statement>
+					<statement delay="0.5" x="30" y="60" width="380"><![CDATA[Water is a possible contamination source.<br/><br/>Use drinking (potable) water in food preparation.]]></statement>
+				</page>
+			</clickreveal>
+
+
+
+
+
+			<clickreveal x="134" y="170" width="750" height="375" bg="yes">
+				<clicker x="173" y="450" revealDelay="14">icon4</clicker>
+				
+				<page sound="pop4" clearTime="31">
+					<activities>
+						<activity>AddText</activity>
+						<activity>Bullets</activity>
+						<activity>Image</activity>
+					</activities>
+					
+					<placeImage x="440" y="95" stop="yes" name="pop_image4">
+						<moveImage delay="0" x="440" y="100" alpha="1"/>
+					</placeImage>
+					
+					
+					<statement delay="0" x="30" y="25" width="320"><![CDATA[<b>Raw food</b>]]></statement>
+								
+					<statement delay="0.5" x="30" y="60" width="320"><![CDATA[Hazardous raw food:]]></statement>
+					
+					<bullet delay="0.5" x="60" y="95" width="290"><![CDATA[Red meat]]></bullet>
+					<bullet delay="0.5" x="60" y="125" width="290"><![CDATA[Raw poultry]]></bullet>
+					<bullet delay="0.5" x="60" y="155" width="290"><![CDATA[Untreated milk]]></bullet>
+					<bullet delay="0.5" x="60" y="185" width="290"><![CDATA[Raw eggs]]></bullet>
+					<bullet delay="0.5" x="60" y="215" width="290"><![CDATA[Shellfish.]]></bullet>
+					
+					<statement delay="0.5" x="30" y="245" width="320"><![CDATA[Store raw food away from ready-to-eat foods that are at high risk of contamination.<br/><br/>Raw foods which are thawing should be kept separate from ready-to-eat foods or equipment, cloths and surfaces used for ready-to-eat foods.]]></statement>
+					
+				</page>
+			</clickreveal>
+
+
+
+			<clickreveal x="134" y="170" width="750" height="375" bg="yes">
+				<clicker x="425" y="450" revealDelay="14">icon5</clicker>
+				<!--FEEDBACK-->
+				<page sound="pop5" clearTime="40.5">
+					<activities>
+						<activity>AddText</activity>
+						<activity>Image</activity>
+					</activities>
+					
+					<placeImage x="440" y="35" stop="yes" name="pop_image5">
+						<moveImage delay="0" x="440" y="40" alpha="1"/>
+					</placeImage>
+					
+					
+					<statement delay="0" x="30" y="25" width="355"><![CDATA[<b>Pests</b>]]></statement>
+					<statement delay="0.5" x="30" y="60" width="350"><![CDATA[Pests are a source of food poisoning bacteria.<br /><br />Flies pick up bacteria from rubbish and animal faeces. Rats and mice contaminate food through droppings, urine and hair.<br/><br/>Disinfect food-contact surfaces which may have been contaminated and destroy any food contaminated by pests.]]></statement>
+				</page>
+			</clickreveal>
+
+
+
+
+			<clickreveal x="134" y="170" width="750" height="375" bg="yes">
+				<clicker x="698" y="450" revealDelay="14">icon6</clicker>
+				<!--FEEDBACK-->
+				<page sound="pop6" clearTime="23.5">
+					<activities>
+						<activity>AddText</activity>
+						<activity>Image</activity>
+					</activities>
+					
+					<placeImage x="440" y="35" stop="yes" name="pop_image6">
+						<moveImage delay="0" x="440" y="40" alpha="1"/>
+					</placeImage>
+					
+					<statement delay="0" x="30" y="25" width="355"><![CDATA[<b>Soil and dust</b>]]></statement>
+					<statement delay="0.5" x="30" y="60" width="380"><![CDATA[Soil and dust harbour harmful bacteria, which make unwashed vegetables a potential hazard.<br/><br/>Use separate, colour-coded disposable cloths for cleaning raw and ready-to-eat food-contact surfaces.<br/><br/>Remove or cover open food when carrying out cleaning.]]></statement>
+				</page>
+			</clickreveal>
+
+
+
+
+		</clickrevealOptions>
+	
+	</page>
+	
+	
+</content>

@@ -1,0 +1,202 @@
+/* CSS Document */
+html, body{		
+	font-family: @fontFamily;
+	color: @fontColour;
+	font-size: @fontSize;
+	background-color:#e8e8e8;
+}
+*{
+	padding:0;
+	margin:0;
+}
+input{
+	position:absolute;	
+}
+#holder{
+	position:relative;
+	width:@screenWidth;
+	height:@screenHeight;
+	margin:0 auto;
+	-moz-transform-origin: center 0;
+	transform-origin: center 0;
+}
+#contents{	
+	background-image: @logo, @backgroundImage;
+	background-position: 10px 5px, 0px 0px;
+    background-repeat: no-repeat, no-repeat;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+.btn{
+	cursor:pointer;	
+}
+
+#stage{
+	position: absolute;
+	top: 0px;
+	left:0px;
+	width:100%;
+	height:100%;
+}
+
+a.inactive{
+	.opacity (0.4);		
+}
+a.inactive:hover{
+	cursor:default;
+	.opacity (0.4);	
+}
+
+/* NAV BUTTONS */
+
+.nav-btn{
+	.gradient(@navBtnColour, lighten(@navBtnColour, 10%));
+	color:@mainThemeColour;
+	cursor:pointer;
+	font-size: 16px;
+	position:absolute;
+	height:20px;
+	top:625px;	
+}
+.nav-btn:hover{
+	color:red;
+}
+.nav-btn-4-corners{
+	.border-radius();
+}
+.nav-btn-2right-corners{
+	.border-radiuses(5px, 5px, 0, 0);
+}
+.nav-btn-2left-corners{
+	.border-radiuses(0, 0, 5px, 5px);
+}
+/* CLOSE BUTTON */
+#closebtn.sae-btn{
+	position:absolute;
+	left: 875px;
+	top: 7px;
+	.gradient(lighten(@mainThemeColour, 25%), lighten(@mainThemeColour, 10%));
+  	.border-radius();
+  	font-family: Arial;
+  	color: #ffffff;
+  	font-size: 20px;
+  	padding: 5px 10px 5px 10px;
+  	text-decoration: none;
+}
+#shelltop .sae-btn:hover{
+	color: #cccccc;
+	
+}
+
+/* NEXT BUTTON */
+#btn-next{
+	display:block;
+	width:80px;
+	left:902px;
+	padding:6px 10px 7px;
+}
+#btn-next img{
+	float:right;
+}
+
+/* PREV BUTTON */
+#btn-prev{
+	display:block;
+	width:80px;
+	left:732px;
+	padding:6px 10px 7px;
+	text-align:right;
+}
+#btn-prev img{
+	float:left;
+}
+
+/* PAGE COUNTER */
+#pagenumber{
+	position:absolute;
+	text-align:center;	
+	left:835px;
+	width: 65px;
+	color:white;
+	font-size:18px;
+	padding-top: 5px;
+	top:625px;	
+}
+
+/* MENU BUTTON */
+#btn-menu{
+	display:block;
+	width:58px;
+	left:5px;
+	padding:6px 0 7px;
+	text-align:center;
+}
+
+/* HELP BUTTON */
+#btn-help{
+	display:block;
+	width:53px;
+	left:166px;
+	padding:6px 0 7px;
+	text-align:center;
+}
+
+/* GLOSSARY BUTTON */
+#btn-glossary{
+	display:block;
+	width:101px;
+	left:64px;
+	padding:6px 0 7px;
+	text-align:center;	
+}
+
+/* TRANSCRIPT BUTTON */
+#btn-transcript{
+	display:block;
+	width:127px;
+	left:515px;
+	padding:6px 0 7px;
+	text-align:center;
+}
+
+/* REPLAY BUTTON */
+
+#btn-replay{
+	display:block;
+	width:40px;
+	left:643px;
+	padding:6px 0 7px;
+	text-align:center;
+}
+
+#courseTitle{
+	position: absolute;
+	font-size:18px;
+	color:white;
+	top: 14px;
+	left:250px;
+	padding: 0 0;
+	margin: 0 0;
+	text-shadow: 1px 1px #000000;
+}
+
+#pageTitle{
+	position: absolute;
+	font-size:16px;
+	color:#666666;
+	top: 55px;
+	left:15px;
+	padding: 0 0;
+	margin: 0 0;
+
+}
+#preloader{
+	text-align:center;
+	position: absolute;
+	top: 290px;
+	left: 0px;	
+	width:100%;
+	color: #707070;
+	font-size:24px;
+}

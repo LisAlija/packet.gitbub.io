@@ -1,0 +1,49 @@
+.question-panel{
+	background-color:lighten(desaturate(spin(@mainThemeColour, 10), 15%), 10%);
+	border: 1px solid #7038b0;
+	border-radius: 3px;
+	color: white;
+	.drop-shadow(0px, 0px, 3px, 0px, 0.75);
+	overflow:hidden;
+	.question-panel-answers{
+		border-radius: 0 0 3px 3px;
+		.question-panel-answers-div{
+			display:block;
+			border-top: 1px solid #7038b0;
+			.drop-shadow(0px, 0px, 3px, 0px, 0.75);
+			color:black;
+			.gradient (#eaeaea, #e2e2e2);
+			&.question-panel-answer-correct{
+				  background-image: url("../images/complete.png"), linear-gradient(#eaeaea, #e2e2e2);
+				  background-repeat: no-repeat;
+				  background-position: right bottom;
+				  
+			}
+			&.question-panel-answer-incorrect{
+				  background-image: url("../images/cross.png"), linear-gradient(#eaeaea, #e2e2e2);
+				  background-repeat: no-repeat;
+				  background-position: right bottom;
+			}
+			&.selected{
+				background:none;
+				background-color: rgb(252, 113, 0);
+				&.question-panel-answer-incorrect{
+					 background-image: url("../images/cross.png");
+					 background-repeat: no-repeat;
+				 	 background-position: right bottom;
+				}
+				&.question-panel-answer-correct{
+				  background-image: url("../images/complete.png");
+				  background-repeat: no-repeat;
+				  background-position: right bottom;
+				  
+				}
+			}
+		}
+	}
+}
+
+
+
+
+

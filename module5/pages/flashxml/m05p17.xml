@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	
+	<LoaderMax name="pageLoader17" load="true">
+	
+		<SWFLoader name="image1" autoPlay="false" url="pages/assets/m05p17/image1.swf" />
+		
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m05p17/m05p17.mp3" />
+
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[Inadequate cooking or heat processing enables harmful bacteria to survive and is a serious hazard.<br /><br />A core cooking temperature of 75°C, or 70°C for 2 minutes is usually sufficient to destroy bacteria and make food safe. However, a temperature of 82°C is required if food is reheated in Scotland.<br /><br />Proper care should be taken in order to control and minimise hazards during cooking and reheating food.]]></transcript>
+			
+	<page clearTime="29.5" sound="sound1">
+	
+		<activities>
+			<activity>Image</activity>
+			<activity>Bullets</activity>
+			<activity>AddText</activity> 
+			<activity>Transcript</activity>
+		</activities> 		 
+	
+	
+		<placeImage x="560" y="175" stop="yes" name="image1" >
+			<moveImage delay="0" x="560" y="180" alpha="1" />
+		</placeImage>
+		
+		
+		
+		<statement delay="0" x="50" y="140" width="400" height="50"><![CDATA[Inadequate cooking or heat processing enables harmful bacteria to survive and is a serious hazard.]]></statement>
+		<statement delay="7" x="50" y="200" width="400" height="50"><![CDATA[A core cooking temperature of 75°C, or 70°C for 2 minutes is usually sufficient to destroy bacteria and make food safe (82°C is required for reheating food in Scotland.)]]></statement>
+		<statement delay="23.4" x="50" y="275" width="400" height="50"><![CDATA[Proper care should be taken in order to control and minimise hazards during cooking and reheating food.]]></statement>
+		
+		
+		
+	</page>
+	
+</content>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	<LoaderMax name="pageLoader5" load="true">
+	
+		<SWFLoader name="image1" autoPlay="false" url="pages/assets/m05p05/image1.swf" />
+		<SWFLoader name="icon1" autoPlay="false" url="pages/assets/m05p05/icon1.swf" />
+		<SWFLoader name="icon2" autoPlay="false" url="pages/assets/m05p05/icon2.swf" />
+		<SWFLoader name="icon3" autoPlay="false" url="pages/assets/m05p05/icon3.swf" />
+		
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m05p05/m05p05.mp3" />
+		
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[Let's look at chilled food storage.<br /><br />High-risk and perishable foods should always be stored under refrigeration to prevent most pathogenic bacteria from multiplying and to slow down the rate of spoilage.<br /><br />Proper care should be taken to minimise potential hazards that might occur while using chilled food storage.]]></transcript>
+
+	<page sound="sound1" clearTime="20">
+	
+		<activities>
+			<activity>Image</activity>
+			<activity>AddText</activity>
+			<activity>Transcript</activity>
+		</activities>
+		
+		
+		<statement delay="3.5" x="50" y="260" width="400"><![CDATA[High-risk and perishable foods should always be stored under refrigeration to prevent most pathogenic bacteria from multiplying and to slow down the rate of spoilage.]]></statement> 
+		
+		<statement delay="13.6" x="50" y="335" width="400"><![CDATA[Proper care should be taken to minimise potential hazards that might occur while using chilled food storage.]]></statement> 
+		
+		
+		<placeImage x="580" y="110" stop="yes" name="image1">
+			<moveImage delay="0" x="580" y="115" alpha="1" />
+		</placeImage> 
+		
+		<placeImage x="500" y="190" stop="yes" name="icon1">
+			<moveImage delay="0.5" x="500" y="190" alpha="1" />
+		</placeImage> 
+		
+		<placeImage x="500" y="290" stop="yes" name="icon2">
+			<moveImage delay="1" x="500" y="290" alpha="1"/>
+		</placeImage> 
+		
+		<placeImage x="500" y="390" stop="yes" name="icon3" >
+			<moveImage delay="1.5" x="500" y="390" alpha="1" />
+		</placeImage>
+		
+	</page> 		 
+
+</content>

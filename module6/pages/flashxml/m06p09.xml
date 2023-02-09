@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	
+	<LoaderMax name="pageLoader9" load="true">
+		
+		<SWFLoader name="bkg" autoPlay="false" url="pages/assets/m06p09/bkg.swf" />
+		
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m06p09/m06p09.mp3" />
+		
+		<MP3Loader name="fb1" autoPlay="false" url="pages/assets/m06p09/fb1.mp3" />
+		<MP3Loader name="fb2" autoPlay="false" url="pages/assets/m06p09/fb2.mp3" />
+		<MP3Loader name="fb3" autoPlay="false" url="pages/assets/m06p09/fb3.mp3" />
+		<MP3Loader name="fb4" autoPlay="false" url="pages/assets/m06p09/fb4.mp3" />
+		<MP3Loader name="fb5" autoPlay="false" url="pages/assets/m06p09/fb5.mp3" />
+		<MP3Loader name="fb6" autoPlay="false" url="pages/assets/m06p09/fb6.mp3" />
+		<MP3Loader name="fb7" autoPlay="false" url="pages/assets/m06p09/fb7.mp3" />
+		<MP3Loader name="fb8" autoPlay="false" url="pages/assets/m06p09/fb8.mp3" />
+		<MP3Loader name="fb9" autoPlay="false" url="pages/assets/m06p09/fb9.mp3" />
+		<MP3Loader name="fb10" autoPlay="false" url="pages/assets/m06p09/fb10.mp3" />
+		
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[Food handlers suffering from certain illnesses must not handle food.<br /><br />They must notify their supervisor who must exclude them from any work which would expose food to risks from pathogens.<br /><br />Here's a list of illnesses. Identify those which need reporting.<br /><br />Tick whether the listed illnesses require reporting or not.]]></transcript>
+	
+	<transcript sound="fb1"><![CDATA[This might be very painful, but it won’t result in food contamination.<br /><br />No need to report.]]></transcript>
+	<transcript sound="fb2"><![CDATA[This won’t be pleasant, but you can’t contaminate food with German measles.<br /><br />No need to report.]]></transcript>
+	<transcript sound="fb3"><![CDATA[You could easily contaminate food with bacteria if you have nasal discharges and are coughing or sneezing, this should be reported.]]></transcript>
+	<transcript sound="fb4"><![CDATA[This should be reported straight away, you may be suffering from food poisoning and could easily contaminate food.]]></transcript>
+	<transcript sound="fb5"><![CDATA[This needs reporting, you could be suffering from food poisoning and will be at risk of contaminating food.]]></transcript>
+	<transcript sound="fb6"><![CDATA[This isn’t nice, but it doesn’t need reporting so long as you treat it and cover your hair, so that it cannot contaminate food.]]></transcript>
+	<transcript sound="fb7"><![CDATA[You must make sure this is reported straight away, you could easily contaminate food with an infected cut.]]></transcript>
+	<transcript sound="fb8"><![CDATA[You should let your supervisor know about this, so that they can take the appropriate action.]]></transcript>
+	<transcript sound="fb9"><![CDATA[This needs reporting so that medical decisions can be made as to whether it could be a problem.]]></transcript>
+	<transcript sound="fb10"><![CDATA[This doesn’t need reporting.]]></transcript>
+	
+
+	<page sound="sound1">
+		<activities>
+			<activity>Image</activity>
+			<activity>RadioButtons</activity>
+			<activity>AddText</activity> 
+			<activity>ActivityText</activity>
+			<activity>Transcript</activity>
+		</activities>
+		
+		
+		
+		
+		
+		<placeImage x="50" y="196" name="bkg">
+			<moveImage delay="0" x="50" y="196" alpha="1"/>
+		</placeImage>
+		
+		
+		
+		<statement delay="12" x="470" y="155" width="50"><![CDATA[<b>Yes</b>]]></statement> 
+		<statement delay="12" x="544" y="155" width="50"><![CDATA[<b>No</b>]]></statement> 
+		
+		
+		
+		<statement delay="0" x="70" y="190" width="400"><![CDATA[<b>Sprained ankle</b>]]></statement> 
+		<statement delay="0" x="70" y="230" width="400"><![CDATA[<b>German measles in the family</b>]]></statement> 
+		<statement delay="0" x="70" y="270" width="400"><![CDATA[<b>Heavy cold or flu</b>]]></statement> 
+		<statement delay="0" x="70" y="310" width="400"><![CDATA[<b>Vomiting</b>]]></statement> 
+		<statement delay="0" x="70" y="350" width="400"><![CDATA[<b>Diarrhoea</b>]]></statement> 
+		<statement delay="0" x="70" y="390" width="400"><![CDATA[<b>Dandruff</b>]]></statement> 
+		<statement delay="0" x="70" y="430" width="400"><![CDATA[<b>Infected cut</b>]]></statement> 
+		<statement delay="0" x="70" y="470" width="400"><![CDATA[<b>Family/household member with food poisoning</b>]]></statement> 
+		<statement delay="0" x="70" y="510" width="400"><![CDATA[<b>Ill whilst abroad, or returning from holiday</b>]]></statement> 
+		<statement delay="0" x="70" y="550" width="400"><![CDATA[<b>Sunburn</b>]]></statement> 
+
+		
+		
+		
+		
+		<instructionOptions x="50" y="120" width="910" delay="0">
+			 <instruction><![CDATA[Decide whether or not each of the illnesses or conditions below must be reported to the supervisor. Click either 'Yes' or 'No'.]]> </instruction>
+		</instructionOptions>
+		
+		
+		<radiobuttonoptions showFb="select" revealdelay="12">
+			
+			<radioGroup>
+				<radio correct="0" x="475" y="200" width="400"></radio>
+				<radio correct="1" x="545" y="200" width="400"></radio>
+				
+				<groupfbcorrect x="620" y="195" height="150" width="330" sound="fb1"><![CDATA[<b>Well done!</b><br /><br />This might be very painful, but it won’t result in food contamination.<br /><br />No need to report.]]></groupfbcorrect>
+				
+				<groupfbincorrect x="620" y="195" height="150" width="330" sound="fb1"><![CDATA[<b>That’s incorrect.</b><br /><br />This might be very painful, but it won’t result in food contamination.<br /><br />No need to report.]]></groupfbincorrect>	
+				
+			</radioGroup>
+			
+			
+			<radioGroup>
+				<radio correct="0" x="475" y="240" width="400"></radio>
+				<radio correct="1" x="545" y="240" width="400"></radio>
+				
+				<groupfbcorrect x="620" y="195" height="150" width="330" sound="fb2"><![CDATA[<b>Well done!</b><br /><br />This won’t be pleasant, but you can’t contaminate food with German measles.<br /><br />No need to report it.]]></groupfbcorrect>
+				
+				<groupfbincorrect x="620" y="195" height="150" width="330" sound="fb2"><![CDATA[<b>That’s incorrect.</b><br /><br />This won’t be pleasant, but you can’t contaminate food with German measles.<br /><br />No need to report it.]]></groupfbincorrect>	
+				
+			</radioGroup>
+			
+			
+			<radioGroup>
+				<radio correct="1" x="475" y="280" width="400"></radio>
+				<radio correct="0" x="545" y="280" width="400"></radio>
+				
+				<groupfbcorrect x="620" y="195" height="150" width="330" sound="fb3"><![CDATA[<b>Well done!</b><br /><br />You could easily contaminate food with bacteria if you have nasal discharges and are coughing or sneezing, this should be reported.]]></groupfbcorrect>
+				
+				<groupfbincorrect x="620" y="195" height="150" width="330" sound="fb3"><![CDATA[<b>That’s incorrect.</b><br /><br />You could easily contaminate food with bacteria if you have nasal discharges and are coughing or sneezing, this should be reported.]]></groupfbincorrect>	
+				
+			</radioGroup>
+			
+			
+			<radioGroup>
+				<radio correct="1" x="475" y="322" width="400"></radio>
+				<radio correct="0" x="545" y="322" width="400"></radio>
+				
+				<groupfbcorrect x="620" y="195" height="150" width="330" sound="fb4"><![CDATA[<b>Well done!</b><br /><br />This should be reported straight away, you may be suffering from food poisoning and could easily contaminate food.]]></groupfbcorrect>
+				
+				<groupfbincorrect x="620" y="195" height="150" width="330" sound="fb4"><![CDATA[<b>That’s incorrect.</b><br /><br />This should be reported straight away, you may be suffering from food poisoning and could easily contaminate food.]]></groupfbincorrect>	
+				
+			</radioGroup>
+			
+			
+			<radioGroup>
+				<radio correct="1" x="475" y="362" width="400"></radio>
+				<radio correct="0" x="545" y="362" width="400"></radio>
+				
+				<groupfbcorrect x="620" y="195" height="150" width="330" sound="fb5"><![CDATA[<b>Well done!</b><br /><br />This needs reporting, you could be suffering from food poisoning and will be at risk of contaminating food.]]></groupfbcorrect>
+				
+				<groupfbincorrect x="620" y="195" height="150" width="330" sound="fb5"><![CDATA[<b>That’s incorrect.</b><br /><br />This needs reporting, you could be suffering from food poisoning and will be at risk of contaminating food.]]></groupfbincorrect>	
+				
+			</radioGroup>
+			
+			
+			<radioGroup>
+				<radio correct="0" x="475" y="402" width="400"></radio>
+				<radio correct="1" x="545" y="402" width="400"></radio>
+				
+				<groupfbcorrect x="620" y="195" height="150" width="330" sound="fb6"><![CDATA[<b>Well done!</b><br /><br />This isn’t nice, but it doesn’t need reporting so long as you treat it and cover your hair, so that it cannot contaminate food.]]></groupfbcorrect>
+				
+				<groupfbincorrect x="620" y="195" height="150" width="330" sound="fb6"><![CDATA[<b>That’s incorrect.</b><br /><br />This isn’t nice, but it doesn’t need reporting so long as you treat it and cover your hair, so that it cannot contaminate food.]]></groupfbincorrect>	
+				
+			</radioGroup>
+			
+			<radioGroup>
+				<radio correct="1" x="475" y="442" width="400"></radio>
+				<radio correct="0" x="545" y="442" width="400"></radio>
+				
+				<groupfbcorrect x="620" y="195" height="150" width="330" sound="fb7"><![CDATA[<b>Well done!</b><br /><br />You must make sure this is reported straight away as you could easily contaminate food with an infected cut.]]></groupfbcorrect>
+				
+				<groupfbincorrect x="620" y="195" height="150" width="330" sound="fb7"><![CDATA[<b>That’s incorrect.</b><br /><br />You must make sure this is reported straight away as you could easily contaminate food with an infected cut.]]></groupfbincorrect>	
+				
+			</radioGroup>
+			
+			
+			<radioGroup>
+				<radio correct="1" x="475" y="482" width="400"></radio>
+				<radio correct="0" x="545" y="482" width="400"></radio>
+				
+				<groupfbcorrect x="620" y="195" height="150" width="330" sound="fb8"><![CDATA[<b>Well done!</b><br /><br />You should let your supervisor know about this, so that they can take the appropriate action.]]></groupfbcorrect>
+				
+				<groupfbincorrect x="620" y="195" height="150" width="330" sound="fb8"><![CDATA[<b>That’s incorrect.</b><br /><br />You should let your supervisor know about this, so that they can take the appropriate action.]]></groupfbincorrect>	
+				
+			</radioGroup>
+			
+			
+			<radioGroup>
+				<radio correct="1" x="475" y="522" width="400"></radio>
+				<radio correct="0" x="545" y="522" width="400"></radio>
+				
+				<groupfbcorrect x="620" y="195" height="150" width="330" sound="fb9"><![CDATA[<b>Well done!</b><br /><br />This needs reporting so that medical decisions can be made as to whether it could be a problem.]]></groupfbcorrect>
+				
+				<groupfbincorrect x="620" y="195" height="150" width="330" sound="fb9"><![CDATA[<b>That’s incorrect.</b><br /><br />This needs reporting so that medical decisions can be made as to whether it could be a problem.]]></groupfbincorrect>	
+				
+			</radioGroup>
+			
+			
+			<radioGroup>
+				<radio correct="0" x="475" y="562" width="400"></radio>
+				<radio correct="1" x="545" y="562" width="400"></radio>
+				
+				<groupfbcorrect x="620" y="195" height="150" width="330" sound="fb10"><![CDATA[<b>Well done!</b><br /><br />This doesn’t need reporting.]]></groupfbcorrect>
+				
+				<groupfbincorrect x="620" y="195" height="150" width="330" sound="fb10"><![CDATA[<b>That’s incorrect.</b><br /><br />This doesn’t need reporting.]]></groupfbincorrect>	
+				
+			</radioGroup>
+			
+			
+		
+		</radiobuttonoptions>
+	</page>
+	
+</content>

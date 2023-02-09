@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><content>
+
+	<LoaderMax name="moduleLoader" load="true">
+		
+		
+		<XMLLoader pageLoader="pageLoaderHelp" name="starterPage" autoPlay="false" estimatedBytes="249856" url="../common/globalxml/starterpage.xml"/>
+		<XMLLoader pageLoader="pageLoader2" name="page2" autoPlay="false" estimatedBytes="1503232" url="pages/flashxml/m06p02.xml"/>
+		<XMLLoader pageLoader="pageLoader3" name="page3" autoPlay="false" estimatedBytes="487424" url="pages/flashxml/m06p03.xml"/>
+		<XMLLoader pageLoader="pageLoader4" name="page4" autoPlay="false" estimatedBytes="2220032" url="pages/flashxml/m06p04.xml"/>
+		<XMLLoader pageLoader="pageLoader6" name="page6" autoPlay="false" estimatedBytes="692224" url="pages/flashxml/m06p06.xml"/>
+		<XMLLoader pageLoader="pageLoader7" name="page7" autoPlay="false" estimatedBytes="1605632" url="pages/flashxml/m06p07.xml"/>
+		<XMLLoader pageLoader="pageLoader9" name="page9" autoPlay="false" estimatedBytes="1146880" url="pages/flashxml/m06p09.xml"/>
+
+		<XMLLoader pageLoader="pageLoaderAssessment" name="assessment" autoPlay="false" estimatedBytes="2596864" url="pages/flashxml/assessment.xml"/>
+
+	</LoaderMax>
+	
+	<information>
+		<coursetitle>Food Safety Level 2</coursetitle>
+		<modtitle>Personal Hygiene</modtitle>
+		<withAssessment>true</withAssessment>
+		<scorm>true</scorm>
+		<iAmDeveloping>false</iAmDeveloping>		
+	</information>
+	
+
+	<page xmlName="starterPage">Course Navigation</page>
+	<page xmlName="page2">Personal Hygiene</page>
+	<page xmlName="page3">Spot the Hazard</page>
+	<page xmlName="page4">What Facilities are Required to Wash Hands?</page>
+	<page xmlName="page6">How to Wash Hands Correctly</page>
+	<page xmlName="page7">Open Wounds and Skin Complaints</page>>
+	<page xmlName="page9">General Health and Reporting of Illness by Food Handlers</page>
+
+	<page xmlName="assessment">Assessment</page>
+
+</content>

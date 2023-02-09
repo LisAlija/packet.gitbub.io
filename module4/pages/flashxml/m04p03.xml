@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	
+	<LoaderMax name="pageLoader3" load="true">
+	
+		<SWFLoader name="microIcon" autoPlay="false" extras="selected, done" url="pages/assets/m04p03/icon1.swf" />
+		<SWFLoader name="physicalIcon" autoPlay="false" extras="selected, done" url="pages/assets/m04p03/icon2.swf" />
+		<SWFLoader name="chemicalIcon" autoPlay="false" extras="selected, done" url="pages/assets/m04p03/icon3.swf" />
+		<SWFLoader name="allergenIcon" autoPlay="false" extras="selected, done" url="pages/assets/m04p03/icon4.swf" />
+		
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m04p03/m04p03.mp3" />
+		<MP3Loader name="micro" autoPlay="false" url="pages/assets/m04p03/m04p03micro.mp3" />
+		<MP3Loader name="physical" autoPlay="false" url="pages/assets/m04p03/m04p03physical.mp3" />
+		<MP3Loader name="chemical" autoPlay="false" url="pages/assets/m04p03/m04p03chemical.mp3" />
+		<MP3Loader name="allergen" autoPlay="false"  url="pages/assets/m04p03/m04p03allergen.mp3" />
+
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[There are four types of contamination hazard: microbiological, physical, chemical and allergenic.<br /><br />Click on the graphics to learn more about each type of contamination hazard.]]></transcript>
+	
+	<transcript sound="micro"><![CDATA[Microbiological hazards include micro-organisms like bacteria, viruses, moulds, yeasts and parasites.<br /><br />Bacterial contamination usually occurs within food premises because of ignorance, lack of space, poor design or due to people taking short cuts<br /><br />Viral contamination may involve an infected person, polluted irrigation water used on salads or oysters grown in sewage-contaminated water.<br /><br />Moulds and yeasts are primarily responsible for spoilage.]]></transcript>
+	
+	<transcript sound="physical"><![CDATA[Physical hazards include foreign bodies which are dangerous, for example, glass, nails and stones.<br /><br />They may cause cuts, broken teeth, choking and burning in the case of food which is too hot.<br /><br />Physical hazards may be brought into food premises with the raw materials or could be introduced during storage, preparation, service or display.<br /><br />Sources include:<li>Raw ingredients for example stones and bones;</li><li>Buildings and equipment can introduce wood and flaking paint/rust;</li><li>Notice boards for example drawing pins; packaging such as cardboard and staples;</li><li>Maintenance operatives may introduce screws and wire;</li><li>Food handlers can contaminate food with jewellery;</li><li>First aid dressings and hair;</li><li>Cleaning materials for example bristles or pieces of cloths;</li><li>Pests can introduce bodies and droppings;</li><li>Finally sabotage for example needles and razor blades.</li>]]></transcript>
+	
+	<transcript sound="chemical"><![CDATA[Deliveries of foods may be contaminated with chemicals such as pesticides, weed killers and dioxins.<br /><br />Cleaning chemicals and chemicals used for pest control may also contaminate food, for example, if sprayed near unprotected food.<br /><br />If food is stored in old chemical containers, it may also become contaminated. Using packaging, which is not food grade can also contaminate food.]]></transcript>
+	
+	<transcript sound="allergen"><![CDATA[Allergens are substances, usually protein, which cause the bodies immune system to respond.<br /><br />In severe cases this may result in anaphylactic shock and even death.<br /><br />Foods commonly containing allergens include:</li><li>Peanuts and other nuts;</li><li>Sesame seeds;</li><li>Milk including lactose;</li><li>Eggs;</li><li>Fish and shellfish;</li><li>Soya;</li><li>Mustard;</li><li>Cereals containing gluten;</li><li>Celery/celeriac; and</li><li>Products containing any of the above.</li>]]></transcript>
+	
+	
+		
+	<page sound="sound1">
+	
+		<activities>
+			<activity>Image</activity>
+			<activity>ClickRevealStandard</activity>
+			<activity>Bullets</activity>
+			<activity>AddText</activity>
+			<activity>ActivityText</activity>
+			<activity>Transcript</activity>
+		</activities>
+
+		
+
+		<instructionOptions x="500" y="160" width="400" delay="9">
+			<instruction><![CDATA[Click on each icon to find out more.]]></instruction>
+		</instructionOptions>
+
+
+			<clickrevealOptions mouseaction="click" closebutton="yes" timedremoval="no" style="fadein" delayactivation="14">
+		
+			<clickreveal x="500" y="120" width="480" height="490" bg="yes">
+				<clicker x="50" y="160" revealDelay="2">microIcon</clicker>
+
+				<page sound="micro">
+					<activities>
+						<activity>AddText</activity>
+						<activity>Bullets</activity>
+						<activity>Image</activity>
+						<activity>Transcript</activity>
+					</activities>
+	
+					
+					<statement delay="0" x="30" y="20" width="440"><![CDATA[<b>Microbiological hazards</b>]]></statement>
+					
+					<statement delay="0" x="30" y="60" width="430"><![CDATA[Microbiological hazards include micro-organisms like bacteria, viruses, moulds, yeasts and parasites.]]></statement>
+					<statement delay="0" x="30" y="120" width="430"><![CDATA[Bacterial contamination usually occurs within food premises because of ignorance, lack of space, poor design or due to people taking short cuts.]]></statement>
+					<statement delay="0" x="30" y="195" width="430"><![CDATA[Viral contamination may involve an infected person, polluted irrigation water used on salads or oysters grown in sewage-contaminated water.]]></statement>
+					<statement delay="0" x="30" y="270" width="430"><![CDATA[Moulds and yeasts are primarily responsible for spoilage.]]></statement>
+					
+
+					
+				</page> 
+					
+			</clickreveal>
+			
+			
+			<clickreveal x="500" y="120" width="480" height="490" bg="yes">
+				<clicker x="280" y="160" revealDelay="4">physicalIcon</clicker>
+				
+				<!--FEEDBACK-->
+				<page sound="physical">
+					<activities>
+						<activity>AddText</activity>
+						<activity>Bullets</activity>
+						<activity>Image</activity>
+						<activity>Transcript</activity>
+					</activities>
+					
+					
+					<statement delay="0" x="30" y="20" width="440"><![CDATA[<b>Physical hazards</b>]]></statement>
+					
+					<statement delay="0" x="30" y="60" width="440"><![CDATA[Physical hazards include foreign bodies which are dangerous, they may cause cuts, broken teeth, choking and burning in the case of food which is too hot.]]></statement>
+					<statement delay="0" x="30" y="135" width="440"><![CDATA[Physical hazards may be brought into food premises with the raw materials or be introduced during storage, preparation, service or display.]]></statement>
+					<statement delay="0" x="30" y="200" width="440"><![CDATA[Sources include:]]></statement>
+
+					<bullet delay="0" x="50" y="240" width="170" style="2"><![CDATA[raw ingredients e.g. stones, bones]]></bullet>
+					<bullet delay="0" x="50" y="285" width="170" style="2"><![CDATA[buildings and equipment e.g. wood, flaking paint, rust]]></bullet>
+					<bullet delay="0" x="50" y="345" width="170" style="2"><![CDATA[notice boards e.g. drawing pins]]></bullet>
+					<bullet delay="0" x="50" y="390" width="170" style="2"><![CDATA[packaging e.g. cardboard, paper, staples]]></bullet>
+					<bullet delay="0" x="50" y="435" width="170" style="2"><![CDATA[maintenance operatives e.g. screws, wire]]></bullet>
+
+					<bullet delay="0" x="260" y="240" width="170" style="2"><![CDATA[food handlers can contaminate food e.g. jewellery, hair, first aid dressings]]></bullet>
+					<bullet delay="0" x="260" y="315" width="170" style="2"><![CDATA[cleaning materials e.g. bristles, bits of cloths]]></bullet>
+					<bullet delay="0" x="260" y="360" width="170" style="2"><![CDATA[pests e.g. bodies, droppings]]></bullet>
+					<bullet delay="0" x="260" y="405" width="170" style="2"><![CDATA[sabotage e.g. needles, razor blades.]]></bullet>
+					
+				</page> 
+					
+			</clickreveal>
+			
+			<clickreveal x="500" y="120" width="480" height="490" bg="yes">
+				<clicker x="50" y="400" revealDelay="6">chemicalIcon</clicker>
+				
+				<!--FEEDBACK-->
+				<page sound="chemical">
+					<activities>
+						<activity>AddText</activity>
+						<activity>Bullets</activity>
+						<activity>Image</activity>
+						<activity>Transcript</activity>
+					</activities>
+					
+					
+					<statement delay="0" x="30" y="20" width="420"><![CDATA[<b>Chemical hazards</b>]]></statement>
+					
+					<statement delay="0" x="30" y="60" width="420"><![CDATA[Deliveries of foods may be contaminated with chemicals such as pesticides, weed killers and dioxins.]]></statement>
+					<statement delay="0" x="30" y="120" width="420"><![CDATA[Cleaning chemicals and chemicals used for pest control may also contaminate food.]]></statement>
+					<statement delay="0" x="30" y="180" width="420"><![CDATA[If food is stored in old chemical containers, it may also become contaminated. Using packaging, which is not food grade can also contaminate food.]]></statement>
+							
+				</page> 
+					
+			</clickreveal>
+			
+			
+			<clickreveal x="500" y="120" width="480" height="490" bg="yes">
+				<clicker x="280" y="400" revealDelay="7">allergenIcon</clicker>
+				
+				<!--FEEDBACK-->
+				<page sound="allergen">
+					<activities>
+						<activity>AddText</activity>
+						<activity>Bullets</activity>
+						<activity>Image</activity>
+						<activity>Transcript</activity>
+					</activities>
+				
+					
+					<statement delay="0" x="30" y="20" width="400"><![CDATA[<b>Allergenic hazards</b>]]></statement>
+					
+					<statement delay="0" x="30" y="60" width="400"><![CDATA[Allergens are substances, usually protein, which cause the body's immune system to respond, in severe cases this may result in anaphylactic shock and even death.]]></statement>
+					
+					<statement delay="0" x="30" y="135" width="440"><![CDATA[Foods commonly containing allergens include:]]></statement>
+					
+					<bullet delay="0" x="50" y="180" width="200" style="2"><![CDATA[Peanuts and nuts]]></bullet>
+					<bullet delay="0" x="50" y="210" width="200" style="2"><![CDATA[Sesame seeds]]></bullet>
+					<bullet delay="0" x="50" y="240" width="200" style="2"><![CDATA[Milk/lactose]]></bullet>
+					<bullet delay="0" x="50" y="270" width="200" style="2"><![CDATA[Eggs]]></bullet>
+					<bullet delay="0" x="50" y="300" width="200" style="2"><![CDATA[Fish]]></bullet>
+					
+					<bullet delay="0" x="250" y="180" width="200" style="2"><![CDATA[Soya]]></bullet>
+					<bullet delay="0" x="250" y="210" width="200" style="2"><![CDATA[Mustard]]></bullet>
+					<bullet delay="0" x="250" y="240" width="200" style="2"><![CDATA[Cereals containing gluten]]></bullet>
+					<bullet delay="0" x="250" y="270" width="200" style="2"><![CDATA[Celery/Celeriac.]]></bullet>
+					
+					<statement delay="0" x="30" y="335" width="440"><![CDATA[Additional allergenic hazards include:]]></statement>
+					<bullet delay="0" x="50" y="380" width="170" style="2" ><![CDATA[Lupin]]></bullet>
+					<bullet delay="0" x="50" y="410" width="170" style="2"><![CDATA[Molluscs]]></bullet>
+					<bullet delay="0" x="50" y="440" width="170" style="2"><![CDATA[Sulphites.]]></bullet>
+
+					
+
+					
+				</page> 
+					
+			</clickreveal>
+			
+		</clickrevealOptions>
+
+
+	</page>
+	
+	
+</content>

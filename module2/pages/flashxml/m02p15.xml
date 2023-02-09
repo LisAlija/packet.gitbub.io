@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	
+	<LoaderMax name="pageLoader15" load="true">
+		
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m02p15/m02p15.mp3" />
+		
+		<SWFLoader name="image1" autoPlay="false" url="pages/assets/m02p15/image1.swf" />
+		<SWFLoader name="image2" autoPlay="false" url="pages/assets/m02p15/image2.swf" />
+		<SWFLoader name="image3" autoPlay="false" url="pages/assets/m02p15/image3.swf" />
+		<SWFLoader name="bacteria1" autoPlay="false" url="pages/assets/m02p15/bacteria1.swf" />
+		<SWFLoader name="bacteria2" autoPlay="false" url="pages/assets/m02p15/bacteria2.swf" />
+				
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[So far, we’ve talked about food contamination with pathogens, but it is also important to prevent food spoilage.<br /><br />Spoilage commences in food as soon as it is harvested, taken from the sea or slaughtered. Spoilage results from the action of bacteria, moulds, enzymes and yeasts.<br /><br />Poor hygiene practices, including poor temperature control, inadequate or unsuitable packaging and rough handling can result in damage and accelerate spoilage, as does pest infestation.<br /><br />Unlike food contaminated with pathogens, the effects of food spoilage can be seen, felt, tasted and smelt.<br /><br />Here are some common signs of spoilage:<li>Off odours;</li><li>Slime or stickiness;</li><li>Change in texture, for example dry or spongy;</li><li>Production of gas;</li><li>Discolouration;</li><li>Mould growth or whiskers;</li><li>Unusual taste, for example a sour taste; and</li><li>Blown cans or leaking packs.</li>]]></transcript>
+	
+		
+	<page sound="sound1" clearTime="64">
+	
+		<activities>
+			<activity>Image</activity>
+			<activity>AddText</activity>
+			<activity>Bullets</activity>
+			<activity>Transcript</activity>
+		</activities>  
+
+
+		<placeImage x="510" y="110" name="image1">
+			<moveImage delay="0" x="510" y="120" alpha="1" speed="1"/>
+			<moveImage delay="6.5" x="510" y="120" alpha="0"/>
+		</placeImage>
+		
+		<placeImage x="500" y="210" name="image2">
+			<moveImage delay="7.5" x="500" y="210" alpha="1" speed="1"/>
+			<moveImage delay="8" x="500" y="210" alpha="0"/>
+		</placeImage>
+		
+		<placeImage x="525" y="315" name="bacteria1">
+			<moveImage delay="9" x="525" y="315" alpha="1" speed="1"/>
+			<moveImage delay="6.5" x="525" y="315" alpha="0"/>
+		</placeImage>
+		
+		<placeImage x="775" y="270" name="bacteria2">
+			<moveImage delay="10" x="775" y="270" alpha="1" speed="1"/>
+			<moveImage delay="5.5" x="775" y="270" alpha="0"/>
+		</placeImage>
+		
+		<placeImage x="500" y="150" name="image3">
+			<moveImage delay="17" x="500" y="150" alpha="1" speed="1"/>
+			<!--<moveImage delay="1" x="50" y="170" alpha="0"/>-->
+		</placeImage>
+		
+		
+		
+		
+		<!--<statement delay="0.5" x="580" y="105" width="360" ><![CDATA[Look out for signs of food spoilage.]]></statement>-->
+		
+		
+		
+		<statement delay="6.5" x="50" y="100" width="360" ><![CDATA[Food begins to spoil almost immediately it is harvested, taken from the sea or slaughtered. Good hygiene practices will reduce or eliminate spoilage.]]></statement>
+		
+		<statement delay="14.7" x="50" y="175" width="400" ><![CDATA[Bacteria, moulds, enzymes and yeasts result in spoilage.]]></statement>
+		
+		<statement delay="18.6" x="50" y="220" width="360" ><![CDATA[Poor hygiene, poor temperature control, unsuitable packaging and pest infestation speed up spoilage.]]></statement>
+		
+		<statement delay="32" x="50" y="280" width="300" ><![CDATA[Spoilage bacteria alter the appearance, taste, feel and smell of food:]]></statement>
+		
+
+		<bullet delay="43.1" x="90" y="340" width="320" ><![CDATA[Off odours]]></bullet>
+		
+		<bullet delay="44.8" x="90" y="370" width="320" ><![CDATA[Slime/stickiness]]></bullet>
+		
+		<bullet delay="47.3" x="90" y="400" width="320" ><![CDATA[Change in texture]]></bullet>
+		
+		<bullet delay="51.3" x="90" y="430" width="320" ><![CDATA[Production of gas]]></bullet>
+		
+		<bullet delay="53" x="90" y="460" width="320" ><![CDATA[Discolouration]]></bullet>
+		
+		<bullet delay="54.6" x="90" y="490" width="320" ><![CDATA[Mould growth]]></bullet>
+		
+		<bullet delay="57" x="90" y="520" width="320" ><![CDATA[Unusual taste]]></bullet>
+		
+		<bullet delay="60" x="90" y="550" width="320" ><![CDATA[Blown cans or leaking packs.]]></bullet>
+		
+
+
+	</page>
+
+	
+
+</content>

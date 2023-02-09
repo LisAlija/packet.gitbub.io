@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	
+	<LoaderMax name="pageLoader2" load="true">
+		<SWFLoader name="image1" autoPlay="false" url="pages/assets/m10p02/image.swf" />
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m10p02/m10p01.mp3" />
+		
+		<SWFLoader name="background" autoPlay="false" url="../common/commonassets/background.swf" />
+		<SWFLoader name="moduleNumber" autoPlay="false" url="pages/assets/m10p02/welcome.swf" />
+		<SWFLoader name="moduleName" autoPlay="false" url="pages/assets/m10p02/title.swf" />
+		<MP3Loader name="sound2" autoPlay="false" url="pages/assets/m10p02/m10p02.mp3" />
+		<SWFLoader name="image2" autoPlay="false" url="pages/assets/m10p02/image.swf" />
+
+	</LoaderMax>
+	
+	
+	<transcript sound="sound1"><![CDATA[In this module, we'll look at food safety law and enforcement.<br /><br />We'll briefly cover the objectives of food safety regulations and the responsibilities of food handlers and food business operators.<br /><br />We'll learn about the roles and powers of authorised officers and the due diligence defence under all legislation.<br /><br />You'll need approximately fifteen minutes to complete this module.]]></transcript>
+
+	<transcript sound="sound2"><![CDATA[Most food safety legislation is imposed directly by the European Union in the form of regulations.<br /><br />Food safety legislation is required to set minimum standards for food business operators and food premises which reduces the risk of foodborne illness.<br /><br />It also prohibits the sale of contaminated food, thereby protecting public health.<br /><br />The regulations control the hygiene standards of food premises, food equipment and food handlers.<br /><br />They are concerned with preventing food contamination and promoting correct temperature control.<br /><br />Furthermore all food businesses must have a food safety management system, based of the principles of HACCP, in place.<br /><br />Also all food businesses must register with the local authority at least twenty eight days before they begin trading.<br /><br />Remember; ignorance of the law is not a defence in the event of prosecution; so you must make special efforts to understand it.]]></transcript>
+	
+		
+	<page clearTime="23" sound="sound1" noRemove="true">
+	
+	<activities>
+			<activity>Bullets</activity>
+			<activity>Image</activity>
+			<activity>AddText</activity>
+			<activity>Transcript</activity>
+	</activities>
+
+		<placeImage x="7" y="60" stop="yes" name="background" >
+			<moveImage delay="0" x="7" y="60" alpha="0.5" playit="0"/>
+			<moveImage delay="5" x="7" y="60" alpha="0" />
+		</placeImage>
+		
+		<placeImage x="0" y="0" stop="yes" name="moduleNumber" description="Module Number" centre="true">
+			<moveImage delay="0" x="504" y="260" alpha="0" playit="0" scaleX="1" scaleY="1" />
+			<moveImage delay="0.5" x="504" y="240" alpha="1" scaleX="1" scaleY="1" />
+			<moveImage delay="4" x="504" y="240" alpha="0" scaleX="1" scaleY="1" />
+		</placeImage>
+		
+		<placeImage x="0" y="0" stop="yes" name="moduleName" centre="true" >
+			<moveImage delay="0" x="504" y="320" alpha="0" playit="0" scaleX="1" scaleY="1" />
+			<moveImage delay="1" x="504" y="340" alpha="1" scaleX="1" scaleY="1" />
+			<moveImage delay="3.5" x="504" y="340" alpha="0" scaleX="1" scaleY="1" />
+		</placeImage>
+		
+		
+		<placeImage x="550" y="155" stop="yes" name="image1" >
+			<moveImage delay="0" x="550" y="155" scaleX="1" scaleY="1" alpha="0"/>
+			<moveImage delay="6.5" x="550" y="160" scaleX="1" scaleY="1" alpha="1"/>
+		</placeImage>
+
+		<statement delay="6.5" x="50" y="180" width="410" remove="16.5" ><![CDATA[<b>Food Safety Enforcement</b>]]></statement> 
+		<statement delay="6.55" x="50" y="225" width="410" remove="16.55"><![CDATA[We will cover:]]></statement> 
+		<bullet delay="6.9" x="80" y="270" width="400" remove="16.1"><![CDATA[The objectives of food safety regulations]]></bullet>
+		<bullet delay="9.1" x="80" y="315" width="400" remove="13.9"><![CDATA[The responsibilities of food handlers and food businesses]]></bullet>
+		<bullet delay="13.4" x="80" y="360" width="400" remove="9.6"><![CDATA[The role and powers of authorised officers]]></bullet>
+		<bullet delay="16.6" x="80" y="405" width="400" remove="6.4"><![CDATA[The due-diligence defence.]]></bullet>
+
+	</page>
+
+
+	<page sound="sound2" clearTime="56.5">
+	
+		<activities>
+			<activity>Image</activity>
+			<activity>AddText</activity>
+			<activity>Bullets</activity>
+			<activity>Transcript</activity>
+		</activities>  
+		
+		
+		<statement delay="0.5" x="50" y="110" width="420" ><![CDATA[Most food safety legislation is imposed directly by the European Union in the form of regulations.]]></statement>
+  
+		<statement delay="7.2" x="50" y="170" width="420" ><![CDATA[Objectives:]]></statement>
+
+		<bullet delay="9" x="90" y="215" width="320" ><![CDATA[Set minimum standards]]></bullet>
+		
+		<bullet delay="13.3" x="90" y="245" width="320" ><![CDATA[Reduce risk of foodborne illness]]></bullet>
+		
+		<bullet delay="19.2" x="90" y="275" width="310" ><![CDATA[Protect public health.]]></bullet>
+ 
+ 
+<statement delay="21.3" x="50" y="335" width="420" ><![CDATA[The regulations are concerned with:]]></statement>
+
+		<bullet delay="22.7" x="90" y="380" width="320" ><![CDATA[Hygiene standards of food premises, food equipment and food handlers]]></bullet>
+		
+		<bullet delay="28.2" x="90" y="425" width="320" ><![CDATA[Preventing food contamination]]></bullet>
+		
+		<bullet delay="30.9" x="90" y="455" width="310" ><![CDATA[Temperature control]]></bullet>
+		
+		<bullet delay="39.1" x="90" y="485" width="310" ><![CDATA[HACCP]]></bullet>
+		
+		<bullet delay="42.1" x="90" y="515" width="310" ><![CDATA[Food business registration.]]></bullet>
+
+	</page>
+
+	
+</content>

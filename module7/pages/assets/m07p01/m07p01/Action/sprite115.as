@@ -1,0 +1,1 @@
+﻿// Warning: in this unregistered version, only the first two Action Scripts were decompiled. Please purchase the full version to decompile all Action Scripts at http://www.sothink.com/product/flashdecompiler/index.htm.

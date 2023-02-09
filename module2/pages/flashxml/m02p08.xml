@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	
+	<LoaderMax name="pageLoader8" load="true">
+		
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m02p08/m02p08.mp3" />
+		
+		<SWFLoader name="image1" autoPlay="false" url="pages/assets/m02p08/image1.swf" />
+		<SWFLoader name="image2" autoPlay="false" url="pages/assets/m02p08/image2.swf" />
+		<SWFLoader name="image3" autoPlay="false" url="pages/assets/m02p08/image3.swf" />
+		<SWFLoader name="image4" autoPlay="false" url="pages/assets/m02p08/image4.swf" />
+		<SWFLoader name="image5" autoPlay="false" url="pages/assets/m02p08/image5.swf" />
+		<SWFLoader name="image6" autoPlay="false" url="pages/assets/m02p08/image6.swf" />
+		<SWFLoader name="image7" autoPlay="false" url="pages/assets/m02p08/image7.swf" />
+		<SWFLoader name="image8" autoPlay="false" url="pages/assets/m02p08/image8.swf" />
+		<SWFLoader name="image9" autoPlay="false" url="pages/assets/m02p08/image9.swf" />
+		<SWFLoader name="image10" autoPlay="false" url="pages/assets/m02p08/image10.swf" />
+				
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[Some bacteria are able to produce spores, which protect them against adverse conditions such as high temperatures, drying and disinfection. <br /><br />This is a safe resting phase for bacteria until conditions are favourable again for their growth. Bacteria do not multiply at this stage.<br /><br />When the bacterium is destroyed, for example during cooking, the spore, containing a dormant bacterium, survives. This process is called sporulation. Toxins or poisons may also be released during sporulation.<br /><br />When favourable conditions return, the spore releases the bacterium which can then start to grow and multiply and more toxins may be produced. This process is known as germination.]]></transcript>
+	
+		
+	<page sound="sound1" clearTime="48.5">
+	
+		<activities>
+			<activity>Image</activity>
+			<activity>AddText</activity>
+			<activity>Bullets</activity>
+			<activity>Transcript</activity>
+		</activities>  
+
+
+		<placeImage x="50" y="160" name="image1">
+			<moveImage delay="0" x="50" y="200" alpha="1" speed="1"/>
+			<moveImage delay="16.5" x="50" y="200" alpha="0"/>
+		</placeImage>
+		
+		
+		
+		
+		
+		<placeImage x="50" y="160" name="image2">
+			<moveImage delay="18" x="50" y="170" alpha="1" speed="1"/>
+			<moveImage delay="3.5" x="50" y="170" alpha="0"/>
+		</placeImage>
+		
+		<placeImage x="50" y="170" name="image3">
+			<moveImage delay="23" x="50" y="170" alpha="1" speed="1"/>
+			<moveImage delay="10.5" x="50" y="170" alpha="0"/>
+		</placeImage>
+		
+		
+		
+		
+		<placeImage x="50" y="170" name="image4">
+			<moveImage delay="35" x="50" y="170" alpha="1" speed="1"/>
+			<moveImage delay="1.5" x="50" y="170" alpha="0"/>
+		</placeImage>
+
+
+		<placeImage x="50" y="170" name="image6">
+			<moveImage delay="38" x="50" y="170" alpha="1" speed="1"/>
+			<moveImage delay="1.5" x="50" y="170" alpha="0"/>
+		</placeImage>
+		
+		<placeImage x="50" y="170" name="image7">
+			<moveImage delay="41" x="50" y="170" alpha="1" speed="1"/>
+			<moveImage delay="0.75" x="50" y="170" alpha="0"/>
+		</placeImage>
+		
+		
+		
+		<placeImage x="50" y="170" name="image8">
+			<moveImage delay="43" x="50" y="170" alpha="1" speed="1"/>
+			<moveImage delay="0.5" x="50" y="170" alpha="0"/>
+		</placeImage>
+		
+		<placeImage x="50" y="170" name="image9">
+			<moveImage delay="45" x="50" y="170" alpha="1" speed="1"/>
+			<moveImage delay="0.5" x="50" y="170" alpha="0"/>
+		</placeImage>
+		
+		<placeImage x="50" y="170" name="image10">
+			<moveImage delay="47" x="50" y="170" alpha="1" speed="1"/>
+			<!--<moveImage delay="1" x="50" y="170" alpha="0"/>-->
+		</placeImage>
+		
+		
+		
+		
+		
+		<statement delay="0.5" x="580" y="125" width="360" ><![CDATA[Some bacteria form spores as a survival mechanism against adverse conditions, like high temperatures, drying and disinfection.]]></statement>
+		
+		<statement delay="9.5" x="580" y="200" width="360" ><![CDATA[Spores are a resistant resting phase for bacteria until favourable growth conditions return.]]></statement>
+		
+		<statement delay="35.5" x="580" y="260" width="360" ><![CDATA[With favourable conditions, the spore releases the bacterium which then starts to grow. This is known as germination.]]></statement>
+		
+		
+
+		
+
+	</page>
+
+	
+
+</content>

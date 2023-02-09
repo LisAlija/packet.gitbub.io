@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	
+	<LoaderMax name="pageLoader15" load="true">
+	
+		<SWFLoader name="image1" autoPlay="false" url="pages/assets/m05p15/image1.swf" />
+		
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m05p15/m05p15.mp3" />
+
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[The main hazards likely to occur during preparation are contamination with and the multiplication of harmful bacteria.<br /><br />The observance of good hygiene practices during food preparation is an essential element in preventing food poisoning.]]></transcript>
+			
+	<page clearTime="14" sound="sound1">
+	
+		<activities>
+			<activity>Image</activity>
+			<activity>Bullets</activity>
+			<activity>AddText</activity> 
+			<activity>Transcript</activity>
+		</activities> 		 
+	
+	
+		<placeImage x="630" y="145" stop="yes" name="image1" >
+			<moveImage delay="0" x="630" y="150" alpha="1" />
+		</placeImage>
+	
+		
+		
+		
+		<statement delay="0" x="50" y="140" width="450" height="50"><![CDATA[<b><font color='#7446A2'>Main hazards during food preparation:</font></b>]]></statement>
+		<bullet delay="3" x="80" y="185" width="400" height="50"><![CDATA[Cross-contamination]]></bullet>
+		<bullet delay="4.5" x="80" y="230" width="400" height="50"><![CDATA[Multiplication of food poisioning bacteria.]]></bullet>
+		<statement delay="8.1" x="50" y="275" width="450" height="50"><![CDATA[The observance of good hygiene practices during food preparation is an essential element in preventing food poisoning.]]></statement>
+		
+		
+	</page>
+	
+</content>

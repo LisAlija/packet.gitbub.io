@@ -1,0 +1,127 @@
+<content>
+	<LoaderMax name="pageLoader6" load="true">
+	
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m04p06/m04p06.mp3" />
+		<MP3Loader name="q1fb" autoPlay="false" url="pages/assets/m04p06/q1fb.mp3" />
+		<MP3Loader name="q2fb" autoPlay="false" url="pages/assets/m04p06/q2fb.mp3" />
+		<MP3Loader name="q3fb" autoPlay="false" url="pages/assets/m04p06/q3fb.mp3" />
+		<MP3Loader name="q4fb" autoPlay="false" url="pages/assets/m04p06/q4fb.mp3" />
+		<MP3Loader name="q5fb" autoPlay="false" url="pages/assets/m04p06/q5fb.mp3" />
+		<MP3Loader name="q6fb" autoPlay="false" url="pages/assets/m04p06/q6fb.mp3" />
+		<MP3Loader name="q7fb" autoPlay="false" url="pages/assets/m04p06/q7fb.mp3" />
+
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[You will now see a number of contamination hazards.<br /><br />You will need to decide whether each of the following hazards represent microbiological, chemical, physical or allergenic hazards.]]></transcript>
+	<transcript sound="q1fb"><![CDATA[These are all microbiological hazards.]]></transcript>
+	<transcript sound="q2fb"><![CDATA[These are categorised as physical hazards.]]></transcript>
+	<transcript sound="q3fb"><![CDATA[All of these are physical hazards although grease is also a chemical.]]></transcript>
+	<transcript sound="q4fb"><![CDATA[These are allergenic hazards.]]></transcript>
+	<transcript sound="q5fb"><![CDATA[These are categorised under chemical hazards, although grease is also a physical hazard.]]></transcript>
+	<transcript sound="q6fb"><![CDATA[These are allergenic hazards.]]></transcript>
+	<transcript sound="q7fb"><![CDATA[These are all examples of chemical hazards.]]></transcript>
+ 
+	<page sound="sound1">
+	
+	<activities>
+		<activity>AddText</activity>
+		<activity>QuestionSeriesWithResponse</activity>
+		<activity>ActivityText</activity>
+		<activity>Transcript</activity>
+	</activities>
+		
+	<instructionOptions x="50" y="120" width="800" delay="1">
+			<instruction><![CDATA[Decide whether each hazard represents a microbiological, chemical, physical or allergenic hazard.]]></instruction>						
+	</instructionOptions>
+	
+		<questionSeries delay="1" transition="3d" x="111" y="245" ticks="true">
+		
+			<question pcolour="0x7A719F" width="300" height="335">
+				<questiontext tColour="0xffffff"><![CDATA[<b>Hazards: Bacteria, moulds, parasites, toxins and viruses.</b>]]></questiontext>
+					<answer correct="1" delay="7" width="260" height="50" colour="0xEEEBF3" fSize="14" fColour="0x000000" x="20" y="80" align="center"><![CDATA[<b>Microbiological</b>]]></answer>
+					<answer correct="0" delay="8.2" width="260" height="50" colour="0xEEEBF3" fSize="14" fColour="0x000000" x="20" y="140" align="center"><![CDATA[<b>Chemical</b>]]></answer>
+					<answer correct="0" delay="9.2" width="260" height="50" colour="0xEEEBF3" fSize="14" fColour="0x000000" x="20" y="200" align="center"><![CDATA[<b>Physical</b>]]></answer>
+					<answer correct="0" delay="10" width="260" height="50" colour="0xEEEBF3" fSize="14" fColour="0x000000" x="20" y="260" align="center"><![CDATA[<b>Allergenic</b>]]></answer>
+				<feedback x="550" y="275" width="300" height="270">
+					<correctFeedback delay="3" sound="q1fb"><![CDATA[<b>Correct.</b><br /><br />These are all microbiological hazards.]]></correctFeedback>
+					<incorrectFeedback delay="3" sound="q1fb"><![CDATA[<b>Incorrect.</b><br /><br />These are all microbiological hazards.]]></incorrectFeedback>
+				</feedback>
+			</question>
+			
+			<question pcolour="0x7A719F" width="300" height="335">
+				<questiontext tColour="0xffffff"><![CDATA[<b>Hazards: Drawing pins, false teeth, screws, stones, staples and jewellery.</b>]]></questiontext>
+					<answer correct="0" delay="1" width="260" height="50" colour="0xEEEBF3" fSize="14" fColour="0x000000" x="20" y="80" align="center"><![CDATA[<b>Microbiological</b>]]></answer>
+					<answer correct="0" delay="1" width="260" height="50" colour="0xEEEBF3" fSize="14" fColour="0x000000" x="20" y="140" align="center"><![CDATA[<b>Chemical</b>]]></answer>
+					<answer correct="1" delay="1" width="260" height="50" colour="0xEEEBF3" fSize="14" fColour="0x000000" x="20" y="200" align="center"><![CDATA[<b>Physical</b>]]></answer>
+					<answer correct="0" delay="1" width="260" height="50" colour="0xEEEBF3" fSize="14" fColour="0x000000" x="20" y="260" align="center"><![CDATA[<b>Allergenic</b>]]></answer>
+				<feedback x="550" y="275" width="300" height="270">
+					<correctFeedback delay="3" sound="q2fb"><![CDATA[<b>Correct.</b><br /><br />These are categorised as physical hazards.]]></correctFeedback>
+					<incorrectFeedback delay="3" sound="q2fb"><![CDATA[<b>Incorrect.</b><br /><br />These are categorised as physical hazards.]]></incorrectFeedback>
+				</feedback>
+			</question>
+			
+			<question pcolour="0x7A719F" width="300" height="335">
+				<questiontext tColour="0xffffff"><![CDATA[<b>Hazards: Grease, insects, nail, string and staples.</b>]]></questiontext>
+					<answer correct="0" delay="1" width="260" height="50" colour="0xEEEBF3" fSize="14" fColour="0x000000" x="20" y="80" align="center"><![CDATA[<b>Microbiological</b>]]></answer>
+					<answer correct="0" delay="1" width="260" height="50" colour="0xEEEBF3" fSize="14" fColour="0x000000" x="20" y="140" align="center"><![CDATA[<b>Chemical</b>]]></answer>
+					<answer correct="1" delay="1" width="260" height="50" colour="0xEEEBF3" fSize="14" fColour="0x000000" x="20" y="200" align="center"><![CDATA[<b>Physical</b>]]></answer>
+					<answer correct="0" delay="1" width="260" height="50" colour="0xEEEBF3" fSize="14" fColour="0x000000" x="20" y="260" align="center"><![CDATA[<b>Allergenic</b>]]></answer>
+				<feedback x="550" y="275" width="300" height="270">
+					<correctFeedback delay="3" sound="q3fb"><![CDATA[<b>Correct.</b><br /><br />All of these are physical hazards although grease is also a chemical.]]></correctFeedback>
+					<incorrectFeedback delay="3" sound="q3fb"><![CDATA[<b>Incorrect.</b><br /><br />All of these are physical hazards although grease is also a chemical.]]></incorrectFeedback>
+				</feedback>
+			</question>
+			
+			<question pcolour="0x7A719F" width="300" height="335">
+				<questiontext tColour="0xffffff"><![CDATA[<b>Hazards: Cereals, mustard, peanuts, tree nuts and seseme seeds.</b>]]></questiontext>
+					<answer correct="0" delay="1" width="260" height="50" colour="0xEEEBF3" fSize="14" fColour="0x000000" x="20" y="80" align="center"><![CDATA[<b>Microbiological</b>]]></answer>
+					<answer correct="0" delay="1" width="260" height="50" colour="0xEEEBF3" fSize="14" fColour="0x000000" x="20" y="140" align="center"><![CDATA[<b>Chemical</b>]]></answer>
+					<answer correct="0" delay="1" width="260" height="50" colour="0xEEEBF3" fSize="14" fColour="0x000000" x="20" y="200" align="center"><![CDATA[<b>Physical</b>]]></answer>
+					<answer correct="1" delay="1" width="260" height="50" colour="0xEEEBF3" fSize="14" fColour="0x000000" x="20" y="260" align="center"><![CDATA[<b>Allergenic</b>]]></answer>
+				<feedback x="550" y="275" width="300" height="270">
+					<correctFeedback delay="3" sound="q4fb"><![CDATA[<b>Correct.</b><br /><br />These are allergenic hazards.]]></correctFeedback>
+					<incorrectFeedback delay="3" sound="q4fb"><![CDATA[<b>Incorrect.</b><br /><br />These are allergenic hazards.]]></incorrectFeedback>
+				</feedback>
+			</question>
+			
+			<question pcolour="0x7A719F" width="300" height="335">
+				<questiontext tColour="0xffffff"><![CDATA[<b>Hazards: Grease, bleach, herbicides, oil, detergent, refrigerants and pesticides.</b>]]></questiontext>
+					<answer correct="0" delay="1" width="260" height="50" colour="0xEEEBF3" fSize="14" fColour="0x000000" x="20" y="80" align="center"><![CDATA[<b>Microbiological</b>]]></answer>
+					<answer correct="1" delay="1" width="260" height="50" colour="0xEEEBF3" fSize="14" fColour="0x000000" x="20" y="140" align="center"><![CDATA[<b>Chemical</b>]]></answer>
+					<answer correct="0" delay="1" width="260" height="50" colour="0xEEEBF3" fSize="14" fColour="0x000000" x="20" y="200" align="center"><![CDATA[<b>Physical</b>]]></answer>
+					<answer correct="0" delay="1" width="260" height="50" colour="0xEEEBF3" fSize="14" fColour="0x000000" x="20" y="260" align="center"><![CDATA[<b>Allergenic</b>]]></answer>
+				<feedback x="550" y="275" width="300" height="270">
+					<correctFeedback delay="3" sound="q5fb"><![CDATA[<b>Correct.</b><br /><br />These are categorised under chemical hazards, although grease is also a physical hazard.]]></correctFeedback>
+					<incorrectFeedback delay="3" sound="q5fb"><![CDATA[<b>Incorrect.</b><br /><br />These are categorised under chemical hazards, although grease is also a physical hazard.]]></incorrectFeedback>
+				</feedback>
+			</question>
+			
+			<question pcolour="0x7A719F" width="300" height="335">
+				<questiontext tColour="0xffffff"><![CDATA[<b>Hazards: Shellfish, milk, eggs and soya.</b>]]></questiontext>
+					<answer correct="0" delay="1" width="260" height="50" colour="0xEEEBF3" fSize="14" fColour="0x000000" x="20" y="80" align="center"><![CDATA[<b>Microbiological</b>]]></answer>
+					<answer correct="0" delay="1" width="260" height="50" colour="0xEEEBF3" fSize="14" fColour="0x000000" x="20" y="140" align="center"><![CDATA[<b>Chemical</b>]]></answer>
+					<answer correct="0" delay="1" width="260" height="50" colour="0xEEEBF3" fSize="14" fColour="0x000000" x="20" y="200" align="center"><![CDATA[<b>Physical</b>]]></answer>
+					<answer correct="1" delay="1" width="260" height="50" colour="0xEEEBF3" fSize="14" fColour="0x000000" x="20" y="260" align="center"><![CDATA[<b>Allergenic</b>]]></answer>
+				<feedback x="550" y="275" width="300" height="270">
+					<correctFeedback delay="3" sound="q6fb"><![CDATA[<b>Correct.</b><br /><br />These are allergenic hazards.]]></correctFeedback>
+					<incorrectFeedback delay="3" sound="q6fb"><![CDATA[<b>Incorrect.</b><br /><br />These are allergenic hazards.]]></incorrectFeedback>
+				</feedback>
+			</question>
+			
+			<question pcolour="0x7A719F" width="300" height="335">
+				<questiontext tColour="0xffffff"><![CDATA[<b>Hazards: Toadstools, red kidney beans, hormones and oil.</b>]]></questiontext>
+					<answer correct="0" delay="1" width="260" height="50" colour="0xEEEBF3" fSize="14" fColour="0x000000" x="20" y="80" align="center"><![CDATA[<b>Microbiological</b>]]></answer>
+					<answer correct="1" delay="1" width="260" height="50" colour="0xEEEBF3" fSize="14" fColour="0x000000" x="20" y="140" align="center"><![CDATA[<b>Chemical</b>]]></answer>
+					<answer correct="0" delay="1" width="260" height="50" colour="0xEEEBF3" fSize="14" fColour="0x000000" x="20" y="200" align="center"><![CDATA[<b>Physical</b>]]></answer>
+					<answer correct="0" delay="1" width="260" height="50" colour="0xEEEBF3" fSize="14" fColour="0x000000" x="20" y="260" align="center"><![CDATA[<b>Allergenic</b>]]></answer>
+				<feedback x="550" y="275" width="300" height="270">
+					<correctFeedback delay="3" sound="q7fb"><![CDATA[<b>Correct.</b><br /><br />These are all examples of chemical hazards.]]></correctFeedback>
+					<incorrectFeedback delay="3" sound="q7fb"><![CDATA[<b>Incorrect.</b><br /><br />These are all examples of chemical hazards.]]></incorrectFeedback>
+				</feedback>
+			</question>
+			
+		</questionSeries>	
+
+	</page>
+
+</content>		

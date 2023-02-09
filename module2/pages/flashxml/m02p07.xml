@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	<LoaderMax name="pageLoader7" load="true">
+		
+		<SWFLoader name="activity" autoPlay="false" url="pages/assets/m02p07/m02p07.swf" />
+		<SWFLoader name="frozen prawns" autoPlay="false" url="pages/assets/m02p07/frozenprawns.swf" />
+		
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m02p07/m02p07a.mp3" />
+		<MP3Loader name="sound2" autoPlay="false" url="pages/assets/m02p07/m02p07b.mp3" />
+		
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[Food poisoning bacteria will grow well at room temperature, but most will not grow in a refrigerator operating below 5°C.<br /><br />No food poisoning bacteria multiply below -2°C, so none will grow in frozen food at -18°C.<br /><br />However, bacteria can survive freezing and they will start multiplying when the food thaws.]]></transcript>
+	
+	<transcript sound="sound2"><![CDATA[Drag the slider on the thermometer to see what happens to bacteria at different temperatures.]]></transcript>
+	
+
+	<page sound="sound1" clearTime="24.5" continueBtn="true" continueBtnX="50" continueBtnY="370">
+	
+		<activities>
+			<activity>Image</activity>
+			<activity>AddText</activity>
+			<activity>Transcript</activity>
+		</activities>  
+
+		<placeImage x="590" y="130" applyEffect="yes" name="frozen prawns">
+			<moveImage delay="0.5" x="590" y="135" alpha="1" speed="1"/>
+		</placeImage>
+		
+		<statement delay="0.5" x="50" y="125" width="430" ><![CDATA[Food poisoning bacteria multiply rapidly at room temperature.]]></statement>
+		
+		<statement delay="4.5" x="50" y="165" width="430" ><![CDATA[Some food poisoning bacteria can multiply at temperatures as low as -2°C or up to 52°C. However, most will not grow in the low temperature conditions of refrigerated food (1°C to 4°C).]]></statement>
+		
+		<statement delay="20" x="50" y="240" width="430" ><![CDATA[No food poisoning bacteria will grow in frozen food (-18°C or below). However, they start multiplying when the food thaws.]]></statement>
+		
+	</page>
+	
+	<page sound="sound2">
+	
+	<activities>
+		<activity>ActivityText</activity>
+		<activity>Image</activity>
+		<activity>Transcript</activity>
+	</activities>
+	
+		<instructionOptions x="135" y="520" width="500" delay="1" style="slide" >
+			<instruction><![CDATA[<b>Drag the slider on the thermometer to see what happens to bacteria at different temperatures.</b>]]></instruction>
+		</instructionOptions>
+				
+		<placeImage x="130" y="20" name="activity" mouseEnabled="true" stop="yes" >
+			<moveImage delay="0" x="130" y="25" alpha="1" speed="1" playit="1" />
+		</placeImage>
+				
+	</page>
+	
+</content>

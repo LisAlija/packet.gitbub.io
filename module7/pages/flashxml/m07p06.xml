@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	
+	<LoaderMax name="pageLoader6" load="true">
+	
+		<SWFLoader name="image1" autoPlay="false" url="pages/assets/m07p06/image1.swf" />
+		<SWFLoader name="image2" autoPlay="false" url="pages/assets/m07p06/image2.swf" />
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m07p06/m07p06.mp3" />
+
+	</LoaderMax>
+
+	<transcript sound="sound1"><![CDATA[External refuse areas must be kept clean and tidy to avoid attracting rodents, birds and insects.<br /><br />Bins must have tight-fitting lids and should never overflow. They should be waterproof, pest-proof and durable.<br /><br />Receptacles must be emptied as frequently as necessary and cleaned after emptying. The yard surface must be hosed down regularly to avoid creating a nuisance.<br /><br />Remember to wash your hands after emptying refuse containers and handling waste.]]></transcript>
+
+	<page sound="sound1" clearTime="29.5">
+	
+		<activities>
+			<activity>Image</activity>
+			<activity>AddText</activity>
+			<activity>Bullets</activity>
+			<activity>Transcript</activity>
+		</activities> 
+
+		<placeImage x="50" y="150" name="image1">
+			<moveImage delay="1" x="50" y="155" alpha="1" speed="1"/>
+		</placeImage>
+		
+		<placeImage x="200" y="400" name="image2">
+			<moveImage delay="1" x="200" y="405" alpha="1" speed="1"/>
+		</placeImage>
+
+		<statement delay="1" x="500" y="120" width="420" ><![CDATA[External refuse areas must be kept clean and tidy to avoid attracting rodents, birds and insects.]]></statement>
+		
+		<statement delay="7.5" x="500" y="180" width="420" ><![CDATA[<font color='#7446A2'><b>External waste containers should:</b></font>]]></statement>
+		
+		<bullet delay="8.4" x="530" y="225" width="450" ><![CDATA[Have tight fitting lids]]></bullet>
+		<bullet delay="9.6" x="530" y="270" width="450" ><![CDATA[Never overflow]]></bullet>
+		<bullet delay="11.2" x="530" y="315" width="450" ><![CDATA[Be waterproof, pest-proof and durable]]></bullet>
+		<bullet delay="14.5" x="530" y="360" width="450" ><![CDATA[Be emptied as frequently as necessary]]></bullet>
+		<bullet delay="17.4" x="530" y="405" width="450" ><![CDATA[Be cleaned after emptying.]]></bullet>
+		
+		<statement delay="20" x="500" y="450" width="420" ><![CDATA[The yard surface must be hosed down regularly to avoid creating a nuisance.]]></statement>
+		
+		<statement delay="25" x="500" y="510" width="420" ><![CDATA[<b>Remember: wash your hands after emptying refuse containers and handling waste.</b>]]></statement>
+		
+
+	</page>
+
+</content>

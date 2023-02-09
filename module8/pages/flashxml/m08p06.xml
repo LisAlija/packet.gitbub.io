@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	
+	<LoaderMax name="pageLoader6" load="true">
+	
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m08p06/m08p06a.mp3" />
+		<MP3Loader name="sound2" autoPlay="false" url="pages/assets/m08p06/m08p06b.mp3" />
+
+		<SWFLoader name="bkg" autoPlay="false" url="pages/assets/m08p06/bkg.swf" />
+		<SWFLoader name="image1" autoPlay="false" url="pages/assets/m08p06/image1.swf" />
+		
+		<SWFLoader name="textbkg1" autoPlay="false" url="pages/assets/m08p06/textbkg1.swf" />
+		<SWFLoader name="textbkg2" autoPlay="false" url="pages/assets/m08p06/textbkg2.swf" />
+		<SWFLoader name="textbkg3" autoPlay="false" url="pages/assets/m08p06/textbkg3.swf" />
+		<SWFLoader name="textbkg4" autoPlay="false" url="pages/assets/m08p06/textbkg4.swf" />
+		<SWFLoader name="textbkg5" autoPlay="false" url="pages/assets/m08p06/textbkg5.swf" />
+		<SWFLoader name="textbkg6" autoPlay="false" url="pages/assets/m08p06/textbkg6.swf" />
+		<SWFLoader name="textbkg7" autoPlay="false" url="pages/assets/m08p06/textbkg7.swf" />
+		<SWFLoader name="textbkg8" autoPlay="false" url="pages/assets/m08p06/textbkg8.swf" />
+		
+		
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[Food pests are a source of food poisoning organisms and are a major hazard to food safety. They are detrimental to our health, hygiene and to the wellbeing of people.<br /><br />Pests are responsible for spreading a number of diseases, spoiling food and damaging property.<br /><br />To avoid all these damages, effective pest control methods should be implemented.]]></transcript>
+	
+	<transcript sound="sound2"><![CDATA[You need to control food pests in order to:<br /><br />• prevent spread of disease like Weil's disease caused by rats;<br />• reduce the risk of food poisoning;<br />• prevent the contamination and wastage of food from bodies, fur, feathers, droppings and urine;<br />• reduce customer complaints;<br />• avoid losing staff who will not wish to work in infested premises;<br />• prevent damage like fires, which are caused by gnawing electric cables or flooding caused by gnawing of pipes by rats and mice;<br />• prevent loss of custom and profit, caused by selling contaminated food or by the discomfort or fear of customers using public areas of a food premises which are infested with mice, cockroaches or wasps; and finally<br />• to comply with the law and avoid being fined or closed.]]></transcript>		
+		
+		
+	<page sound="sound1" clearTime="24">
+	
+		<activities>
+			<activity>Image</activity>
+			<activity>AddText</activity>
+			<activity>Bullets</activity>
+			<activity>Transcript</activity>
+		</activities> 
+
+		<placeImage x="100" y="210" name="bkg">
+			<moveImage delay="0.5" x="100" y="220" alpha="1" />
+		</placeImage>
+		
+		<placeImage x="50" y="170" name="image1">
+			<moveImage delay="0.5" x="50" y="180" alpha="1" />
+		</placeImage>
+
+
+		<statement delay="1" x="350" y="240" width="550" ><![CDATA[<b>Food pests are a source of food poisoning organisms and a major hazard.</b>]]></statement>
+		
+		<statement delay="6" x="400" y="285" width="350" ><![CDATA[Pests are harmful to our:]]></statement>
+		<bullet delay="7" x="430" y="330" width="320"><![CDATA[Health]]></bullet>
+		<bullet delay="8" x="430" y="360" width="320"><![CDATA[Hygiene]]></bullet>		
+		<bullet delay="9" x="430" y="390" width="320"><![CDATA[Well-being.]]></bullet>
+		<statement delay="11" x="650" y="285" width="350" ><![CDATA[Pests are responsible for:]]></statement>
+		<bullet delay="12" x="680" y="330" width="320"><![CDATA[Diseases]]></bullet>
+		<bullet delay="14" x="680" y="360" width="320"><![CDATA[Food spoilage]]></bullet>
+		<bullet delay="15.5" x="680" y="390" width="320"><![CDATA[Property damage.]]></bullet>	
+	</page>
+
+	
+</content>

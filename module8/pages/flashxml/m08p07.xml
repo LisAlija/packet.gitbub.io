@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	
+	<LoaderMax name="pageLoader7" load="true">
+	
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m08p07/m08p07.mp3" />
+				
+		<SWFLoader name="image1" autoPlay="false" url="pages/assets/m08p07/image1.swf" />
+		<SWFLoader name="image2" autoPlay="false" url="pages/assets/m08p07/image2.swf" />
+		<SWFLoader name="image3" autoPlay="false" url="pages/assets/m08p07/image3.swf" />
+		<SWFLoader name="image4" autoPlay="false" url="pages/assets/m08p07/image4.swf" />
+		<SWFLoader name="image5" autoPlay="false" url="pages/assets/m08p07/image5.swf" />
+		<SWFLoader name="image6" autoPlay="false" url="pages/assets/m08p07/image6.swf" />
+		<SWFLoader name="image7" autoPlay="false" url="pages/assets/m08p07/image7.swf" />
+		<SWFLoader name="image8" autoPlay="false" url="pages/assets/m08p07/image8.swf" />
+		<SWFLoader name="image9" autoPlay="false" url="pages/assets/m08p07/image9.swf" />
+		<SWFLoader name="image10" autoPlay="false" url="pages/assets/m08p07/image10.swf" />
+		<SWFLoader name="image11" autoPlay="false" url="pages/assets/m08p07/image11.swf" />
+		
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[Food handlers must practice good food hygiene and pest control methods in order to minimise pest-related problems.<br /><br />To reduce the risk of infestation it is important to prevent pests from breeding and to deny them the conditions they like.<br /><br />Let's look at the role of a food handler in controlling pests. <br /><br />In particular, the food handler must:<br /><br /><li>Report signs of pests immediately so the supervisor can contact the pest control operator;</li><li>Report broken or damaged doors, windows, equipment or proofing;</li><li>Report any holes or other entry points to the manager;</li><li>Keep food premises and refuse areas clean and tidy;</li><li>Ensure that any food on display is always covered;</li><li>Always 'clear and clean as you go' and clear away spillages promptly;</li><li>Store food off the floor and clear of the walls to allow regular inspection;</li><li>Check stock regularly and remove or destroy damaged or contaminated stock;</li><li>Ensure that food is stored in pest-proof containers and lids are always replaced;</li><li>Place food or food containers away from electric fly-killers, and ensure the fly-killer is switched on;</li><li>Check that all deliveries of raw materials, packaging and laundry are free from infestation.</li>]]></transcript>
+
+		
+	
+	<page sound="sound1" clearTime="82.5">
+	
+		<activities>
+			<activity>Image</activity>
+			<activity>AddText</activity>
+			<activity>Bullets</activity>
+			<activity>Transcript</activity>
+		</activities>  
+
+		<placeImage x="80" y="150" name="image1">
+			<moveImage delay="0.5" x="80" y="160" alpha="1" speed="1"/>
+			<moveImage delay="16.5" x="80" y="160" alpha="0" />
+		</placeImage>
+		
+		
+		
+		
+		
+		
+		
+		<placeImage x="550" y="120" name="image2">
+			<moveImage delay="21.2" x="550" y="130" alpha="1"/>
+			<moveImage delay="5.1" x="550" y="130" alpha="0"/>
+		</placeImage>
+		
+		
+		<placeImage x="600" y="120" name="image3">
+			<moveImage delay="27.1" x="600" y="130" alpha="1"/>
+			<moveImage delay="8.6" x="600" y="130" alpha="0"/>
+		</placeImage>
+		
+		<placeImage x="550" y="120" name="image4">
+			<moveImage delay="36.5" x="550" y="130" alpha="1"/>
+			<moveImage delay="3.4" x="550" y="130" alpha="0"/>
+		</placeImage>
+		
+		<placeImage x="550" y="150" name="image5">
+			<moveImage delay="40.7" x="550" y="160" alpha="1"/>
+			<moveImage delay="2.8" x="550" y="160" alpha="0"/>
+		</placeImage>
+		
+		<placeImage x="550" y="120" name="image6">
+			<moveImage delay="44.3" x="550" y="130" alpha="1"/>
+			<moveImage delay="4.9" x="550" y="130" alpha="0"/>
+		</placeImage>
+		
+		<placeImage x="510" y="120" name="image7">
+			<moveImage delay="50" x="510" y="130" alpha="1"/>
+			<moveImage delay="11.2" x="510" y="130" alpha="0"/>
+		</placeImage>
+		
+		<placeImage x="580" y="120" name="image8">
+			<moveImage delay="62" x="580" y="130" alpha="1"/>
+			<moveImage delay="5.5" x="580" y="130" alpha="0"/>
+		</placeImage>
+		
+		<placeImage x="650" y="120" name="image9">
+			<moveImage delay="68.3" x="650" y="130" alpha="1"/>
+			<moveImage delay="6.4" x="650" y="130" alpha="0"/>
+		</placeImage>
+		
+		<!-- <placeImage x="650" y="120" name="image10">
+			<moveImage delay="68.3" x="650" y="130" alpha="1"/>
+			<moveImage delay="6.4" x="650" y="130" alpha="0"/>
+		</placeImage> -->
+		
+		<placeImage x="520" y="200" name="image11">
+			<moveImage delay="75.5" x="520" y="210" alpha="1"/>
+		</placeImage>
+		
+		
+		
+		
+		
+		
+		
+		<statement delay="0" x="500" y="260" width="400" remove="17" ><![CDATA[Food handlers must practice good food hygiene and pest control methods in order to minimise pest-related problems.]]></statement>
+		
+		<statement delay="7.4" x="500" y="320" width="400" remove="9.6" ><![CDATA[Pest infestation can be reduced by preventing pests from breeding and denying the conditions required by pests.]]></statement>
+		
+		
+		
+		
+		
+		
+		
+		<statement delay="19.6" x="50" y="135" width="360" ><![CDATA[The food handler must:]]></statement>
+		
+		<bullet delay="21.2" x="90" y="180" width="800" ><![CDATA[Report signs of pest to the supervisor]]></bullet>
+		
+		<bullet delay="27.1" x="90" y="210" width="800" ><![CDATA[Report damaged doors, windows, equipment or proofing]]></bullet>
+		
+		<bullet delay="32.3" x="90" y="240" width="800" ><![CDATA[Report any holes or other entry points to the manager]]></bullet>
+		
+		<bullet delay="36.5" x="90" y="270" width="800" ><![CDATA[Keep the premises and refuse areas clean and tidy]]></bullet>		
+		
+		<bullet delay="40.7" x="90" y="300" width="800" ><![CDATA[Keep the food covered]]></bullet>		
+		
+		<bullet delay="44.3" x="90" y="330" width="800" ><![CDATA[Clear-and-clean-as-you-go]]></bullet>		
+		
+		<bullet delay="50" x="90" y="360" width="800" ><![CDATA[Store food off the floor and clear of the walls]]></bullet>		
+		
+		<bullet delay="56" x="90" y="390" width="800" ><![CDATA[Check the stock regularly]]></bullet>		
+		
+		<bullet delay="57.5" x="90" y="420" width="800" ><![CDATA[Remove or destroy contaminated stock]]></bullet>		
+		
+		<bullet delay="62" x="90" y="450" width="800" ><![CDATA[Store food in pest-proof containers; and always replace lids]]></bullet>		
+		
+		<bullet delay="68.3" x="90" y="480" width="800" ><![CDATA[Place food or food containers away from electric fly killers]]></bullet>		
+		
+		<bullet delay="72" x="90" y="510" width="800" ><![CDATA[Always switch on the electric fly killer]]></bullet>		
+		
+		<bullet delay="75.5" x="90" y="540" width="800" ><![CDATA[Check deliveries of raw materials, packaging and laundry to ensure they are pest-free.]]></bullet>		
+		
+		
+		
+		<!--
+		<statement delay="0" x="50" y="395" width="360" ><![CDATA[Common pests thrive in:]]></statement>
+		
+		<bullet delay="2" x="90" y="440" width="800" ><![CDATA[Small and dark spaces]]></bullet>
+		
+		<bullet delay="3" x="90" y="470" width="800" ><![CDATA[Undisturbed spaces]]></bullet>
+		
+		<bullet delay="4" x="90" y="500" width="800" ><![CDATA[Debris from human and animal activity]]></bullet>
+		
+		<bullet delay="5" x="90" y="530" width="800" ><![CDATA[Raw materials]]></bullet>		
+		
+		<bullet delay="6" x="90" y="560" width="800" ><![CDATA[Packaging materials.]]></bullet>		
+		-->
+		
+
+	</page>
+	
+	
+	
+</content>

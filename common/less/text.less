@@ -1,0 +1,45 @@
+.statement{
+	position: absolute;
+	padding:0 0;
+	margin:0 0;
+}
+.bullet{
+	position: absolute;
+	padding:0 0 0 30px;
+	margin:0 0;	
+	background: url("../images/bullet.png") no-repeat 0px 6px;
+	overflow:visible;
+}
+.slideinstruction{
+	position: absolute;
+	padding: 20px 30px;
+	color: @mainThemeColour;
+	font-style:italic;
+	border-radius: 10px;
+	.drop-shadow (0px, 0px, 6px, 2px, 0.4);
+	.gradient(@popupBgColour, darken(@popupBgColour, 10%));
+}
+.normalinstruction{
+	color: @instructionTextColour;	
+	font-style: italic;
+	position: absolute;
+	padding:0px 0px 10px 40px;
+	margin:0 0;	
+	font-size: 15px;
+	background: url("../images/activitymouse.gif") no-repeat 0px 0px;
+	overflow:visible;
+}
+.p10{
+	position: absolute;
+	top:10px;	
+	left:10px;
+}
+.t30{
+	position:absolute;
+	top:30px;	
+}
+.l20{
+	position:absolute;
+	left:20px;	
+	margin-right:20px;
+}

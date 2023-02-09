@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	
+	<LoaderMax name="pageLoader4" load="true">
+		<SWFLoader name="bkg" autoPlay="false" url="pages/assets/m03p04/bkg.swf" />
+		<SWFLoader name="image1" autoPlay="false" url="pages/assets/m03p04/image.swf" />
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m03p04/m03p04.mp3" />
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[Symptoms of food poisoning include one or more of the following:<li>Abdominal pain or stomach cramps;</li><li>Diarrhoea;</li><li>Vomiting;</li><li>Nausea;</li><li>Fever;</li><li>Dehydration; and</li><li>Collapse.</li>]]></transcript>
+	
+		
+		
+		
+	<page sound="sound1" clearTime="18">
+	
+		<activities>
+			<activity>Image</activity>
+			<activity>AddText</activity>
+			<activity>Bullets</activity>
+			<activity>Transcript</activity>
+		</activities> 
+
+
+		<placeImage x="100" y="210" name="bkg">
+			<moveImage delay="0.5" x="100" y="220" alpha="1" />
+		</placeImage>
+
+		<placeImage x="150" y="170" name="image1">
+			<moveImage delay="0.5" x="150" y="180" alpha="1" />
+		</placeImage>
+		
+
+
+		<statement delay="1" x="510" y="240" width="350" ><![CDATA[Symptoms of food poisoning include:]]></statement>
+
+		<bullet delay="5.3" x="540" y="280" width="350"><![CDATA[Abdominal pain or stomach cramps]]></bullet>
+
+		<bullet delay="8.2" x="540" y="310" width="350"><![CDATA[Diarrhoea]]></bullet>
+
+		<bullet delay="9.8" x="540" y="340" width="350"><![CDATA[Vomiting]]></bullet>
+
+		<bullet delay="11.4" x="540" y="370" width="350"><![CDATA[Nausea]]></bullet>
+
+		<bullet delay="13" x="540" y="400" width="350"><![CDATA[Fever]]></bullet>
+
+		<bullet delay="14.5" x="540" y="430" width="350"><![CDATA[Dehydration]]></bullet>
+
+		<bullet delay="16.4" x="540" y="460" width="350"><![CDATA[Collapse.]]></bullet>
+
+	</page>
+
+	
+
+	
+</content>

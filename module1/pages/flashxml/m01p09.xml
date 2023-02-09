@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	<LoaderMax name="pageLoader9" load="true">
+		
+		<SWFLoader name="image1" autoPlay="false" url="pages/assets/m01p09/image1.swf" />
+		<SWFLoader name="image2" autoPlay="false" url="pages/assets/m01p09/image2.swf" />
+		<SWFLoader name="image3" autoPlay="false" url="pages/assets/m01p09/image3.swf" />
+		
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m01p09/m01p09.mp3" />
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[In this module you were introduced to food safety and the importance of giving priority to practices critical to food safety. You looked at the responsibilities of food handlers and the different types of food safety hazards. Finally you learned about the costs of poor food safety, and the benefits of good food safety practices.]]></transcript>
+
+	<page clearTime="20" sound="sound1">
+	
+	<activities>
+		<activity>AddText</activity>
+		<activity>Bullets</activity>
+		<activity>Image</activity>
+		<activity>Transcript</activity>
+	</activities>
+
+		<placeImage x="250" y="330" stop="yes" applyEffect="yes" name="image1">
+			<moveImage delay="0" x="250" y="330" scaleY="0" scaleX="0" speed="0" alpha="0"/>
+			<moveImage delay="0.5" x="50" y="155" scaleY="1" scaleX="1" alpha="1"/>
+		</placeImage>
+		
+		<placeImage x="250" y="330" stop="yes" applyEffect="yes" name="image2">
+			<moveImage delay="0" x="250" y="330" scaleY="0" scaleX="0" speed="0" alpha="0"/>
+			<moveImage delay="1" x="270" y="155" scaleY="1" scaleX="1" alpha="1"/>
+		</placeImage>
+
+		<placeImage x="250" y="330" stop="yes" applyEffect="yes" name="image3">
+			<moveImage delay="0" x="250" y="330" scaleY="0" scaleX="0" speed="0" alpha="0"/>
+			<moveImage delay="1.5" x="50" y="350" scaleY="1" scaleX="1" alpha="1"/>
+		</placeImage>
+
+		<statement delay="0.5" x="510" y="170" width="350"><![CDATA[<b>Introduction to Food Safety</b>]]></statement>
+		
+		<statement delay="1" x="510" y="210" width="350"><![CDATA[In this module you were introduced to food safety.<br/>You covered:]]></statement>
+		
+		<bullet delay="3" x="550" y="250" width="335"><![CDATA[Food safety and the importance of giving priority to practices critical to food safety]]></bullet>
+		
+		<bullet delay="8.5" x="550" y="305" width="335"><![CDATA[Responsibilities of food handlers]]></bullet>
+		
+		<bullet delay="11" x="550" y="355" width="335"><![CDATA[Types of food hazards]]></bullet>
+		
+		<bullet delay="14" x="550" y="395" width="335"><![CDATA[Costs of poor food safety and the benefits of good food safety practices.]]></bullet>
+
+	</page>
+
+</content>

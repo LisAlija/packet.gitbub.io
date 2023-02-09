@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	<LoaderMax name="pageLoaderAssessment" load="true">
+		<SWFLoader name="correctMC" autoPlay="false" url="../common/commonassets/assessment_right.swf" />
+		<SWFLoader name="preMC" autoPlay="false" url="../common/commonassets/assessment_pre.swf" />
+		<SWFLoader name="incorrectMC" autoPlay="false" url="../common/commonassets/assessment_wrong.swf" />
+		<MP3Loader name="before_assessment" autoPlay="false" url="../common/commonassets/before_assessment.mp3" />
+		<MP3Loader name="passed_module" autoPlay="false" url="../common/commonassets/passed_module.mp3" />
+		<MP3Loader name="review_short_course" autoPlay="false" url="../common/commonassets/review_short_course.mp3" />
+		<MP3Loader name="try_again" autoPlay="false" url="../common/commonassets/try_again.mp3" />
+		<MP3Loader name="failed" autoPlay="false" url="../common/commonassets/failed.mp3" />
+			
+
+	</LoaderMax>
+	
+	<transcript sound="before_assessment"><![CDATA[See on-screen text.]]></transcript>
+	
+	<page clearTime="14" sound="before_assessment">
+		<activities>
+			<activity>Image</activity>
+			<activity>AddText</activity>
+			<activity>Transcript</activity>
+		</activities>
+		
+		<placeImage x="172" y="165" name="preMC">
+			<moveImage delay="0" x="172" y="165" alpha="1" speed="0"/>
+		</placeImage>
+		<statement delay="0" x="220" y="205" width="440" ><![CDATA[<b>To complete this module you need to pass the following assessment; the passmark is 100%.<br /><br />We recommend you read the questions carefully before answering. Once you have moved on you cannot return to previous questions.</b>]]></statement> 
+	</page>
+	
+	<page>
+	<activities>
+			<activity>Assessment</activity>
+	</activities>
+	
+	<assessmentOptions>
+		 <postorpre>post</postorpre>
+		 <noofqspermod>3</noofqspermod>
+		 <tolerance>2</tolerance>
+		
+		 <bgX>172</bgX>
+		 <bgY>130</bgY>
+		 <quFontColour>0xffffff</quFontColour>
+		 <quFontSize>16</quFontSize>
+		 <quX>305</quX>
+		 <quY>183</quY>
+		 
+		 <ansPanelX>235</ansPanelX>
+		 <ansPanelY>263</ansPanelY>
+		 <ansPanelWidth>540</ansPanelWidth>
+		 <ansFontSize>15</ansFontSize>
+		 <ansFontColour>0xffffff</ansFontColour>
+		 <ansBgColour>0xA17AC7</ansBgColour>
+		 <ansRoColour>0x63CCF2</ansRoColour>
+		 <ansSelColour>0x27bcf2</ansSelColour>
+		 <!-- <ansShade>false</ansShade> -->
+		 
+				  	
+		<question refPageNo="9" modNo="5">
+    		<text width="540"><![CDATA[<b>Which of the following are <B>all</B> likely to result from badly stored canned food?</b>]]></text>
+			<ans correct="1"><![CDATA[<b>Blown, rusty and dented cans</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Blown, infested and dented cans</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Blown, slimy and rusty cans</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Blown, rusty and mouldy cans</b>]]></ans>
+		</question>
+		
+		<question refPageNo="8" modNo="5">
+    		<text width="540"><![CDATA[<b>High-risk perishable foods should be labelled with a...</b>]]></text>
+			<ans correct="0"><![CDATA[<b>purchase date</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>best-before date</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>sell-by date</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>use-by date</b>]]></ans>
+		</question>
+		
+		<question refPageNo="7" modNo="5">
+    		<text width="540"><![CDATA[<b>Which of the following are <B>all</B> important properties of a dry food store?</b>]]></text>
+			<ans correct="0"><![CDATA[<b>Pest-proof, smooth floor and dry</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>High ceiling, pest-proof and well lit</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Well ventilated, cool and no windows</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>Cool, dry and pest-proof</b>]]></ans>
+		</question>
+		
+		<question refPageNo="12" modNo="5">
+    		<text width="540"><![CDATA[<b>Which of the following are recommended for cooking?</b>]]></text>
+			<ans correct="0"><![CDATA[<b>105°C or 100°C for 2 minutes</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>75°C or 70°C for 2 minutes</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>50°C or 45°C for 2 minutes</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>63°C or 58°C for 2 minutes</b>]]></ans>
+		</question>
+			
+		<question refPageNo="10" modNo="5">
+    		<text width="540"><![CDATA[<b>Which of the following is the most important reason why food should be suitably packaged in a freezer?</b>]]></text>
+			<ans correct="1"><![CDATA[<b>To avoid freezer burn</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>To take up less space</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>To protect it against pests</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>To keep it frozen</b>]]></ans>
+		</question>		
+	
+		<question refPageNo="6" modNo="5">
+    		<text width="540"><![CDATA[<b>What is the usual operating temperature for a general purpose refrigerator?</b>]]></text>
+			<ans correct="0"><![CDATA[<b>6°C to 9°C</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>-1°C to +1°C</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>1°C to 4°C</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>8°C to 12°C</b>]]></ans>
+		</question>
+		<question refPageNo="11" modNo="5">
+    		<text width="540"><![CDATA[<b>Which of the following will prevent contamination hazards during preparation?</b>]]></text>
+			<ans correct="1"><![CDATA[<b>Using disposable cloths</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Keeping the temperature below 10°C</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Keeping the time as short as possible</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Minimising the amount of food prepared</b>]]></ans>
+		</question>
+
+		<question refPageNo="8" modNo="5">
+    		<text width="540"><![CDATA[<b>Which of the following describes correct stock rotation?</b>]]></text>
+			<ans correct="0"><![CDATA[<b>First in, last out</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Last in, first out</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>First in, first out</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Always use within seven days</b>]]></ans>
+		</question>
+
+		<question refPageNo="7" modNo="5">
+    		<text width="540"><![CDATA[<b>Which of the following is an <B>essential</B> hygiene feature of a fridge?</b>]]></text>
+			<ans correct="0"><![CDATA[<b>The floor must be sloping to assist drainage</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>It must be capable of being effectively cleaned</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>It must be on wheels</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>It must be made of aluminium</b>]]></ans>
+		</question>
+		
+		<question refPageNo="8" modNo="5">
+    		<text width="540"><![CDATA[<b>What does a best-before date on food mean?</b>]]></text>
+			<ans correct="0"><![CDATA[<b>The date up to which the food is safe to eat</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>The date up to which the food is at its best quality</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>The date by which the food should be sold</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>The date when the food should be placed on display</b>]]></ans>
+		</question>
+		
+		<question refPageNo="8" modNo="5">
+    		<text width="540"><![CDATA[<b>What does a use-by date on food mean?</b>]]></text>
+			<ans correct="0"><![CDATA[<b>The date up to which the food is at its best quality</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>The date up to which the food is safe to eat</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>The date by which the food should be rotated</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>It can only be sold after this date if a notice informs the purchaser</b>]]></ans>
+		</question>
+
+		<question refPageNo="12" modNo="5">
+    		<text width="540"><![CDATA[<b>What is the most important food safety reason for cooking or reheating food?</b>]]></text>
+			<ans correct="0"><![CDATA[<b>To make the food taste better</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>To destroy allergens</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>To destroy pathogens</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>To remove chemical contamination</b>]]></ans>
+		</question>		
+
+		<question refPageNo="15" modNo="5">
+    		<text width="540"><![CDATA[<b>What is the most important reason for rapid cooling if food is to be eaten cold after cooking?</b>]]></text>
+			<ans correct="0"><![CDATA[<b>To reduce the amount of energy used</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>To prevent the multiplication of any surviving food poisoning bacteria</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>To make the food taste better</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>To increase the shelf life of food</b>]]></ans>
+		</question>
+
+		<question refPageNo="5" modNo="5">
+    		<text width="540"><![CDATA[<b>Which of the following is a control measure?</b>]]></text>
+			<ans correct="0"><![CDATA[<b>Auditing the HACCP system</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Recording the temperature of the fridge 2 times a day</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Adjusting the fridge's thermostat</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>Storing high-risk food above raw food in the fridge</b>]]></ans>
+		</question>
+		
+		<question refPageNo="3" modNo="5">
+    		<text width="540"><![CDATA[<b>Which of the following is not a critical limit?</b>]]></text>
+			<ans correct="0"><![CDATA[<b>Storing food below 8&#176;C in a refrigerator</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Cooking food to 75&#176;C</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>Storage of canned food at room temperature</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Cooling food within 90 minutes</b>]]></ans>
+		</question>
+		
+		<question refPageNo="3" modNo="5">
+    		<text width="540"><![CDATA[<b>Which of the following would you expect to find in documents of a HACCP system?</b>]]></text>
+			<ans correct="1"><![CDATA[<b>Staff training records</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Holiday rotas for staff</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Balance sheet</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Disciplinary records</b>]]></ans>
+		</question>
+		
+		
+			<passed image="correctMC" sound="passed_module"><![CDATA[Well done you have answered all of the questions correctly and have passed the module.<br /><br />Use the save and exit button to leave this module and return to the Learning Management System where you will be able to access the next module.]]></passed>
+		<tolwrong image="incorrectMC" sound="try_again" buttontext="Try again" buttonx="230" buttony="400" btnColour="0x673E90" roColour="0xFF9933"><![CDATA[You have not answered all of the questions correctly.<br /><br />Use the Try again button to have another go at the question/s that you did not answer correctly.]]></tolwrong>
+		<intolwrong image="incorrectMC" sound="failed"><![CDATA[You have not passed the assessment.<br /><br />Use the next button to review the module content and then try the assessment again.]]></intolwrong>
+		<intolfirstgowrong image="incorrectMC" sound="failed"><![CDATA[You have not passed the assessment.<br /><br />Use the next button to review the module content and then try the assessment again.]]></intolfirstgowrong>
+		<stillwrong image="incorrectMC" sound="review_short_course"><![CDATA[You have not answered all of the questions correctly.<br /><br />Please use the next button to review a short course tailored to cover the content that you need to revise.<br /><br />When you have finished this, you will be able to try the assessment again.]]></stillwrong>
+		
+		 
+	</assessmentOptions> 
+		
+	
+	</page>
+</content>

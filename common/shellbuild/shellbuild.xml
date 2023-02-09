@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+
+	<LoaderMax name="moduleLoader" load="true">
+		<!--shell items-->
+		<SWFLoader name="bg" autoPlay="false" url="../common/shellbuild/bg.swf" />
+		<SWFLoader name="logo" autoPlay="false" url="../common/shellbuild/logo.swf" />
+		<SWFLoader name="next" autoPlay="false" url="../common/shellbuild/nextbtn.swf" />
+		<SWFLoader name="previous" autoPlay="false" url="../common/shellbuild/prevbtn.swf" />	
+		<SWFLoader name="help" autoPlay="false" url="../common/shellbuild/helpbtn.swf" />
+		<SWFLoader name="menu" autoPlay="false" url="../common/shellbuild/menubtn.swf" />	
+		<SWFLoader name="glossary" autoPlay="false" url="../common/shellbuild/definitionsbtn.swf" />	
+		<SWFLoader name="progress bar" autoPlay="false" url="../common/shellbuild/progressbar.swf" />
+		<SWFLoader name="volume slider" autoPlay="false" url="../common/shellbuild/volumeslider.swf" />	
+		<SWFLoader name="transcript" autoPlay="false" url="../common/shellbuild/transcriptbtn.swf" />
+		<SWFLoader name="replay" autoPlay="false" url="../common/shellbuild/replaybtn.swf" />
+		<SWFLoader name="page number" autoPlay="false" url="../common/shellbuild/pagenumber.swf" />	
+		<SWFLoader name="save and close" autoPlay="false" url="../common/shellbuild/closebtn.swf" />	
+		<SWFLoader name="titles" autoPlay="false" url="../common/shellbuild/titles.swf" />	
+		<SWFLoader name="help popup" autoPlay="false" url="../common/shellbuild/helppopupnew.swf" />
+		<SWFLoader name="preloader" autoPlay="false" url="../common/shellbuild/preloader.swf" />
+		<SWFLoader name="transcript popup" autoPlay="false" url="../common/shellbuild/transcript.swf" /> 
+		<SWFLoader name="holder" autoPlay="false" url="../common/shellbuild/holder.swf" />		
+		<SWFLoader name="bookmark popup" autoPlay="false" url="../common/shellbuild/bookmarkbox.swf" />
+		<SWFLoader name="preassessment popup" autoPlay="false" url="../common/shellbuild/preassessmentbox.swf" />	
+		<SWFLoader name="glossary popup" autoPlay="false" url="../common/shellbuild/glossary.swf" />	
+		<SWFLoader name="module menu" autoPlay="false" url="../common/shellbuild/modulemenu.swf" />
+		<SWFLoader name="popper" autoPlay="false" url="../common/shellbuild/pop.swf" />
+		<SWFLoader name="testbox" autoPlay="false" url="../common/shellbuild/testBox.swf" /> 
+		
+	</LoaderMax>
+	
+	<items>
+		<item>
+			<name>bg</name>
+			<onscreen>true</onscreen>
+			<x>0</x>
+			<y>0</y>
+		</item>
+		<item>
+			<name>logo</name>
+			<onscreen>true</onscreen>
+			<x>8</x>
+			<y>7</y>
+		</item>
+		<item>
+			<name>holder</name>
+			<onscreen>true</onscreen>
+			<x>0</x>
+			<y>0</y>
+		</item>
+		<item>
+			<name>page number</name>
+			<onscreen>true</onscreen>
+			<x>844.6</x>
+			<y>633</y>
+		</item>
+		<item>
+			<name>next</name>
+			<onscreen>true</onscreen>
+			<x>900</x>
+			<y>630</y>
+		</item>
+		<item>
+			<name>previous</name>
+			<onscreen>true</onscreen>
+			<x>738</x>
+			<y>630</y>
+		</item>
+		<item>
+			<name>progress bar</name>
+			<onscreen>false</onscreen>
+			<x>300</x>
+			<y>630</y>
+		</item>
+		
+		
+		
+		<item>
+			<name>menu</name>
+			<onscreen>true</onscreen>
+			<x>9</x>
+			<y>630</y>
+		</item>
+		<item>
+			<name>help</name>
+			<onscreen>true</onscreen>
+			<x>156.05</x>
+			<y>630</y>
+		</item>
+		<item>
+			<name>glossary</name>
+			<onscreen>true</onscreen>
+			<x>65.55</x>
+			<y>630</y>
+		</item>
+		
+		
+		
+		<item>
+			<name>volume slider</name>
+			<onscreen>true</onscreen>
+			<x>524</x>
+			<y>630</y>
+		</item>
+		<item>
+			<name>replay</name>
+			<onscreen>true</onscreen>
+			<x>652</x>
+			<y>630</y>
+		</item>
+		<item>
+			<name>transcript</name>
+			<onscreen>true</onscreen>
+			<x>622</x> 
+			<y>630</y>
+		</item>
+		
+		
+		
+		
+		
+		<item>
+			<name>save and close</name>
+			<onscreen>true</onscreen>
+			<x>873</x>
+			<y>13</y>
+		</item>
+		<item>
+			<name>titles</name>
+			<onscreen>true</onscreen>
+			<x>0</x>
+			<y>0</y>
+		</item>
+		<item>
+			<name>help popup</name>
+			<onscreen>false</onscreen>
+			<x>0</x>
+			<y>0</y>
+		</item>
+		<item>
+			<name>preloader</name>
+			<onscreen>true</onscreen>
+			<x>0</x>
+			<y>0</y>
+		</item>
+		
+		<item>
+			<name>transcript popup</name>
+			<onscreen>true</onscreen>
+			<x>0</x>
+			<y>0</y>
+		</item>
+		<item>
+			<name>module menu</name>
+			<onscreen>false</onscreen>
+		</item>
+		<item>
+			<name>glossary popup</name>
+			<onscreen>false</onscreen>
+		</item>
+		<item>
+			<name>popper</name>
+			<onscreen>false</onscreen>
+		</item>
+<!--	<item>
+			<name>testbox</name>
+			<onscreen>true</onscreen>
+			<x>0</x>
+			<y>0</y>
+		</item>
+-->		
+	</items>
+	
+	<information>
+		<stage>
+			<x>7</x>
+			<y>85</y>
+			<width>1002</width>
+			<height>561</height>
+		</stage>
+	</information>
+</content>

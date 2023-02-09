@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	<LoaderMax name="pageLoaderAssessment" load="true">
+		<SWFLoader name="correctMC" autoPlay="false" url="../common/commonassets/assessment_right.swf" />
+		<SWFLoader name="preMC" autoPlay="false" url="../common/commonassets/assessment_pre.swf" />
+		<SWFLoader name="incorrectMC" autoPlay="false" url="../common/commonassets/assessment_wrong.swf" />
+		<MP3Loader name="before_assessment" autoPlay="false" url="../common/commonassets/before_assessment.mp3" />
+		<MP3Loader name="passed_module" autoPlay="false" url="../common/commonassets/passed_module.mp3" />
+		<MP3Loader name="review_short_course" autoPlay="false" url="../common/commonassets/review_short_course.mp3" />
+		<MP3Loader name="try_again" autoPlay="false" url="../common/commonassets/try_again.mp3" />
+		<MP3Loader name="failed" autoPlay="false" url="../common/commonassets/failed.mp3" />
+
+	</LoaderMax>
+	
+	<transcript sound="before_assessment"><![CDATA[See on-screen text.]]></transcript>
+	
+	<page clearTime="14" sound="before_assessment">
+		<activities>
+			<activity>Image</activity>
+			<activity>AddText</activity>
+			<activity>Transcript</activity>
+		</activities>
+		
+		<placeImage x="172" y="165" name="preMC">
+			<moveImage delay="0" x="172" y="165" alpha="1" speed="0"/>
+		</placeImage>
+		<statement delay="0" x="220" y="205" width="440" ><![CDATA[<b>To complete this module you need to pass the following assessment; the passmark is 100%.<br /><br />We recommend you read the questions carefully before answering. Once you have moved on you cannot return to previous questions.</b>]]></statement> 
+	</page>
+	
+	
+	<page>
+	<activities>
+			<activity>Assessment</activity>
+	</activities>
+	
+	<assessmentOptions>
+		 <postorpre>post</postorpre>
+		 <noofqspermod>3</noofqspermod>
+		 <tolerance>2</tolerance>
+		
+		 <bgX>172</bgX>
+		 <bgY>130</bgY>
+		 <quFontColour>0xffffff</quFontColour>
+		 <quFontSize>16</quFontSize>
+		 <quX>305</quX>
+		 <quY>183</quY>
+		 
+		 <ansPanelX>235</ansPanelX>
+		 <ansPanelY>263</ansPanelY>
+		 <ansPanelWidth>540</ansPanelWidth>
+		 <ansFontSize>15</ansFontSize>
+		 <ansFontColour>0xffffff</ansFontColour>
+		 <ansBgColour>0xA17AC7</ansBgColour>
+		 <ansRoColour>0x63CCF2</ansRoColour>
+		 <ansSelColour>0x27bcf2</ansSelColour>
+		 <!-- <ansShade>false</ansShade> -->
+
+		<question refPageNo="5" modNo="1">
+    		<text width="540"><![CDATA[<b>Which of the following are contamination hazards of food?</b>]]></text>
+			<ans correct="0"><![CDATA[<b>Microbiological, physical, heat and chemical</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Microbiological, allergenic, physical and water</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>Chemical, physical, microbiological and allergenic</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Chemical, ice, irradiation and microbiological</b>]]></ans>
+		</question>
+		
+		<question refPageNo="3" modNo="1">
+    		<text width="540"><![CDATA[<b>State a food safety risk that may occur in a food business</b>]]></text>
+			<ans correct="0"><![CDATA[<b>The cooking of food</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>The cooling of food</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>The contamination of food</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>The wastage of food</b>]]></ans>
+		</question>
+		
+		<question refPageNo="3" modNo="1">
+    		<text width="540"><![CDATA[<b>What is contamination?</b>]]></text>
+			<ans correct="0"><![CDATA[<b>The multiplication of bacteria in food</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>The occurrence of harmful or objectionable matter in food</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>The storage of high-risk food at room temperature</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>The survival of bacteria during cooking</b>]]></ans>
+		</question>
+	
+		<question refPageNo="6" modNo="1">
+    		<text width="540"><![CDATA[<b>How can bad food hygiene adversely affect a food business?</b>]]></text>
+			<ans correct="0"><![CDATA[<b>Cheaper food</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>Waste food</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Fewer customer complaints</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Lower training costs</b>]]></ans>
+		</question>
+		
+		<question refPageNo="5" modNo="1">
+    		<text width="540"><![CDATA[<b>Which of the following are all common causes of food poisoning?</b>]]></text>
+			<ans correct="0"><![CDATA[<b>High temperatures, viruses and chemicals</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Bacteria, dust and viruses</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Refrigeration, chemicals and bacteria</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>Bacteria, viruses and chemicals</b>]]></ans>
+		</question>
+		
+		<question refPageNo="3" modNo="1">
+    		<text width="540"><![CDATA[<b>What is the best definition of safe food?</b>]]></text>
+			<ans correct="1"><![CDATA[<b>Food that is free of contaminants and will not cause illness</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Food that can be stored at room temperature and will not go mouldy</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Food that has to be stored in a refrigerator</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Food that has a very long shelf life</b>]]></ans>
+		</question>
+		
+		<question refPageNo="3" modNo="1">
+    		<text width="540"><![CDATA[<b>Which of the following would best describe food safety/hygiene?</b>]]></text>
+			<ans correct="0"><![CDATA[<b>Measures which protect profits</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Encouraging the training of food handlers</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Storing cooked beef at room temperature</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>Protecting food from contamination</b>]]></ans>
+		</question>
+				
+		<question refPageNo="3" modNo="1">
+    		<text width="540"><![CDATA[<b>Food poisoning is an illness mainly caused by?</b>]]></text>
+			<ans correct="1"><![CDATA[<b>Eating contaminated food</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Preparing contaminated food</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Smelling contaminated food</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Buying contaminated food</b>]]></ans>
+		</question>
+		
+		<question refPageNo="6" modNo="1">
+    		<text width="540"><![CDATA[<b>Which of the following is a benefit of good food safety?</b>]]></text>
+			<ans correct="0"><![CDATA[<b>Greater staff turnover</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>Reduced number of complaints</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Greatly reduced training costs</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Decreased cleaning costs</b>]]></ans>
+		</question>
+		<question refPageNo="6" modNo="1">
+    		<text width="540"><![CDATA[<b>In which of the following ways can poor food safety reduce the profitability of a food business?</b>]]></text>
+			<ans correct="0"><![CDATA[<b>Higher business rates</b>]]></ans>
+			<ans correct="1"><![CDATA[<b>Fewer customers</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Higher gas and electricity bills</b>]]></ans>
+			<ans correct="0"><![CDATA[<b>Increased training costs</b>]]></ans>
+		</question>
+
+
+			<passed image="correctMC" sound="passed_module"><![CDATA[Well done you have answered all of the questions correctly and have passed the module.<br /><br />Use the save and exit button to leave this module and return to the Learning Management System where you will be able to access the next module.]]></passed>
+		<tolwrong image="incorrectMC" sound="try_again" buttontext="Try again" buttonx="230" buttony="400" btnColour="0x673E90" roColour="0xFF9933"><![CDATA[You have not answered all of the questions correctly.<br /><br />Use the Try again button to have another go at the question/s that you did not answer correctly.]]></tolwrong>
+		<intolwrong image="incorrectMC" sound="failed"><![CDATA[You have not passed the assessment.<br /><br />Use the next button to review the module content and then try the assessment again.]]></intolwrong>
+		<intolfirstgowrong image="incorrectMC" sound="failed"><![CDATA[You have not passed the assessment.<br /><br />Use the next button to review the module content and then try the assessment again.]]></intolfirstgowrong>
+		<stillwrong image="incorrectMC" sound="review_short_course"><![CDATA[You have not answered all of the questions correctly.<br /><br />Please use the next button to review a short course tailored to cover the content that you need to revise.<br /><br />When you have finished this, you will be able to try the assessment again.]]></stillwrong>
+		
+		 
+	</assessmentOptions>	 
+		
+	
+	</page>
+</content>

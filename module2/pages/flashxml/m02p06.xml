@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	
+	<LoaderMax name="pageLoader6" load="true">
+		
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m02p06/m02p06a.mp3" />
+		<MP3Loader name="sound2" autoPlay="false" url="pages/assets/m02p06/m02p06b.mp3" />
+		
+		<MP3Loader name="pop1" autoPlay="false" url="pages/assets/m02p06/pop1.mp3" />
+		<MP3Loader name="pop2" autoPlay="false" url="pages/assets/m02p06/pop2.mp3" />
+		<MP3Loader name="pop3" autoPlay="false" url="pages/assets/m02p06/pop3.mp3" />
+		<MP3Loader name="pop4" autoPlay="false" url="pages/assets/m02p06/pop4.mp3" />
+		
+		<SWFLoader name="image1" autoPlay="false" url="pages/assets/m02p06/image1.swf" />
+		
+		<SWFLoader name="clock" autoPlay="false" url="pages/assets/m02p06/image2.swf" />
+		<SWFLoader name="water" autoPlay="false" url="pages/assets/m02p06/image3.swf" />
+		<SWFLoader name="food" autoPlay="false" url="pages/assets/m02p06/image4.swf" />
+		<SWFLoader name="thermo" autoPlay="false" url="pages/assets/m02p06/image5.swf" />
+		
+		<SWFLoader name="clock-full" autoPlay="false" url="pages/assets/m02p06/image2-full.swf" />
+		<SWFLoader name="water-full" autoPlay="false" url="pages/assets/m02p06/image3-full.swf" />
+		<SWFLoader name="food-full" autoPlay="false" url="pages/assets/m02p06/image4-full.swf" />
+		<SWFLoader name="thermo-full" autoPlay="false" url="pages/assets/m02p06/image5-full.swf" />
+		
+		<SWFLoader name="target-bkg" autoPlay="false" url="pages/assets/m02p06/target-bkg.swf" />
+		<SWFLoader name="drag1" autoPlay="false" url="pages/assets/m02p06/drag1.swf" />
+		<SWFLoader name="drag2" autoPlay="false" url="pages/assets/m02p06/drag2.swf" />
+		<SWFLoader name="drag3" autoPlay="false" url="pages/assets/m02p06/drag3.swf" />
+		<SWFLoader name="drag4" autoPlay="false" url="pages/assets/m02p06/drag4.swf" />
+		
+		<SWFLoader name="bacteria1" autoPlay="false" url="pages/assets/m02p06/bacteria1.swf" />
+		<SWFLoader name="bacteria2" autoPlay="false" url="pages/assets/m02p06/bacteria2.swf" />
+		<SWFLoader name="bacteria3" autoPlay="false" url="pages/assets/m02p06/bacteria3.swf" />
+		<SWFLoader name="bacteria4" autoPlay="false" url="pages/assets/m02p06/bacteria4.swf" />
+		<SWFLoader name="bacteria5" autoPlay="false" url="pages/assets/m02p06/bacteria5.swf" />
+		<SWFLoader name="bacteria6" autoPlay="false" url="pages/assets/m02p06/bacteria6.swf" />
+		
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[Bacteria responsible for causing food poisoning require specific conditions under which they multiply.<br /><br />The four essentials for their multiplication are:<li>Time;</li><li>Moisture;</li><li>Food; and</li><li>Warmth.</li>]]></transcript>
+	
+	<transcript sound="sound2"><![CDATA[Drag and drop the jigsaw pieces into the grid to see how bacteria grow.]]></transcript>
+	
+	<transcript sound="pop1"><![CDATA[High protein foods are preferred by bacteria, especially raw or cooked meat, poultry and dairy produce. These foods all contain the nutrients and moisture required by bacteria to multiply.]]></transcript>
+		
+	<transcript sound="pop2"><![CDATA[The best temperature for the multiplication of most food poisoning bacteria is around 37°C. This is body temperature, although they can multiply quickly between 20°C and 50°C.<br /><br />Outside this range, multiplication is much slower. To prevent their multiplication, we must ensure that the temperature of food is kept below 5°C, or above 63°C.<br /><br />The temperature range of 5°C to 63°C is often referred to as the danger zone.]]></transcript>
+			
+	<transcript sound="pop3"><![CDATA[Bacteria require moisture to multiply. Food such as dried egg, gravy or milk powder do not provide the moisture for this. Sugar and salt can also affect the availability of moisture and prevent bacterial multiplication.]]></transcript>
+				
+	<transcript sound="pop4"><![CDATA[Given the right conditions of food, moisture, warmth and time, a bacterium can divide into two every 10 to 20 minutes.<br /><br />In just 1 hour 40 minutes, a thousand bacteria can become a million, which is enough to cause food poisoning.<br /><br />For this reason, it is essential that high-risk foods are not left in the danger zone for longer than is necessary.]]></transcript>
+	
+		
+		
+	<page sound="sound1" clearTime="15">
+	
+		<activities>
+			<activity>Image</activity>
+			<activity>AddText</activity>
+			<activity>Bullets</activity>
+			<activity>Transcript</activity>
+		</activities>  
+
+
+		<placeImage x="80" y="170" name="image1">
+			<moveImage delay="0.5" x="80" y="170" alpha="1" speed="1"/>
+			<moveImage delay="2" x="80" y="170" alpha="0" />
+		</placeImage>
+		
+		
+		
+		<placeImage x="220" y="100" name="thermo" >
+			<moveImage delay="4" x="220" y="100" alpha="1" />
+		</placeImage>
+		
+		<placeImage x="304" y="123" name="clock" >
+			<moveImage delay="4" x="304" y="123" alpha="1" speed="1"/>
+		</placeImage>
+		
+		<placeImage x="103" y="122" name="water" >
+			<moveImage delay="4" x="103" y="122" alpha="1" />
+		</placeImage>
+		
+		<placeImage x="50" y="255" name="food" >
+			<moveImage delay="4" x="50" y="255" alpha="1" />
+		</placeImage>
+		
+		
+		
+		<placeImage x="304" y="123" name="clock-full" >
+			<moveImage delay="9" x="304" y="123" alpha="1" />
+			<moveImage delay="0.5" x="304" y="123" alpha="0" />
+		</placeImage>
+		
+		<placeImage x="103" y="122" name="water-full" >
+			<moveImage delay="10" x="103" y="122" alpha="1" />
+			<moveImage delay="0.5" x="103" y="122" alpha="0" />
+		</placeImage>
+		
+		<placeImage x="50" y="255" name="food-full" >
+			<moveImage delay="11" x="50" y="255" alpha="1" />
+			<moveImage delay="0.5" x="50" y="255" alpha="0" />
+		</placeImage>
+		
+		<placeImage x="220" y="100" name="thermo-full" >
+			<moveImage delay="12" x="220" y="100" alpha="1" />
+			<moveImage delay="0.5" x="220" y="100" alpha="0" />
+		</placeImage>
+		
+		
+		
+		
+		
+		<statement delay="0.5" x="550" y="125" width="420" ><![CDATA[<b>Bacteria require specific conditions to multiply.<b/>]]></statement>
+
+		<bullet delay="9" x="590" y="175" width="320" ><![CDATA[Time]]></bullet>
+		<bullet delay="10.3" x="590" y="220" width="320" ><![CDATA[Moisture]]></bullet>
+		<bullet delay="11.5" x="590" y="265" width="310" ><![CDATA[Food]]></bullet>
+		<bullet delay="12.2" x="590" y="310" width="310" ><![CDATA[Warmth.]]></bullet>
+
+	</page>
+
+
+
+
+	<page sound="sound2" noRemove="true">
+	
+		<activities>
+			<activity>AddText</activity>
+			<activity>Image</activity>
+			<activity>ActivityText</activity>
+			<activity>DragDropToTargets</activity>
+			<activity>Transcript</activity>
+		</activities>	
+		
+		<instructionOptions x="50" y="110" width="910" delay="0">
+			<instruction><![CDATA[Drag and drop the jigsaw pieces into the grid to see how bacteria grow.]]></instruction>						
+		</instructionOptions>
+			
+		
+		<placeImage x="640" y="300" name="image1">
+			<moveImage delay="0" x="640" y="300" scaleX="0.75" scaleY="0.75" alpha="0" speed="0"/>
+			<moveImage delay="0.1" x="640" y="300" alpha="1" speed="1"/>
+			<!--<moveImage delay="2" x="680" y="170" alpha="0" speed="1"/>-->
+		</placeImage>
+		
+		
+		<placeImage x="50" y="155" name="target-bkg">
+			<moveImage delay="0" x="50" y="155"  alpha="1"/>
+		</placeImage>
+
+			
+		<draganddrop delay="0" targetVisible="no" shufflePositions="no" oneAtTime="no"> 
+			
+			<target  name="1" targetx="50" targety="155" targetWidth="142" targetHeight="125">invisible</target>
+			<target  name="2" targetx="190" targety="155" targetWidth="142" targetHeight="125">invisible</target>
+			<target  name="3" targetx="50" targety="282" targetWidth="142" targetHeight="125">invisible</target>
+			<target  name="4" targetx="190" targety="282" targetWidth="142" targetHeight="125">invisible</target>
+			
+			<drag>
+				<dragger startingx="30" startingy="428" target="2" finishy="155" finishx="147.95" >drag2</dragger>
+				<cfeedback x="50" y="415" width="525" height="190" tickCross="no" fbbg="yes" closeBtn="yes" sound="pop2" ><![CDATA[<b>Warmth</b><br/><br/>Most food poisoning bacteria grow best at body temperature - around 37°C.<br /><br />They also multiply quickly between 20°C and 50°C, outside this range multiplication is slower.<br /><br />The temperature range of 5°C to 63°C is often referred to as the 'Danger Zone'.]]></cfeedback>
+			</drag>
+			
+			
+			<drag>
+				<dragger startingx="165" startingy="438" target="4" finishy="244.5" finishx="186.6" >drag4</dragger>
+				<cfeedback x="50" y="415" width="525" height="190" tickCross="no" fbbg="yes" closeBtn="yes" sound="pop4" ><![CDATA[<b>Time</b><br/><br/>A bacterium can divide into two once every 10-20 minutes when the conditions are right.<br /><br />In an hour and 40 minutes, a thousand bacteria can become a million.<br /><br />Keep food out of the danger zone unless it is absolutely necessary.]]></cfeedback>
+			</drag>
+			
+			<drag>
+				<dragger startingx="277" startingy="420" target="1" finishy="155" finishx="50" >drag1</dragger>
+				<cfeedback x="50" y="415" width="525" height="190" tickCross="no" fbbg="yes" closeBtn="yes" sound="pop1"><![CDATA[<b>Food</b><br/><br/>Bacteria prefer high protein foods especially raw or cooked meat, poultry and dairy produce.<br /><br />These foods contain the nutrients and moisture bacteria need to multiply.]]></cfeedback>
+			</drag>
+			
+			<drag>
+				<dragger startingx="385" startingy="469" target="3" finishy="278" finishx="50" >drag3</dragger>
+				<cfeedback x="50" y="415" width="525" height="190" tickCross="no" fbbg="yes" closeBtn="yes" sound="pop3" ><![CDATA[<b>Moisture</b><br/><br/>Bacteria require moisture to multiply.<br /><br />Bacteria do not multiply in dried foods. Sugar and salt also affect the availability of moisture for bacteria and prevent their growth.]]></cfeedback>
+			</drag>
+			
+		</draganddrop>
+
+	</page> 		 
+	
+
+
+
+	<page clearTime="1" noRemove="true">
+	
+		<activities>
+			<activity>AddText</activity>
+			<activity>Image</activity>
+			<activity>ActivityText</activity>
+			<activity>DragDropToTargets</activity>
+			<activity>Transcript</activity>
+		</activities>
+
+		<placeImage x="0" y="0" name="bacteria1">
+			<moveImage delay="0" x="800" y="400" alpha="0" speed="0"/>
+			<moveImage delay="0.1" x="800" y="400" alpha="1" speed="1"/>
+		</placeImage>
+	
+		<placeImage x="0" y="0" name="bacteria2">
+			<moveImage delay="0" x="750" y="300" alpha="0" speed="0"/>
+			<moveImage delay="1" x="750" y="300" alpha="1" speed="1"/>
+		</placeImage>
+		
+		<placeImage x="0" y="0" name="bacteria3">
+			<moveImage delay="0" x="700" y="280" alpha="0" speed="0"/>
+			<moveImage delay="2" x="700" y="280" alpha="1" speed="1"/>
+		</placeImage>
+		
+		<placeImage x="0" y="0" name="bacteria4">
+			<moveImage delay="0" x="800" y="150" alpha="0" speed="0"/>
+			<moveImage delay="3" x="800" y="150" alpha="1" speed="1"/>
+		</placeImage>
+		
+		<placeImage x="0" y="0" name="bacteria5">
+			<moveImage delay="0" x="600" y="200" alpha="0" speed="0"/>
+			<moveImage delay="4" x="600" y="200" alpha="1" speed="1"/>
+		</placeImage>
+		
+		<placeImage x="0" y="0" name="bacteria6">
+			<moveImage delay="0" x="500" y="250" alpha="0" speed="0"/>
+			<moveImage delay="5" x="500" y="250" alpha="1" speed="1"/>
+		</placeImage>
+
+	</page> 		 
+	
+
+</content>

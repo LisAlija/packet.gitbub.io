@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	
+	<LoaderMax name="pageLoader2" load="true">
+	
+	
+		<SWFLoader name="image1" autoPlay="false" url="pages/assets/m08p02/image1.swf" />
+		<SWFLoader name="image2" autoPlay="false" url="pages/assets/m08p02/image2.swf" />
+				
+		<SWFLoader name="background" autoPlay="false" url="../common/commonassets/background.swf" />
+		<SWFLoader name="moduleNumber" autoPlay="false" url="pages/assets/m08p02/welcome.swf" />
+		<SWFLoader name="moduleName" autoPlay="false" url="pages/assets/m08p02/title.swf" />
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m08p02/m08p01a.mp3" />
+		<MP3Loader name="sound2" autoPlay="false" url="pages/assets/m08p02/m08p01b.mp3" />
+	
+		<SWFLoader name="image3" autoPlay="false" url="pages/assets/m08p02/image.swf" />
+		<MP3Loader name="sound3" autoPlay="false" url="pages/assets/m08p02/m08p02.mp3" />
+		<SWFLoader name="keywordsicon" autoPlay="false" extras="selected, done" url="../common/commonassets/law.swf" />
+		<MP3Loader name="keyWords" autoPlay="false" extras="selected, done" url="pages/assets/m08p02/m08p02key.mp3" />
+		
+		
+	</LoaderMax>
+	
+	
+	
+	<transcript sound="sound1"><![CDATA[Welcome to module 8.<br /><br />In this module we will learn about food pests.]]></transcript>
+	
+	<transcript sound="sound2"><![CDATA[A food pest is an animal which lives in or on our food.<br /><br />Pests contaminate food and are destructive, unpleasant or troublesome.<br /><br />Food pests, including flies, rodents, dogs, cats and other pets, are a source of food poisoning organisms and a major hazard for a food business.<br /><br />Pests may contaminate food with:<br /><br /><li>hair;</li><li>fur;</li><li>droppings;</li><li>eggs; and</li><li>dead bodies.</li><br /><br />Food poisoning organisms are transferred to food in many ways.<br /><br />Flies vomit on food during feeding and may have just left a pile of refuse or animal faeces before visiting a food premises.<br /><br />Rats and cockroaches may live in sewers or amongst rubbish and accumulations of rotting debris. Food poisoning organisms will be in their mouths and on their legs and their bodies.]]></transcript>
+	
+	<transcript sound="sound3"><![CDATA[The common food pests are:<br /><br /><li>rodents, like rats and mice;</li><li>insects like flies, moths, cockroaches and wasps;</li><li>birds such as sparrows and pigeons; and</li><li>other animals like cats and dogs.</li><br /><br />Click the icon to learn what the law says about pest control.]]></transcript>
+
+
+		
+		
+		
+		
+		
+		
+
+	<page clearTime="7" sound="sound1">
+	
+		<activities>
+			<activity>Image</activity>
+			<activity>Bullets</activity>
+			<activity>AddText</activity> 
+			<activity>Transcript</activity>
+		</activities>  
+	
+	
+		<placeImage x="7" y="60" stop="yes" name="background" >
+			<moveImage delay="0" x="7" y="60" alpha="0.5" playit="0"/>
+		</placeImage>
+		
+		<placeImage x="0" y="0" stop="yes" name="moduleNumber" description="Module Number" centre="true">
+			<moveImage delay="0" x="504" y="280" alpha="0" playit="0" scaleX="1" scaleY="0.5" />
+			<moveImage delay="0.5" x="504" y="260" alpha="1" scaleX="0.75" scaleY="0.75" />
+		</placeImage>
+		
+		<placeImage x="0" y="0" stop="yes" name="moduleName" centre="true" >
+			<moveImage delay="0" x="504" y="320" alpha="0" playit="0" scaleX="0.5" scaleY="0.5" />
+			<moveImage delay="2" x="504" y="340" alpha="1"  scaleX="1" scaleY="1" />
+		</placeImage>
+		
+	</page>
+	
+	
+	<page sound="sound2" clearTime="48">
+	
+		<activities>
+			<activity>Image</activity>
+			<activity>AddText</activity>
+			<activity>Bullets</activity>
+			<activity>Transcript</activity>
+		</activities>  
+
+		<!--
+		<placeImage x="50" y="120" name="image1">
+			<moveImage delay="0.5" x="50" y="130" alpha="1" speed="1"/>
+			<moveImage delay="3" x="50" y="130" alpha="0" />
+		</placeImage>
+		
+		
+		<placeImage x="80" y="140" name="image2">
+			<moveImage delay="4.5" x="80" y="150" alpha="1" speed="1"/>
+		</placeImage>
+		-->
+		
+		<placeImage x="80" y="140" name="image2">
+			<moveImage delay="0" x="80" y="150" alpha="1" speed="1"/>
+		</placeImage>
+	
+		<statement delay="0.5" x="550" y="120" width="360" ><![CDATA[A food pest is an animal which lives in or on our food.]]></statement>
+		
+		<statement delay="4" x="550" y="165" width="360" ><![CDATA[Pests contaminate food and are destructive, unpleasant or troublesome.]]></statement>
+		
+		<statement delay="9" x="550" y="225" width="360" ><![CDATA[Food pests are a source of food poisoning organisms and a major hazard for a food business.]]></statement>
+		
+		<statement delay="18.7" x="550" y="285" width="360" ><![CDATA[Pests contaminate food with:]]></statement>
+
+		<bullet delay="20.6" x="590" y="330" width="320" ><![CDATA[Hair]]></bullet>		
+		<bullet delay="21.3" x="590" y="375" width="320" ><![CDATA[Fur]]></bullet>		
+		<bullet delay="22.2" x="590" y="420" width="320" ><![CDATA[Droppings]]></bullet>		
+		<bullet delay="23" x="590" y="465" width="320" ><![CDATA[Eggs]]></bullet>	
+		<bullet delay="23.6" x="590" y="510" width="320" ><![CDATA[Dead bodies.]]></bullet>
+	</page>	
+	
+	<page sound="sound3" >
+	
+		<activities>
+			<activity>Image</activity>
+			<activity>AddText</activity>
+			<activity>Bullets</activity>
+			<activity>ActivityText</activity>
+			<activity>ClickRevealStandard</activity>
+			<activity>Transcript</activity>
+		</activities>  
+
+
+		<placeImage x="550" y="90" name="image3">
+			<moveImage delay="0.5" x="550" y="100" alpha="1" speed="1"/>
+		</placeImage>
+		
+		<!--<statement delay="0" x="50" y="90" width="400" ><![CDATA[Pests entering food premises or in food are a significant potential source of microbiological and physical hazards.]]></statement>-->
+		
+		<statement delay="0" x="50" y="150" width="360" ><![CDATA[The common food pests are:]]></statement>
+
+		<bullet delay="2" x="90" y="195" width="320" ><![CDATA[Rodents - rats and mice]]></bullet>
+		
+		<bullet delay="4.6" x="90" y="240" width="320" ><![CDATA[Insects - flies, moths, cockroaches and wasps]]></bullet>
+		
+		<bullet delay="9.8" x="90" y="285" width="320" ><![CDATA[Birds - sparrows and pigeons]]></bullet>
+		
+		<bullet delay="12.5" x="90" y="330" width="320" ><![CDATA[Animals - cats and dogs.]]></bullet>
+		
+		
+		
+		<!--<statement delay="23.7" x="50" y="360" width="400" ><![CDATA[Food poisoning organisms are transferred to food in many ways.]]></statement>		-->
+		
+		<!-- <statement delay="0" x="50" y="415" width="400" ><![CDATA[Flies vomit on food during feeding and may have just left a pile of refuse or animal faeces before visiting a food premises.]]></statement> -->
+		
+		<!--
+		<statement delay="41.3" x="50" y="405" width="400" ><![CDATA[Food poisoning organisms will be in their mouths and on their legs and their bodies.]]></statement>
+		-->
+		
+		
+		<instructionOptions x="145" y="525" width="600" delay="16" style="slide">
+			<instruction><![CDATA[<b>Click the icon to learn what the law says about pest control.</b>]]></instruction>
+		</instructionOptions>
+		
+<!--Click reveal-->
+		<clickrevealOptions mouseaction="click" closebutton="yes" timedremoval="no" style="fadein" delayactivation="16.2">
+			<clickreveal x="48" y="420" width="350" height="80" bg="yes">
+				<clicker x="75" y="505" revealDelay="16">keywordsicon</clicker>
+				<!--FEEDBACK-->
+				<page sound="keyWords">
+					<activities>
+						<activity>AddText</activity>
+						<activity>Image</activity>
+						<activity>Bullets</activity>
+					</activities>
+					
+					<statement delay="0" x="20" y="15" width="310"><![CDATA[Food premises must permit good hygiene practices, including pest control.]]></statement>
+				
+					
+				</page>
+				<!--FEEDBACK-->
+			</clickreveal>
+			
+		</clickrevealOptions>
+
+		
+
+	</page>
+	
+	
+	
+</content>

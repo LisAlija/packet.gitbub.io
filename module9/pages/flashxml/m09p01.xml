@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	
+	<LoaderMax name="pageLoader1" load="true">
+	
+		<SWFLoader name="image1" autoPlay="false" url="pages/assets/m09p01/image1.swf" />
+		<SWFLoader name="background" autoPlay="false" url="../common/commonassets/background.swf" />
+		<SWFLoader name="moduleNumber" autoPlay="false" url="pages/assets/m09p01/welcome.swf" />
+		<SWFLoader name="moduleName" autoPlay="false" url="pages/assets/m09p01/title.swf" />
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m09p01/m09p01.mp3" />
+	
+
+	</LoaderMax>
+	<transcript sound="sound1"><![CDATA[In this module we will look at cleaning and disinfection.<br /><br />We will learn:<br /><br /><li>Why it is necessary to maintain cleanliness;</li><br /><li>What hazards can occur while cleaning;</li><br /><li>How to clean effectively.</li><br />You will need approximately 20 minutes to complete this module.<br/><br/>Let's first understand the meaning of a few terms related to cleaning and disinfection.<br />Click a term on the left and then match it to its meaning by clicking on a definition, then click Check Answer.<br /><br />You'll need to check all definitions before proceeding.]]></transcript>
+	
+	<transcript sound="soundcorrect"><![CDATA[You are right! Take a minute to study the definitions again before clicking ‘Next’ to proceed.]]></transcript>
+	
+	<transcript sound="soundincorrect"><![CDATA[That’s not quite right. Click 'Show answer' to see the correct definitions.]]></transcript>
+
+	<page clearTime="16.1" sound="sound1">
+	
+		<activities>
+			<activity>Image</activity>
+			<activity>Bullets</activity>
+			<activity>AddText</activity> 
+			<activity>Transcript</activity>
+		</activities> 
+		
+		 
+		<placeImage x="7" y="85" stop="yes" name="background" >
+		    
+			<moveImage delay="0" x="7" y="85" alpha="1" playit="0"/>
+			<moveImage delay="1.6" x="7" y="85" alpha="0.5" playit="0"/>
+			<moveImage delay="1.8" x="7" y="85" alpha="0" />
+		</placeImage>
+		
+	<placeImage x="0" y="0" stop="yes" name="moduleNumber" description="Module Number" centre="true">
+			<moveImage delay="0" x="504" y="250" alpha="0" playit="0" scaleX="1" scaleY="0.5" />
+			<moveImage delay="0.5" x="504" y="240" alpha="1" scaleX="0.75" scaleY="0.75" />
+			<moveImage delay="2.5" x="504" y="240" alpha="0" scaleX="0.75" scaleY="0.75" />
+			
+		</placeImage>
+		
+		<placeImage x="0" y="0" stop="yes" name="moduleName" description="Module Name" centre="true" >
+			<moveImage delay="0" x="504" y="360" alpha="0" playit="0" scaleX="0.5" scaleY="0.5" />
+			<moveImage delay="1.5" x="504" y="380" alpha="1"  scaleX="1" scaleY="1" />
+			<moveImage delay="1.5" x="504" y="380" alpha="0"  scaleX="1" scaleY="1" />
+		</placeImage> 
+		
+
+		<placeImage x="579.5" y="155" name="image1"><moveImage delay="5.5" x="579.5" y="160" alpha="1" speed="1"/></placeImage>
+
+
+		<statement delay="4" x="50" y="170" width="450" ><![CDATA[<b>Cleaning and disinfection</b>]]></statement> 
+		
+		<statement delay="5.8" x="50" y="215" width="450" ><![CDATA[On completion of this module you will know:]]></statement> 
+		
+		<bullet delay="8.5" x="80" y="270" width="420" ><![CDATA[Why it is necessary to maintain cleanliness]]></bullet>
+		<bullet delay="11" x="80" y="315" width="420" ><![CDATA[What hazards can occur while cleaning]]></bullet>
+		<bullet delay="14" x="80" y="360" width="420" ><![CDATA[How to clean effectively.]]></bullet>
+
+
+	</page>
+	
+	
+</content>

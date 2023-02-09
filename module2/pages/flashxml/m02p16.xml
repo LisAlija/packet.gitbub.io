@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	<LoaderMax name="pageLoader16" load="true">
+	
+		<SWFLoader name="image1" autoPlay="false" url="pages/assets/m02p16/image1.swf" />
+		<SWFLoader name="image2" autoPlay="false" url="pages/assets/m02p16/image2.swf" />
+		<SWFLoader name="image3" autoPlay="false" url="pages/assets/m02p16/image3.swf" />
+		<SWFLoader name="image4" autoPlay="false" url="pages/assets/m02p16/image4.swf" />
+		<SWFLoader name="image5" autoPlay="false" url="pages/assets/m02p16/image5.swf" />
+		
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m02p16/m02p16.mp3" />
+		
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[In this module you learnt about microbiological hazards in food, especially bacteria.<br /><br />You looked at the different types of bacteria and learnt about the dangers of spores and toxins.<br /><br />You learnt about sources of food poisoning bacteria, their requirements for multiplication and how they can be controlled or destroyed.<br /><br />You studied the different types of food and the importance of separation.<br /><br />Finally, you learnt about food spoilage.]]></transcript>
+
+	<page sound="sound1" clearTime="26.5">
+	
+	<activities>
+		<activity>AddText</activity>
+		<activity>Bullets</activity>
+		<activity>Image</activity>
+		<activity>Transcript</activity>
+	</activities>
+			
+		<placeImage x="40" y="110" stop="yes" name="image1">
+			<!--<moveImage delay="0" x="50" y="120" scaleY="0" scaleX="0" speed="0" alpha="0"/>-->
+			<moveImage delay="0.5" x="50" y="120" scaleY="1" scaleX="1" alpha="1"/>
+		</placeImage>
+		
+		<placeImage x="194" y="135" stop="yes" name="image2">
+			<!--<moveImage delay="0" x="204" y="145" scaleY="0" scaleX="0" speed="0" alpha="0"/>-->
+			<moveImage delay="0.75" x="204" y="145" scaleY="1" scaleX="1" alpha="1"/>
+		</placeImage>
+		
+		<placeImage x="297" y="245" stop="yes" name="image3">
+			<!--<moveImage delay="0" x="250" y="330" scaleY="0" scaleX="0" speed="0" alpha="0"/>-->
+			<moveImage delay="1" x="307" y="255" scaleY="1" scaleX="1" alpha="1"/>
+		</placeImage>
+		
+		<placeImage x="241" y="370" stop="yes" name="image4">
+			<!--<moveImage delay="0" x="250" y="330" scaleY="0" scaleX="0" speed="0" alpha="0"/>-->
+			<moveImage delay="1.25" x="231" y="380" scaleY="1" scaleX="1" alpha="1"/>
+		</placeImage>
+		
+		<placeImage x="76" y="427" stop="yes" name="image5">
+			<!--<moveImage delay="0" x="250" y="330" scaleY="0" scaleX="0" speed="0" alpha="0"/>-->
+			<moveImage delay="1.5" x="66" y="437" scaleY="1" scaleX="1" alpha="1"/>
+		</placeImage>
+
+		<statement delay="0" x="510" y="170" width="375"><![CDATA[<b>Microbiological Hazards</b>]]></statement>
+		
+		<statement delay="2.0" x="510" y="215" width="375"><![CDATA[In this module you covered:]]></statement>
+		
+		<bullet delay="5.8" x="550" y="260" width="335"><![CDATA[The different types of bacteria]]></bullet>
+		
+		<bullet delay="9.2" x="550" y="290" width="335"><![CDATA[Spores and toxins]]></bullet>
+		
+		<bullet delay="11.6" x="550" y="320" width="335"><![CDATA[Sources of bacteria]]></bullet>
+		
+		<bullet delay="14.1" x="550" y="350" width="335"><![CDATA[Requirements for bacterial multiplication]]></bullet>
+		
+		<bullet delay="16.1" x="550" y="380" width="335"><![CDATA[Controlling and destroying food poisoning bacteria]]></bullet>
+		
+		<bullet delay="19.1" x="550" y="410" width="335"><![CDATA[Types of food at risk from pathogens]]></bullet>
+		
+		<bullet delay="24" x="550" y="440" width="335"><![CDATA[Food spoilage.]]></bullet>
+
+	</page>
+
+</content>

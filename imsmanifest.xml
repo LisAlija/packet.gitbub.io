@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<manifest identifier="com.scorm.manifesttemplates.scormFoodSafetyLevel2.Dominos" version="1"
+       xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+       xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                           http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd
+                           http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+  </metadata>
+
+  <organizations default="DOM-HIGHFIELD-FS">
+    <organization identifier="DOM-HIGHFIELD-FS">
+      <title>Highfield Food Safety</title>
+      <item identifier="DOM-HIGHFIELD-FS-A01" identifierref="fsSco01">
+        <title>Introduction to Food Safety</title>
+      </item>
+     <item identifier="DOM-HIGHFIELD-FS-A02" identifierref="fsSco02">
+        <title>Microbiological Hazards</title>
+      </item>
+      <item identifier="DOM-HIGHFIELD-FS-A03" identifierref="fsSco03">
+        <title>Food Poisoning and its Control</title>
+      </item>
+      <item identifier="DOM-HIGHFIELD-FS-A04" identifierref="fsSco04">
+        <title>Contamination Hazards and Controls</title>
+      </item>
+      <item identifier="DOM-HIGHFIELD-FS-A05" identifierref="fsSco05">
+        <title>HACCP from Delivery to Service</title>
+      </item>
+      <item identifier="DOM-HIGHFIELD-FS-A06" identifierref="fsSco06">
+        <title>Personal Hygiene</title>
+      </item>
+      <item identifier="DOM-HIGHFIELD-FS-A07" identifierref="fsSco07">
+        <title>Food Premises and Equipment</title>
+      </item>
+      <item identifier="DOM-HIGHFIELD-FS-A08" identifierref="fsSco08">
+        <title>Food Pests and Control</title>
+      </item>
+      <item identifier="DOM-HIGHFIELD-FS-A09" identifierref="fsSco09">
+        <title>Cleaning and Disinfection</title>
+      </item>
+      <item identifier="DOM-HIGHFIELD-FS-A10" identifierref="fsSco10">
+        <title>Food Safety Enforcement</title>
+      </item>
+    </organization>
+  </organizations>
+
+
+
+  <resources>
+    <resource identifier="fsSco01" type="webcontent" adlcp:scormtype="sco" href="module1/index.html">
+    </resource>
+   <resource identifier="fsSco02" type="webcontent" adlcp:scormtype="sco" href="module2/index.html">
+    </resource>
+    <resource identifier="fsSco03" type="webcontent" adlcp:scormtype="sco" href="module3/index.html">
+    </resource>
+    <resource identifier="fsSco04" type="webcontent" adlcp:scormtype="sco" href="module4/index.html">
+    </resource>
+    <resource identifier="fsSco05" type="webcontent" adlcp:scormtype="sco" href="module5/index.html">
+    </resource>
+    <resource identifier="fsSco06" type="webcontent" adlcp:scormtype="sco" href="module6/index.html">
+    </resource>
+    <resource identifier="fsSco07" type="webcontent" adlcp:scormtype="sco" href="module7/index.html">
+    </resource>
+    <resource identifier="fsSco08" type="webcontent" adlcp:scormtype="sco" href="module8/index.html">
+    </resource>
+    <resource identifier="fsSco09" type="webcontent" adlcp:scormtype="sco" href="module9/index.html">
+    </resource>
+    <resource identifier="fsSco10" type="webcontent" adlcp:scormtype="sco" href="module10/index.html">
+    </resource>
+  </resources>
+</manifest>
+

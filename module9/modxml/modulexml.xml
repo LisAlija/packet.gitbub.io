@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><content>
+
+	<LoaderMax name="moduleLoader" load="true">
+		
+<!-- pages -->	
+		<XMLLoader pageLoader="pageLoaderHelp" name="starterPage" autoPlay="false" estimatedBytes="249856" url="../common/globalxml/starterpage.xml"/>
+		<XMLLoader pageLoader="pageLoader1" name="page1" autoPlay="false" estimatedBytes="962560" url="pages/flashxml/m09p01.xml"/>
+		<XMLLoader pageLoader="pageLoader3" name="page3" autoPlay="false" estimatedBytes="954368" url="pages/flashxml/m09p03.xml"/>
+		<XMLLoader pageLoader="pageLoader4" name="page4" autoPlay="false" estimatedBytes="835584" url="pages/flashxml/m09p04.xml"/>
+		<XMLLoader pageLoader="pageLoader6" name="page6" autoPlay="false" estimatedBytes="1249280" url="pages/flashxml/m09p06.xml"/>
+		<XMLLoader pageLoader="pageLoader8" name="page7" autoPlay="false" estimatedBytes="733184" url="pages/flashxml/m09p08.xml"/>
+		<XMLLoader pageLoader="pageLoader9" name="page8" autoPlay="false" estimatedBytes="819200" url="pages/flashxml/m09p09.xml"/>
+				
+		<XMLLoader pageLoader="pageLoaderAssessment" name="assessment" autoPlay="false" estimatedBytes="6070272" url="pages/flashxml/assessment.xml"/>
+	
+	</LoaderMax>
+	
+	<information>
+	
+		<coursetitle>Food Safety Level 2</coursetitle>
+		<modtitle>Cleaning and Disinfection</modtitle>
+		<withAssessment>true</withAssessment>
+		<scorm>true</scorm>
+		<iAmDeveloping>false</iAmDeveloping>
+		
+	</information>
+	
+<!-- Page Names -->
+	<page xmlName="starterPage">Course Navigation</page>
+	<page xmlName="page1">Introduction</page>
+	<page xmlName="page3">Why is cleaning important?</page>
+	<page xmlName="page4">Hazards from cleaning</page>
+	<page xmlName="page6">Safe cleaning</page>
+	<page xmlName="page7">Cleaning and disinfection-six-stages</page>
+	<page xmlName="page8">Sanitising a work surface</page>
+
+	<page xmlName="assessment">Assessment</page>
+	
+</content>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<content>
+	<LoaderMax name="pageLoader25" load="true">
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m05p25/m05p25.mp3" />
+		<MP3Loader name="soundcorrect" autoPlay="false" url="pages/assets/m05p25/correct.mp3" />
+		<MP3Loader name="soundincorrect" autoPlay="false" url="pages/assets/m05p25/incorrect.mp3" />
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[This exercise will help you identify control measures you will need to take in order to minimise hazards. Here is a list of hazards and control measures.<br /><br />Match the hazards and control measures by clicking a hazard on the left, then clicking the appropriate control measure on the right.<br /><br />Then click 'Check Answer'.]]></transcript> 
+	
+	<transcript sound="soundcorrect"><![CDATA[You are right!<br /><br />Take a minute to study the definitions again before clicking ‘Next’ to proceed.]]></transcript>
+	
+	<transcript sound="soundincorrect"><![CDATA[That’s not quite right.<br /><br />Click the ‘View correct answer’ button to see the correct matches.]]></transcript>
+
+	<page sound="sound1">
+	
+	<activities>
+			<activity>ActivityText</activity>
+			<activity>DefinitionMatcher</activity>
+			<activity>AddText</activity>
+			<activity>Transcript</activity>
+	</activities>
+		
+		
+		<instructionOptions x="50" y="110" width="880" delay="0">
+			<instruction><![CDATA[Match the hazards and control measures by clicking a hazard on the left, then clicking the appropriate control measure on the right.]]></instruction>					
+		</instructionOptions>
+		
+		
+		<matcherOptions delay="0" delayactivation="15" shufflepositions="yes">
+		
+		 <leftbuttonwidth>280</leftbuttonwidth>
+		 <rightbuttonwidth>520</rightbuttonwidth>
+		 <buttonheight>60</buttonheight> 
+		 <leftColumnX>95</leftColumnX>
+		 <startingY>185</startingY>
+		 <paddingBetween>10</paddingBetween>
+		 <paddingBelow>10</paddingBelow>
+		 <termBgColour>0x7A719F</termBgColour> 
+		 <termRollColour>0xF79636</termRollColour> 
+		 <termSelectColour>0x5DACFF</termSelectColour>
+		 <defBgColour>0xBFBCD0</defBgColour> 
+		 <defRollColour>0x8D67B2</defRollColour> 
+		 <defSelectColour>0x87A383</defSelectColour>
+		 
+		 <checkBtn width="125" height="30" bColour="0x7446A2" roColour="0x7037AD" fontColour="0xffffff" fontSize="14">Check Answers</checkBtn>
+
+
+
+			<couple>
+				<term fontColour="0xffffff" fontSize="14"><![CDATA[<b>Survival of food poisoning bacteria</b>]]></term>
+				<definition fontSize="13.5" fontColour="0x000000"><![CDATA[Cook to a core temperature of 75°C]]></definition>
+			</couple>
+			
+
+			<couple>
+				<term fontColour="0xffffff" fontSize="14"><![CDATA[<b>Multiplication of food poisoning bacteria and germination of spores</b>]]></term>
+				<definition fontSize="13.5" fontColour="0x000000"><![CDATA[Cooling food rapidly]]></definition>
+			</couple>
+			
+
+			<couple>
+				<term fontColour="0xffffff" fontSize="14"><![CDATA[<b>Allergenic contamination</b>]]></term>
+				<definition fontSize="13.5" fontColour="0x000000"><![CDATA[Clear labelling of food]]></definition>
+			</couple>
+			
+
+			<couple>
+				<term fontColour="0xffffff" fontSize="14"><![CDATA[<b>Chemical contamination</b>]]></term>
+				<definition fontSize="13.5" fontColour="0x000000"><![CDATA[Protect and remove food during cleaning]]></definition>
+			</couple>
+			
+
+			<couple>
+				<term fontColour="0xffffff" fontSize="14"><![CDATA[<b>Physical contamination</b>]]></term>
+				<definition fontSize="13.5" fontColour="0x000000"><![CDATA[Ensure equipment is in good condition]]></definition>
+			</couple>
+			
+			<couple>
+				<term fontColour="0xffffff" fontSize="14"><![CDATA[<b>Microbiological contamination</b>]]></term>
+				<definition fontSize="13.5" fontColour="0x000000"><![CDATA[Exclude staff with food poisoning symptoms]]></definition>
+			</couple>
+			
+
+
+			<correctfeedback sound="soundcorrect" width="400" height="200" fontColour="0x000000"><![CDATA[<b>Well done!</b><br /><br />Take a minute to study the definitions again before clicking ‘Next’ to proceed.]]></correctfeedback>
+			
+			
+			<incorrectfeedback sound="soundincorrect" width="400" height="200" fontColour="0x000000"><![CDATA[<b>That’s not quite right.</b><br /><br />Click the ‘View correct answer’ button to see the correct matches.]]></incorrectfeedback>
+			
+			
+		</matcherOptions>
+	
+	</page>
+</content>

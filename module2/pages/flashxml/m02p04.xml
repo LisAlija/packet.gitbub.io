@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	
+	<LoaderMax name="pageLoader4" load="true">
+		
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m02p04/m02p04.mp3" />
+
+		<SWFLoader name="image1" autoPlay="false" url="pages/assets/m02p04/image1.swf" />
+		<SWFLoader name="image2" autoPlay="false" url="pages/assets/m02p04/image2.swf" />
+		<SWFLoader name="image3" autoPlay="false" url="pages/assets/m02p04/image3.swf" />
+		<SWFLoader name="image4" autoPlay="false" url="pages/assets/m02p04/image4.swf" />
+		<SWFLoader name="image5" autoPlay="false" url="pages/assets/m02p04/image5.swf" />
+		<SWFLoader name="image6" autoPlay="false" url="pages/assets/m02p04/image6.swf" />
+
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[Bacteria are microscopic organisms often referred to as germs.<br /><br />They are found everywhere, including:<br /><br /><li>On and in people;</li><li>On food;</li><li>In water;</li><li>Soil; and</li><li>Air.</li><br />Most bacteria are harmless and some are essential for a number of processes, for example breaking down decaying matter or in the manufacture of certain foods such as cheese and yoghurt.<br /><br />However, a small number of bacteria, known as spoilage bacteria, cause food to perish, spoil or become unfit. Signs of spoilage bacteria, for example slime or smells ensure we do not usually eat spoiled food.<br /><br />Other bacteria such as food poisoning bacteria are known as pathogens. If pathogens get in to food, they make people ill. Pathogens have no effect on the appearence or taste of food and can only be detected by laboratory testing.]]></transcript>
+	
+		
+		
+	<page sound="sound1" clearTime="59">
+	
+		<activities>
+			<activity>Image</activity>
+			<activity>AddText</activity>
+			<activity>Bullets</activity>
+			<activity>Transcript</activity>
+		</activities>  
+
+
+		<placeImage x="590" y="150" name="image1">
+			<moveImage delay="0.5" x="590" y="150" alpha="1" speed="1"/>
+			<moveImage delay="11.25" x="590" y="150" alpha="0.2" />
+			<moveImage delay="10.5" x="590" y="150" alpha="0" />
+		</placeImage>
+		
+		
+		
+		<placeImage x="565" y="110" name="image2">
+			<moveImage delay="13" x="565" y="110" alpha="1" speed="1"/>
+			<moveImage delay="10" x="565" y="110" alpha="0" />
+		</placeImage>
+		
+		
+		
+		
+		
+		<placeImage x="565" y="190" name="image3">
+			<moveImage delay="24.5" x="565" y="190" alpha="1" />
+			<moveImage delay="17.25" x="565" y="190" alpha="0" />
+		</placeImage>
+		
+		
+		<placeImage x="565" y="190" name="image4" >
+			<moveImage delay="42.5" x="565" y="190" alpha="1" />
+			<moveImage delay="6.75" x="565" y="190" alpha="0.2" />
+		</placeImage>
+		
+		<placeImage x="620" y="110" name="image5">
+			<moveImage delay="48" x="620" y="120" alpha="1" />
+			<moveImage delay="1.25" x="620" y="120" alpha="0.2" />
+		</placeImage>
+		
+		
+		
+		
+		<placeImage x="560" y="110" name="image6">
+			<moveImage delay="50" x="560" y="110" alpha="1" />
+		</placeImage>
+		
+
+
+
+		<statement delay="0.5" x="50" y="100" width="420" ><![CDATA[Bacteria are microscopic organisms which are found everywhere:]]></statement>
+
+		<bullet delay="6.5" x="90" y="150" width="320" ><![CDATA[People]]></bullet>
+		
+		<bullet delay="8" x="90" y="190" width="320" ><![CDATA[Raw food]]></bullet>
+		
+		<bullet delay="9.25" x="90" y="230" width="310" ><![CDATA[Water]]></bullet>
+		
+		<bullet delay="10" x="90" y="270" width="310" ><![CDATA[Soil]]></bullet>
+		
+		<bullet delay="11" x="90" y="310" width="310" ><![CDATA[Air.]]></bullet>
+		
+		
+		<statement delay="13" x="50" y="360" width="420" ><![CDATA[Most bacteria are harmless and some are essential, for example for breaking down decaying matter or for food manufacture.]]></statement>
+
+		<statement delay="24.5" x="50" y="420" width="420" ><![CDATA[Spoilage bacteria cause food to perish, spoil or become unfit, changing its appearance and smell.]]></statement>
+
+		<statement delay="42.5" x="50" y="480" width="420" ><![CDATA[Pathogens can cause food poisoning and make people ill. They do not alter the appearance or taste of food, and are detected through laboratory testing.]]></statement>
+
+
+	</page>
+
+	
+</content>

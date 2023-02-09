@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?><content>
+
+	<LoaderMax name="moduleLoader" load="true">
+		
+<!-- pages -->	
+
+		<XMLLoader pageLoader="pageLoaderHelp" name="starterPage" autoPlay="false" estimatedBytes="249856" url="../common/globalxml/starterpage.xml"/>
+		<XMLLoader pageLoader="pageLoader1" name="page1" autoPlay="false" estimatedBytes="962560" url="pages/flashxml/m05p01.xml"/>
+		<XMLLoader pageLoader="pageLoader2" name="page2" autoPlay="false" estimatedBytes="954368" url="pages/flashxml/m05p02.xml"/>
+		<XMLLoader pageLoader="pageLoader4" name="page5" autoPlay="false" estimatedBytes="1249280" url="pages/flashxml/m05p04.xml"/>
+		<XMLLoader pageLoader="pageLoader5" name="page7" autoPlay="false" estimatedBytes="851968" url="pages/flashxml/m05p05.xml"/>
+		<XMLLoader pageLoader="pageLoader7" name="page9" autoPlay="false" estimatedBytes="819200" url="pages/flashxml/m05p07.xml"/>
+		<XMLLoader pageLoader="pageLoader8" name="page10" autoPlay="false" estimatedBytes="954368" url="pages/flashxml/m05p08.xml"/>
+		<XMLLoader pageLoader="pageLoader10" name="page12" autoPlay="false" estimatedBytes="851968" url="pages/flashxml/m05p10.xml"/>
+		<XMLLoader pageLoader="pageLoader11" name="page13" autoPlay="false" estimatedBytes="733184" url="pages/flashxml/m05p11.xml"/>
+		<XMLLoader pageLoader="pageLoader12" name="page14" autoPlay="false" estimatedBytes="819200" url="pages/flashxml/m05p12.xml"/>
+		<XMLLoader pageLoader="pageLoader15" name="page17" autoPlay="false" estimatedBytes="1249280" url="pages/flashxml/m05p15.xml"/>
+		<XMLLoader pageLoader="pageLoader17" name="page19" autoPlay="false" estimatedBytes="733184" url="pages/flashxml/m05p17.xml"/>
+		<XMLLoader pageLoader="pageLoader24b" name="page27" autoPlay="false" estimatedBytes="954368" url="pages/flashxml/m05p24b.xml"/>
+		<XMLLoader pageLoader="pageLoader24c" name="page28" autoPlay="false" estimatedBytes="954368" url="pages/flashxml/m05p24c.xml"/>
+		<XMLLoader pageLoader="pageLoader25" name="page29" autoPlay="false" estimatedBytes="954368" url="pages/flashxml/m05p25.xml"/>
+		<XMLLoader pageLoader="pageLoader26" name="page30" autoPlay="false" estimatedBytes="954368" url="pages/flashxml/m05p26.xml"/>
+
+
+
+
+				
+		<XMLLoader pageLoader="pageLoaderAssessment" name="assessment" autoPlay="false" estimatedBytes="6070272" url="pages/flashxml/assessment.xml"/>
+	
+	</LoaderMax>
+	
+	<information>
+	
+		<coursetitle>Food Safety Level 2</coursetitle>
+		<modtitle>HACCP from Delivery to Service</modtitle>
+		<withAssessment>true</withAssessment>
+		<scorm>true</scorm>
+		<iAmDeveloping>false</iAmDeveloping>
+		
+	</information>
+	
+<!-- Page Names -->
+
+	<page xmlName="starterPage">Course Navigation</page>
+	<page xmlName="page1">Introduction</page>
+	<page xmlName="page2">Food safety management systems- HACCP</page>
+	<page xmlName="page5">Delivery and unloading</page>
+	<page xmlName="page7">Chilled food storage</page>
+	<page xmlName="page9">Chilled food storage exercise</page>
+	<page xmlName="page10">Dry food storage</page>
+	<page xmlName="page12">Stock rotation</page>
+	<page xmlName="page13">Spot the storage hazards</page>
+	<page xmlName="page14">Frozen storage</page>
+	<page xmlName="page17">Food preparation</page>
+	<page xmlName="page19">Cooking or reheating</page>
+	<page xmlName="page27">Validation of the accuracy of thermometer</page>
+	<page xmlName="page28">Checking and recording temperatures</page>
+	<page xmlName="page29">Hazards and control measures</page>
+	<page xmlName="page30">Food storage</page>
+
+	<page xmlName="assessment">Assessment</page>
+	
+</content>

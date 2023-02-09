@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	
+	<LoaderMax name="pageLoader6" load="true">
+	
+		<SWFLoader name="image1" autoPlay="false" url="pages/assets/m03p06/image.swf" />
+		
+		<MP3Loader name="sound1" autoPlay="false" url="pages/assets/m03p06/m03p06.mp3" />
+
+	</LoaderMax>
+	
+	<transcript sound="sound1"><![CDATA[The most common reasons for food poisoning are:<li>Food prepared too far in advance and stored at room temperature;</li><li>Cooling food too slowly prior to refrigeration;</li><li>Not cooking or reheating food to high enough temperatures to destroy food poisoning bacteria;</li><li>Not defrosting frozen poultry for sufficient time; and</li><li>Infected food handlers.</li>]]></transcript>
+	
+
+	<page sound="sound1" clearTime="25.5">
+	
+		<activities>
+			<activity>Image</activity>
+			<activity>AddText</activity>
+			<activity>Bullets</activity>
+			<activity>Transcript</activity>
+		</activities> 
+
+
+		<placeImage x="645" y="180" name="image1">
+			<moveImage delay="1" x="645" y="185" alpha="1" speed="1"/>
+		</placeImage>
+		
+		
+
+		<statement delay="1" x="50" y="170" width="500" ><![CDATA[The most common reasons for food poisoning are:]]></statement>
+		
+		<bullet delay="4.5" x="80" y="220" width="450"><![CDATA[Food prepared too far in advance and stored at room temperature]]></bullet>
+		<bullet delay="9" x="80" y="260" width="450"><![CDATA[Cooling food too slowly prior to refrigeration]]></bullet>
+		<bullet delay="12.7" x="80" y="300" width="450"><![CDATA[Not cooking or reheating food to high enough temperatures to destroy food poisoning bacteria]]></bullet>
+		<bullet delay="19" x="80" y="355" width="450"><![CDATA[Not defrosting frozen poultry for sufficient time]]></bullet>
+		<bullet delay="23" x="80" y="395" width="450"><![CDATA[Infected food handlers.]]></bullet>
+		
+		
+
+
+	</page>
+
+	
+</content>
